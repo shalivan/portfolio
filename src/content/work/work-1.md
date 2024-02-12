@@ -5,13 +5,13 @@ date: 2023-03-16T04:59:59.653Z
 title: Work 1
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
-![clay-images-11](/img/PXLA01.png)
+![clay-images-11](/img/PXLA01.jpg)
 
-![clay-images-12](/img/PXLA02.png)
+![clay-images-12](/img/PXLA02.jpg)
 
-![clay-images-11](/img/PXLA03.png)
+![clay-images-11](/img/PXLA03.jpg)
 
-![clay-images-12](/img/PXLA04.png)
+![clay-images-12](/img/PXLA04.jpg)
 
 
 
