@@ -1,4 +1,5 @@
 
+
 <h1 align=center>  Clay - A Gatsby Theme | <a href="https://clay-theme.netlify.app" rel="nofollow">Demo</a></h1>
 
 
