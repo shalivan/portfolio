@@ -6,7 +6,21 @@ title: The Vanishing of Ethan Carter
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
+### The Vanishing of Ethan Carter
+> The Vanishing of Ethan Carter was created inhouse by 8 people team and is first IP by The Astronauts. Originaly we made it in Unreal 3, was later ported to Unreal 4 at PC, Xbox, Playstation and Nintendo Switch. With oneiric atmosphere and visuals that takes you to magical valley of Red Creek which was inspired by traditional Poland  scenery. Game was recived verry  warmly with 83 metascore and end up with over a million of copies sold. Also recive few prestige awards nominations and was honored with the BAFTA award in Game Innovation category. Some of my deeper development thoughts can be found on those few Astro blogposts: 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nullam non nisi est sit amet facilisis. Quisque id diam vel quam. Morbi tincidunt augue interdum velit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Mi tempus imperdiet nulla malesuada pellentesque. Maecenas ultricies mi eget mauris pharetra et ultrices. Cursus risus at ultrices mi tempus imperdiet nulla. Sit amet nisl suscipit adipiscing bibendum est ultricies. At volutpat diam ut venenatis tellus in. Cursus eget nunc scelerisque viverra mauris in. Ut aliquam purus sit amet luctus venenatis lectus.
+---
+
+● The Creative Process: INDIE VS AAA
+● Our Approach to foliage
+● At the Mountains of Madness
+● At culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta
+
+
+--- 
+
+
+
+<iframe width="267" height="151" src="https://www.youtube.com/embed/9oxbkL3N_fM" title="The Vanishing of Ethan Carter - Welcome to Red Creek Valley Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
