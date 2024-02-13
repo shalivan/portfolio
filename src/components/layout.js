@@ -34,19 +34,19 @@ const Layout = props => {
                 <Link to={`/`}>Home</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/bio') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/bio`}>Bio</Link>
+                <Link to={`/bio`}>xx</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/work') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/work`}>Work</Link>
+                <Link to={`/work`}>Games</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/news') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/news`}>News</Link>
+                <Link to={`/news`}>Photos</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/contact`}>Contact</Link>
+                <Link to={`/contact`}>Typo</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/elements`}>Bio</Link>
               </li>
             </ul>
           </nav>
