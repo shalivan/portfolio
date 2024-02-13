@@ -6,6 +6,7 @@ title: The Vanishing of Ethan Carter
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
+
 ### The Vanishing of Ethan Carter
 > The Vanishing of Ethan Carter was created inhouse by 8 people team and is first IP by The Astronauts. Originaly we made it in Unreal 3, was later ported to Unreal 4 at PC, Xbox, Playstation and Nintendo Switch. With oneiric atmosphere and visuals that takes you to magical valley of Red Creek which was inspired by traditional Poland  scenery. Game was recived verry  warmly with 83 metascore and end up with over a million of copies sold. Also recive few prestige awards nominations and was honored with the BAFTA award in Game Innovation category. Some of my deeper development thoughts can be found on those few Astro blogposts: 
 
