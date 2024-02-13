@@ -59,7 +59,7 @@ const Layout = props => {
             <div className="social-links">
               <Link
                 to={`https://facebook.com/${social.facebook}`}
-                title="Facebook"
+                title="X"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -67,7 +67,7 @@ const Layout = props => {
               </Link>
               <Link
                 to={`https://instagram.com/${social.twitter}`}
-                title="Instagram"
+                title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,7 +77,7 @@ const Layout = props => {
               
               <Link
                 to={`https://github.com/lilxyzz/gatsby-clay`}
-                title="Github"
+                title="Artstation"
                 target="_blank"
                 rel="noopener noreferrer"
               >
