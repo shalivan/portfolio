@@ -30,24 +30,30 @@ const Layout = props => {
           </a>
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
-              <li className={`nav-home  ${data.pathname === '/' ? 'nav-current' : ""} `} role="menuitem">
+            <li className={`nav-home  ${data.pathname === '/' ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/`}>Home</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/bio') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/bio`}>xx</Link>
+              
+              <li className={`nav-home  ${data.pathname === '/' ? 'nav-current' : ""} `} role="menuitem">
+                <Link to={`/`}>Dev</Link>
               </li>
+
               <li className={`nav-home  ${data.pathname.includes('/work') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/work`}>Games</Link>
+                <Link to={`/work`}>work</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/news') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/news`}>Photos</Link>
+                <Link to={`/news`}>news</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/contact`}>Typo</Link>
+                <Link to={`/contact`}>Procedural</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/elements`}>Bio</Link>
+                <Link to={`/elements`}>Typo</Link>
               </li>
+              <li className={`nav-home  ${data.pathname.includes('/bio') ? 'nav-current' : ""} `} role="menuitem">
+                <Link to={`/bio`}>Bio</Link>
+              </li>
+              
             </ul>
           </nav>
           <div className="site-head-center">
@@ -63,7 +69,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Artstation
               </Link>
               <Link
                 to={`https://instagram.com/${social.twitter}`}
@@ -71,7 +77,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram
+                X
               </Link>
 
               
@@ -81,7 +87,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Github
+                LinkedIn
               </Link>
 
               
