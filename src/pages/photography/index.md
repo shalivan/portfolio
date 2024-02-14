@@ -1,5 +1,5 @@
 ---
-templateKey: portfolio-page
+templateKey: news-page
 pagetype:
   - main
 title: Work
