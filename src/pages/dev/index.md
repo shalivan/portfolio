@@ -1,5 +1,5 @@
 ---
-templateKey: news-page
+templateKey: dev-page
 pagetype:
   - main
 title: Gdev

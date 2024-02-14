@@ -1,10 +1,12 @@
 ---
-templateKey: blog-post
+templateKey: dev-sub-page
 thumbnail: /img/TVOEC01.jpg
 date: 2023-03-16T04:59:59.653Z
 title: The Vanishing of Ethan Carter
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
+
+templateKey: dev-sub-page
 
 
 ### The Vanishing of Ethan Carter
