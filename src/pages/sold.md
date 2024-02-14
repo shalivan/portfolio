@@ -11,4 +11,4 @@ featuredimage: /img/clay-images-8.jpg
 ---
 
 
-SOLDDD///
+@@ INDEX SOLD  @@

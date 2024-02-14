@@ -12,4 +12,4 @@ featuredimage: /img/clay-images-7.jpg
 
 
 
-/// INDEX ///
+@@ INDEX  @@
