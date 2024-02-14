@@ -12,6 +12,7 @@ local_backend: true
 media_folder: static/img
 public_folder: /img
 
+# collection !!!!!!!!!!!!!!!!!!!!!!!!!!
 collections:
   - name: "blog"
     label: "News"
@@ -59,6 +60,44 @@ collections:
       #         { label: "Other", value: "other" },
       #       ],
       #   }
+
+
+##################
+  - name: "dev"
+    label: "Dev"
+    folder: "src/content/dev"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "work-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+#########################
+
+
+
   - name: "work"
     label: "Work"
     folder: "src/content/work"
@@ -89,6 +128,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "exhibitions"
     label: "Exhibitions"
     folder: "src/content/exhibitions"
