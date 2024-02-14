@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 // eslint-disable-next-line
 
 
+
 const BioPage = (props) => {
 
 
