@@ -5,6 +5,8 @@ date: 2023-03-06T05:10:14.676Z
 title: Sold 2
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
+templateKey: exhibitions-sub-page
+
 ![clay-images-10](/img/clay-images-10.jpg)
 
 ![clay-images-12](/img/clay-images-12.jpg)

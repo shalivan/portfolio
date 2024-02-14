@@ -5,6 +5,12 @@ date: 2022-02-04T10:06:48.715Z
 title: News 3
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
+
+
+templateKey: blog-post
+
+
+
 ![clay-images-17](/img/clay-images-17.jpg)
 
 ![clay-images-15](/img/clay-images-15.jpg)

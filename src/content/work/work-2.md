@@ -6,6 +6,10 @@ title: Work 2
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
+
+templateKey: work-sub-page
+
+
 .
 ![clay-images-11](/img/PXLB01.jpg)
 

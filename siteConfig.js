@@ -8,7 +8,7 @@ const siteConfig = {
   url: '/', // Domain of your site without prefix!
   prefix: '/',
   author: 'Adam',
-  twitter: '' ,
+  twitter: 'https://twitter.com/BrylaAdam' ,
   facebook:'',
   github:'',
   manifest_icon:`src/img/ab.png`,

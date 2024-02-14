@@ -5,32 +5,17 @@ date: 2022-02-04T10:06:48.715Z
 title: Work 3
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
+
+templateKey: work-sub-page
+
+
 ![clay-images-17](/img/SHL_9122.jpg)
 
 ![clay-images-15](/img/SHL_9119.jpg)
 
 
-          <figure className="kg-card kg-image-card">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
-          </figure>
-          <figure className="kg-card kg-image-card kg-width-wide">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Large image</figcaption>
-          </figure>
-          <figure className="kg-card kg-image-card kg-width-full">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Full bleed image</figcaption>
-          </figure>
+
+
 
 
           

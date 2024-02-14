@@ -5,6 +5,10 @@ date: 2023-03-16T04:59:59.653Z
 title: Work 1
 description: "zzzzzzzzzzzzzzzzzzzzzzzzzzz!"
 ---
+
+templateKey: work-sub-page
+
+
 ![x](/img/PXLA01.jpg)
 
 ![y](/img/PXLA02.jpg)
