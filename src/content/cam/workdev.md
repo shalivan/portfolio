@@ -1,5 +1,5 @@
 ---
-templateKey: dev-sub-page
+templateKey: work-sub-page
 thumbnail: /img/PXLB02.jpg
 date: 2022-02-04T10:06:48.715Z
 title: Work 3
