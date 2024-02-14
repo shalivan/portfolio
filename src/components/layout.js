@@ -38,7 +38,7 @@ const Layout = props => {
                 <Link to={`/dev`}>game_dev</Link>
               </li>
 
-              <li className={`nav-home  ${data.pathname.includes('/dev') ? 'nav-current' : ""} `} role="menuitem">
+              <li className={`nav-home  ${data.pathname.includes('/cam') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/cam`}>photographs</Link>
               </li>
 
