@@ -1,9 +1,9 @@
 ---
 templateKey: work-sub-page
-thumbnail: /img/PXLA_H.png
+thumbnail: /img/PXLA.png
 date: 2023-03-16T04:59:59.653Z
-title: MNTN
-description: "Mountains"
+title: MNTN 
+description: "Mountains o.o"
 ---
 ![x](/img/PXLA01.jpg)
 

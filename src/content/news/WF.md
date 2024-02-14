@@ -2,7 +2,7 @@
 templateKey: blog-post
 thumbnail: /img/WF01.jpg
 date: 2023-03-06T05:10:14.676Z
-title: News 2
+title: Witchfire
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
