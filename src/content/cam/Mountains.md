@@ -1,10 +1,15 @@
 ---
-templateKey: work-sub-page
+templateKey: cam-sub-page
 thumbnail: /img/PXLA.png
 date: 2023-03-16T04:59:59.653Z
 title: MNTN 
 description: "Mountains o.o"
 ---
+
+templateKey: cam-sub-page
+
+
+
 ![x](/img/PXLA01.jpg)
 
 ![y](/img/PXLA02.jpg)

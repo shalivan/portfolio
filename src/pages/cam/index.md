@@ -1,5 +1,5 @@
 ---
-templateKey: news-page
+templateKey: cam-page
 pagetype:
   - main
 title: GCam
