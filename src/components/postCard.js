@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-//    ZAMIAN !!!  ${props.count % 3
+//    ZAMIAN !!!  ${props.count % 3 (2 w 1 lini) 
 export default props => (
   <article
     className={`post-card ${props.count % 5 === 0 && `post-card-large`} ${
