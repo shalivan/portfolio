@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 //    ZAMIAN !!!  ${props.count % 3    className={`post-card ${props.count % 4 === 0 && `post-card-large`} ${
 export default props => (
   <article
-    className={`post-card ${props.count % 4 === 0  && `post-card` } ${
+    className={`post-card ${props.count % 4 === 0  && `post-card2` } ${
       props.postClass
     } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
     style={
