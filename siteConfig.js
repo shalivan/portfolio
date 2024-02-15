@@ -1,6 +1,6 @@
 // Podstawowe ingo 
 
-
+ 
 const siteConfig = {
   name: 'Adam',
   shortName: 'Adam',
