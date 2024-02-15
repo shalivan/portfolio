@@ -3,7 +3,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import PostCard from "../components/postCard"
+import PostCard from "../components/postCard2"
 
 // eslint-disable-next-line
 const WorkPage = ({ data }) => {
