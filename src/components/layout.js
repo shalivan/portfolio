@@ -35,30 +35,22 @@ const Layout = props => {
               </li>
               
               <li className={`nav-home  ${data.pathname.includes('/dev') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/dev`}>game_dev</Link>
+                <Link to={`/dev`}>game dev</Link>
               </li>
 
               <li className={`nav-home  ${data.pathname.includes('/cam') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/cam`}>photographs</Link>
-              </li>
-
-
-              <li className={`nav-home  ${data.pathname.includes('/work') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/work`}>w</Link>
-              </li>
-              <li className={`nav-home  ${data.pathname.includes('/news') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/news`}>n</Link>
+                <Link to={`/cam`}>photography</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/contact`}>Procedural</Link>
+                <Link to={`/contact`}>procedural</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/elements`}>Typo</Link>
+                <Link to={`/elements`}>typo</Link>
               </li>
               <li className={`nav-home  ${data.pathname.includes('/bio') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/bio`}>Bio</Link>
+                <Link to={`/bio`}>bio</Link>
               </li>
-              
+
             </ul>
           </nav>
           <div className="site-head-center">
