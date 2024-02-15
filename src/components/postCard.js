@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
+//    ZAMIAN !!!  ${props.count % 3
 export default props => (
   <article
-    className={`post-card ${props.count % 3 === 0 && `post-card-large`} ${
+    className={`post-card ${props.count % 5 === 0 && `post-card-large`} ${
       props.postClass
     } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
     style={

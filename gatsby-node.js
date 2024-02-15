@@ -33,6 +33,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges
+
     // Template For blog-post
     const blogPost = posts.filter(item => item.node.frontmatter.templateKey === 'blog-post')
     blogPost.forEach((post, index) => {
@@ -51,6 +52,8 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
+
+
     // Template For work-sub-page
     const workPage = posts.filter(item => item.node.frontmatter.templateKey === 'work-sub-page')
     workPage.forEach((post, index) => {
@@ -69,6 +72,7 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
+
     // Template For exhibitions-sub-page
     const exhibitionsPage = posts.filter(item => item.node.frontmatter.templateKey === 'exhibitions-sub-page')
     exhibitionsPage.forEach((post, index) => {
@@ -87,6 +91,7 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
+    
     //   Template For exhibitions-sub-page
     const allPage = posts.filter(item =>
       item.node.frontmatter.templateKey !== 'blog-post' &&
