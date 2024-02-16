@@ -415,7 +415,7 @@ footer.site-foot a {
   border-radius: 12px;  
 }
 
-
+/* 
 .post-card-large {
   position: relative;
   flex: 1 0 auto;
@@ -430,7 +430,7 @@ footer.site-foot a {
   border-radius: 12px;  
 }
 
-
+*/
 
 @media (max-width: 700px) {
   .post-card {
@@ -438,11 +438,11 @@ footer.site-foot a {
     height: 70vw;
   }
 }
-/* 
+
 .post-card-large {
   flex: 1 1 100%;
 }
-*/
+
 .post-card-link {
   flex: 1 1 auto;
   display: block;
