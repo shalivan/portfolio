@@ -24,6 +24,8 @@ const BioPage = (props) => {
 
               <div className="post-content-body">
          
+
+         
           <h1 id="heading-level-1">Heading Level 1</h1>
           <h2 id="heading-level-2">Heading Level 2</h2>
           <h3 id="heading-level-3">Heading Level 3</h3>
