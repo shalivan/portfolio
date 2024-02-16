@@ -443,6 +443,11 @@ footer.site-foot a {
   flex: 1 1 100%;
 }
 
+.post-card-large-cam {
+  flex: 1 0 auto;
+}
+
+
 .post-card-link {
   flex: 1 1 auto;
   display: block;
