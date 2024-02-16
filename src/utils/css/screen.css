@@ -415,22 +415,6 @@ footer.site-foot a {
   border-radius: 12px;  
 }
 
-/* 
-.post-card-large {
-  position: relative;
-  flex: 1 0 auto;
-  display: flex;
-  position: relative;
-  height: 35vw;
-  background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
-  background-size: cover;
-  overflow: hidden;
-  counter-increment: posts;
-  margin: 1rem;
-  border-radius: 12px;  
-}
-
-*/
 
 @media (max-width: 700px) {
   .post-card {
@@ -444,7 +428,7 @@ footer.site-foot a {
 }
 
 .post-card-large-cam {
-  flex: 1 1 auto;
+  flex: 1 1 100%;
 }
 
 
