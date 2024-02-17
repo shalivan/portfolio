@@ -428,7 +428,10 @@ footer.site-foot a {
 }
 
 .post-card-large-cam {
+  /* flex: 0 0 calc(50% - 2rem); /* Two cards per row with margins */
+  /*  counter-increment: posts; */
   flex: 1 1 30%;
+  height: 30vw;
 }
 
 
