@@ -1,6 +1,6 @@
 ---
 templateKey: dev-sub-page
-thumbnail: /img/TVOEC01.jpg
+thumbnail: /img/EC.jpg
 date: 2023-03-16T04:59:59.653Z
 title: The Vanishing of Ethan Carter
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
@@ -14,10 +14,10 @@ templateKey: dev-sub-page
 
 ---
 
-● The Creative Process: INDIE VS AAA
-● Our Approach to foliage
-● At the Mountains of Madness
-● At culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta
+- The Creative Process: INDIE VS AAA   
+- Our Approach to foliage   
+- At the Mountains of Madness   
+- At culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta   
 
 
 --- 

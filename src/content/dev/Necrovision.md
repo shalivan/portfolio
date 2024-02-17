@@ -2,7 +2,7 @@
 templateKey: dev-sub-page
 thumbnail: /img/NV.jpg
 date: 2021-03-06T05:10:14.676Z
-title: Witchfire
+title: Necrovision
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
