@@ -1,6 +1,6 @@
 ---
 templateKey: exhibitions-sub-page
-thumbnail: /img/PXLA.png
+thumbnail: /img/cam/PXLA.png
 date: 2023-03-16T04:59:59.653Z
 title: Sold 1
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
