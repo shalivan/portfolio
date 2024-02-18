@@ -1,6 +1,6 @@
 ---
 templateKey: exhibitions-sub-page
-thumbnail: /img/cam/PXLA.png
+thumbnail: /img/cam/PS01.png
 date: 2023-03-16T04:59:59.653Z
 title: Sold 1
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
@@ -10,12 +10,12 @@ templateKey: exhibitions-sub-page
 
 
 
-![-11](/img/PXLA01.jpg)
+![-11](/img/cam/PS01.png)
 
-![-12](/img/PXLA02.jpg)
+![-12](/img/cam/PS01.png)
 
-![-11](/img/PXLA03.jpg)
+![-11](/img/cam/PS01.png)
 
-![-12](/img/PXLA04.jpg)
+![-12](/img/cam/PS01.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nullam non nisi est sit amet facilisis. Quisque id diam vel quam. Morbi tincidunt augue interdum velit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Mi tempus imperdiet nulla malesuada pellentesque. Maecenas ultricies mi eget mauris pharetra et ultrices. Cursus risus at ultrices mi tempus imperdiet nulla. Sit amet nisl suscipit adipiscing bibendum est ultricies. At volutpat diam ut venenatis tellus in. Cursus eget nunc scelerisque viverra mauris in. Ut aliquam purus sit amet luctus venenatis lectus.
