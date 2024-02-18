@@ -8,13 +8,9 @@ description: "zzzzzzzzzzzzzzzzzzzzzzzzzzz!"
 
 templateKey: work-sub-page
 
-
-![x](/img/PXLA01.jpg)
-
-![y](/img/PXLA02.jpg)
-
-![xx](/img/PXLA03.jpg)
-
-![clay-images-12](/img/PXLA04.jpg)
+![](/img/PXLA01.jpg)
+![](/img/PXLA02.jpg)
+![](/img/PXLA03.jpg)
+![](/img/PXLA04.jpg)
 
 xxx

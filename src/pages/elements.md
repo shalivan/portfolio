@@ -1,12 +1,12 @@
 ---
 templateKey: elements
 title: Clay Gatsby Theme 
-image: /img/clay-images-7.jpg
+image: /img/cam/PS01.png
 description: A stunning Gatsby theme designed for captivating image-centric websites, perfect for photographers, portfolios, and blogs.
-thumbnail: /img/clay-images-7.jpg
+thumbnail: /img/cam/PS01.png
 heading: Main Heading
 subheading: Sub HEading
-featuredimage: /img/clay-images-7.jpg
+featuredimage: /img/cam/PS01.png
 ---
 
 

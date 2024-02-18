@@ -10,12 +10,12 @@ templateKey: exhibitions-sub-page
 
 
 
-![clay-images-11](/img/PXLA01.jpg)
+![-11](/img/PXLA01.jpg)
 
-![clay-images-12](/img/PXLA02.jpg)
+![-12](/img/PXLA02.jpg)
 
-![clay-images-11](/img/PXLA03.jpg)
+![-11](/img/PXLA03.jpg)
 
-![clay-images-12](/img/PXLA04.jpg)
+![-12](/img/PXLA04.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nullam non nisi est sit amet facilisis. Quisque id diam vel quam. Morbi tincidunt augue interdum velit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Mi tempus imperdiet nulla malesuada pellentesque. Maecenas ultricies mi eget mauris pharetra et ultrices. Cursus risus at ultrices mi tempus imperdiet nulla. Sit amet nisl suscipit adipiscing bibendum est ultricies. At volutpat diam ut venenatis tellus in. Cursus eget nunc scelerisque viverra mauris in. Ut aliquam purus sit amet luctus venenatis lectus.

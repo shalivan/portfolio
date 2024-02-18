@@ -1,13 +1,13 @@
 ---
 templateKey: bio-page
-thumbnail: /img/prs1_3.png
+thumbnail: /img/cam/DSC_0316.jpg
 date: 2023-03-02T10:17:05.133Z
 title: Bio
 description: A stunning Gatsby theme designed for captivating image-centric websites, perfect for photographers, portfolios, and more.
 number: 1
 pagetype:
   - main
-featuredimage: /img/clay-image-1.jpg
+featuredimage: /img/cam/PS01.png
 ---
 
 
