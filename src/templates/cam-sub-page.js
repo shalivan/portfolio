@@ -35,14 +35,16 @@ const BlogPostTemplate = (props) => {
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
         )}
-        {post.frontmatter.thumbnail && (
+{/*   #######################################  thumbnail removed */}
+{/*        {post.frontmatter.thumbnail && (
           <div className="post-content-image">
             <GatsbyImage
               image={getImage(post.frontmatter.thumbnail)}
               className="kg-image"
               alt={post.frontmatter.title} />
           </div>
-        )}
+        )} 
+*/}
         <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}

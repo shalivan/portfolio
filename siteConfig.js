@@ -2,12 +2,12 @@
 
  
 const siteConfig = {
-  name: 'Adam',
-  shortName: 'Adam',
+  name: 'Adam Bryła',
+  shortName: 'Adam Bryła',
   description: 'Clay - Personal Gatsby Theme',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Adam',
+  author: 'Adam Bryła',
   twitter: 'https://twitter.com/BrylaAdam' ,
   facebook:'',
   github:'',
