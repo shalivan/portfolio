@@ -18,17 +18,16 @@ const BlogPostTemplate = (props) => {
   const post = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
   const social = props.data.site.siteMetadata.social
+  
+  const thumbnails = post.frontmatter.thumbnails || []; // Array of thumbnails
+  
   return (
     <Layout location={props.location} title={siteTitle} social={social}>
-<Seo
-  title={post.frontmatter.title}
-  description={post.frontmatter.description || post.excerpt}
-  image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
-/>
-
-{/*   #######################################  headerb  
-post-content-cam << ustawienia szerokosci  w #screen.css
-*/}
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+        image={thumbnails.length > 0 ? getImage(thumbnails[0]) : null} // Use the first thumbnail for SEO image
+      />
       <article
         className={`post-content-cam ${post.frontmatter.thumbnail || `no-image`}`}
       >
@@ -38,43 +37,19 @@ post-content-cam << ustawienia szerokosci  w #screen.css
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
         )}
-{/*   #######################################  thumbnail removed */}
-{/*        {post.frontmatter.thumbnail && (
-          <div className="post-content-image">
+        {/* Render multiple thumbnails */}
+        {thumbnails.map((thumbnail, index) => (
+          <div key={index} className="post-content-image">
             <GatsbyImage
-              image={getImage(post.frontmatter.thumbnail)}
+              image={getImage(thumbnail)}
               className="kg-image"
               alt={post.frontmatter.title} />
           </div>
-        )} 
-*/}
-
-
-
-
-{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
-  <div key={index} className="post-content-image">
-    <GatsbyImage
-      image={getImage(thumbnail.image)}
-      className="kg-image"
-      alt={post.frontmatter.title}
-    />
-  </div>
-))}
-
-
-
-
-
-{/*   #######################################  body html from md */}
-
+        ))}
         <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-
-
-
         <div className="post-link">
           <div>
           <a style={{ display: nextLinkStatus ? "flex" : 'none', alignItems: "center", color: "#131313", fontSize: "2rem" }} href={nextSlug} >
@@ -103,25 +78,25 @@ post-content-cam << ustawienia szerokosci  w #screen.css
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-query BlogPostBySlug($slug: String!) {
-  site {
-    siteMetadata {
-      title
-      social{
-        twitter
-        facebook
+  query BlogPostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        social{
+          twitter
+          facebook
+        }
       }
     }
-  }
-  markdownRemark(fields: { slug: { eq: $slug } }) {
-    id
-    html
-    frontmatter {
-      title
-      date(formatString: "MMMM DD, YYYY")
-      description
-      thumbnails {
-        image {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      
+      id
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        description
+        thumbnails { // Modify to support an array of thumbnails
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)
           }
@@ -129,5 +104,4 @@ query BlogPostBySlug($slug: String!) {
       }
     }
   }
-}
 `
