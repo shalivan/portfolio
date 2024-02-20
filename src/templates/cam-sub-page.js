@@ -20,12 +20,11 @@ const BlogPostTemplate = (props) => {
   const social = props.data.site.siteMetadata.social
   return (
     <Layout location={props.location} title={siteTitle} social={social}>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src}
-
-      />
+<Seo
+  title={post.frontmatter.title}
+  description={post.frontmatter.description || post.excerpt}
+  image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
+/>
 
 {/*   #######################################  headerb  
 post-content-cam << ustawienia szerokosci  w #screen.css
