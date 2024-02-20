@@ -27,7 +27,9 @@ const BlogPostTemplate = (props) => {
 
       />
 
-{/*   #######################################  thumbnail removed */}
+{/*   #######################################  headerb  
+post-content-cam << ustawienia szerokosci  w #screen.css
+*/}
       <article
         className={`post-content-cam ${post.frontmatter.thumbnail || `no-image`}`}
       >
@@ -47,6 +49,8 @@ const BlogPostTemplate = (props) => {
           </div>
         )} 
 */}
+{/*   #######################################  body html from md */}
+
         <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
