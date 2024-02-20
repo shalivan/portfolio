@@ -26,8 +26,10 @@ const BlogPostTemplate = (props) => {
         image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src}
 
       />
+
+{/*   #######################################  thumbnail removed */}
       <article
-        className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
+        className={`post-content-cam ${post.frontmatter.thumbnail || `no-image`}`}
       >
         <header className="post-content-header">
           <h1 className="post-content-title">{post.frontmatter.title}</h1>
@@ -49,6 +51,9 @@ const BlogPostTemplate = (props) => {
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+
+
+
         <div className="post-link">
           <div>
           <a style={{ display: nextLinkStatus ? "flex" : 'none', alignItems: "center", color: "#131313", fontSize: "2rem" }} href={nextSlug} >
