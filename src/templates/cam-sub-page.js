@@ -49,6 +49,24 @@ post-content-cam << ustawienia szerokosci  w #screen.css
           </div>
         )} 
 */}
+
+
+
+
+{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
+  <div key={index} className="post-content-image">
+    <GatsbyImage
+      image={getImage(thumbnail.image)}
+      className="kg-image"
+      alt={post.frontmatter.title}
+    />
+  </div>
+))}
+
+
+
+
+
 {/*   #######################################  body html from md */}
 
         <div
@@ -86,32 +104,31 @@ post-content-cam << ustawienia szerokosci  w #screen.css
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        social{
-          twitter
-          facebook
-        }
-      }
-    }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      
-      id
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-        thumbnail {
-          childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
-          
-          }
-        }
-    
+query BlogPostBySlug($slug: String!) {
+  site {
+    siteMetadata {
+      title
+      social{
+        twitter
+        facebook
       }
     }
   }
+  markdownRemark(fields: { slug: { eq: $slug } }) {
+    id
+    html
+    frontmatter {
+      title
+      date(formatString: "MMMM DD, YYYY")
+      description
+      thumbnails {
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
+        }
+      }
+    }
+  }
+}
 `
