@@ -15,3 +15,14 @@ description: "Andy"
 ![](/img/cam/andy/SHL_7912.png)
 ![](/img/cam/andy/SHL_7709.jpg)
 ![](/img/cam/andy/SHL_7873.png)
+
+          <div className="post-content-image">
+            <GatsbyImage
+              image={getImage(post.frontmatter.thumbnail)}
+              className="kg-image"
+              alt={post.frontmatter.title} />
+          </div>
+
+
+
+          
