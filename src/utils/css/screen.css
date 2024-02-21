@@ -430,7 +430,7 @@ footer.site-foot a {
 .post-card-large-cam {
   /* flex: 0 0 calc(50% - 2rem); /* Two cards per row with margins */
   /*  counter-increment: posts; */
-  flex: 1 1 25%;
+  flex: 1 1 23%;
   height: 25vw;
 }
 
@@ -541,7 +541,7 @@ footer.site-foot a {
 }
 
 .post-content-cam {
-  max-width: 1220px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 3vw 0;
 }
