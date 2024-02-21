@@ -1,12 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-
-export default function PostCard(props) {
-  const isLargeCard = props.count > 4;
-
-  return (
+//                          ${props.count % 3    className={`post-card ${props.count % 4 === 0 && `post-card-large-cam`} ${
+//    className={`post-card ${props.count % 4 === 0 ? `post-card-large` : `` } ${
+  export default props => (
     <article
-      className={`post-card ${isLargeCard ? 'post-card-large' : ''} ${
+      className={`post-card ${`post-card-large-cam`} ${
         props.postClass
       } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
       style={
@@ -17,20 +15,12 @@ export default function PostCard(props) {
         }
       }
     >
-      <Link
-        to={
-          props.node.fields.slug.split('/').slice(2, -1).join('/') === ''
-            ? '/'
-            : `/${props.node.fields.slug.split('/').slice(2, -1).join('/')}`
-        }
-        className="post-card-link"
-      >
+      <Link to={props.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${props.node.fields.slug.split('/').slice(2, -1).join('/')}`} className="post-card-link">
         <div className="post-card-content">
           <h2 className="post-card-title">
-            {props.node.frontmatter.title}
+            {props.node.frontmatter.title }
           </h2>
         </div>
       </Link>
     </article>
   )
-}
