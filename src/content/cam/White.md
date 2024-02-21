@@ -1,19 +1,15 @@
 ---
 templateKey: cam-sub-page
-thumbnail: /img/cam/white/PXLB03.jpg
+thumbnail: /img/cam/white/PXLB02.jpg
 thumbnails:
-  - image: /img/cam/andy/SHL_7912.png
-  - image: /img/cam/andy/SHL_7709.jpg
-date: 2023-03-16T04:59:59.653Z
+  - image: /img/cam/white/PXLB01.jpg
+  - image: /img/cam/white/PXLB02.jpg
+  - image: /img/cam/white/PXLB03.jpg
+  - image: /img/cam/white/PXLB04.jpg
+date: 2021-03-16T04:59:59.653Z
 title: WHTE 
 description: "White"
 ---
-
-
-![x](/img/cam/white/PXLB01.jpg)
-![x](/img/cam/white/PXLB02.jpg)
-![x](/img/cam/white/PXLB03.jpg)
-![x](/img/cam/white/PXLB04.jpg)
 
 
 ![x](/img/cam/white/PXLB05.jpg)

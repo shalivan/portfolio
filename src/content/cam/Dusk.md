@@ -7,7 +7,7 @@ thumbnails:
   - image: /img/cam/dusk/SHL_5950.jpg
   - image: /img/cam/dusk/SHL_6235.jpg
   - image: /img/cam/dusk/SHL_6179.jpg
-date: 2023-03-16T04:59:59.653Z
+date: 2023-10-16T04:59:59.653Z
 title: DUSK
 description: "Dusk"
 ---
