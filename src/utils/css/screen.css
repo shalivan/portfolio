@@ -431,7 +431,7 @@ footer.site-foot a {
   /* flex: 0 0 calc(50% - 2rem); /* Two cards per row with margins */
   /*  counter-increment: posts; */
   flex: 1 1 23%;
-  height: 25vw;
+  height: 23vw;
 }
 
 /* NEW !!!!!  */
