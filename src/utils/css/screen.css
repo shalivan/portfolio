@@ -415,9 +415,14 @@ footer.site-foot a {
   border-radius: 12px;  
 }
 
+/* TU ZMIANY !!!!!  */
 
 @media (max-width: 700px) {
   .post-card {
+    flex: 1 1 100%;
+    height: 70vw;
+  }
+  .post-card-dev{
     flex: 1 1 100%;
     height: 70vw;
   }
