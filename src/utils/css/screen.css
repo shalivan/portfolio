@@ -420,7 +420,7 @@ footer.site-foot a {
   flex: 1 1 22%;
   display: flex;
   position: relative;
-  height: 70vw;
+  height: 60vw;
   background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
   background-size: cover;
   overflow: hidden;
