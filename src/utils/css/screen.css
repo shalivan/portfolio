@@ -417,7 +417,7 @@ footer.site-foot a {
 
 .post-card-dev {
   position: relative;
-  flex: 1 0 auto;
+  flex: 1 1 23%;
   display: flex;
   position: relative;
   height: 35vw;
