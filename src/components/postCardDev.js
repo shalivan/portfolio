@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 export default props => {
-  let cardClass = "post-card-dev";
+  let cardClass = "post-card";
   if (props.count > 4) {
-    cardClass = props.count % 4 === 0 ? "post-card-large-dev" : "post-card-large-cam";
+    cardClass = props.count % 4 === 0 ? "post-card-dev" : "post-card-large-cam";
   }
 
   return (
