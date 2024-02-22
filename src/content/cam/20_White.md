@@ -6,7 +6,7 @@ thumbnails:
   - image: /img/cam/white/PXLB02.jpg
   - image: /img/cam/white/PXLB03.jpg
   - image: /img/cam/white/PXLB04.jpg
-date: 2021-03-16T04:59:59.653Z
+date: 2019-03-16T04:59:59.653Z
 title: WHTE 
 description: "White"
 ---
