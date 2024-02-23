@@ -1,5 +1,5 @@
 ---
-templateKey: dev-sub-page
+templateKey: dev-page
 thumbnail: /img/dev/CoverWF02.jpg
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire
