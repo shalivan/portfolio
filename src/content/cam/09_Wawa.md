@@ -1,6 +1,6 @@
 ---
 templateKey: cam-sub-page
-thumbnail: /img/wawa/SHL_6219.jpg
+thumbnail: /img/cam/wawa/SHL_6219.jpg
 thumbnails:
   - image: /img/cam/wawa/SHL_6150.jpg
   - image: /img/cam/wawa/SHL_6219.jpg
