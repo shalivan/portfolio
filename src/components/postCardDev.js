@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export default props => {
   let cardClass = "post-card-dev";
   if (props.count > 4) {
-    cardClass = props.count % 4 === 0 ? "post-card-pro" : "post-card-pro";
+    cardClass = props.count % 4 === 0 ? "post-card-home" : "post-card-pro";
   }
 
   return (
