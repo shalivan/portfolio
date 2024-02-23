@@ -62,7 +62,7 @@ collections:
       #   }
 
 
-##################
+################## DEV
   - name: "dev"
     label: "Dev"
     folder: "src/content/dev"
@@ -94,10 +94,9 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-#########################
 
 
-##################
+################## CAM
   - name: "cam"
     label: "Cam"
     folder: "src/content/cam"
@@ -129,11 +128,9 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-#########################
 
 
-
-##################
+################## PRO
   - name: "pro"
     label: "Pro"
     folder: "src/content/pro"
@@ -165,11 +162,7 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-#########################
-
-
-
-
+######################### Work  // not used 
   - name: "work"
     label: "Work"
     folder: "src/content/work"
@@ -201,6 +194,9 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+
+
+######################### Exhibitions  // not used 
   - name: "exhibitions"
     label: "Exhibitions"
     folder: "src/content/exhibitions"
@@ -232,6 +228,9 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+
+######################### Pages  // not used 
+
   - name: "pages"
     label: "Pages"
     files:
@@ -254,6 +253,8 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: "Description", name: "description", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+######################### Bio  // not used 
 
       - file: "src/pages/bio/index.md"
         label: "Bio"
@@ -285,6 +286,20 @@ collections:
             }
           - { label: "Body", name: "body", widget: "markdown" }
 
+
+
+
+
+
+
+
+
+
+
+
+
+######################### Work  // not used 
+
       - file: "src/pages/work/index.md"
         label: "Work"
         name: "work"
@@ -307,6 +322,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Numbering", name: "number", widget: "number" }
 
+######################### xhibitions  // not used 
       - file: "src/pages/exhibitions/index.md"
         label: "exhibitions"
         name: "exhibitions"
@@ -337,6 +353,14 @@ collections:
               options: [{ label: "Main", value: "main" }],
             }
 
+
+
+
+######################### News  // not used 
+
+
+
+
       - file: "src/pages/news/index.md"
         label: "News"
         name: "news"
@@ -366,6 +390,10 @@ collections:
               min: 1,
               options: [{ label: "Main", value: "main" }],
             }
+
+
+######################### Contact  // not used 
+
 
       - file: "src/pages/contact/index.md"
         label: "Contact"
