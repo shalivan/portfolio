@@ -8,7 +8,7 @@ export default function PostCard(props) {
 
   return (
     <article
-      className={`post-card-large-cam ${isLargeCard ? 'post-card-large-dev' : ''} ${
+      className={`post-card-cam ${isLargeCard ? 'post-card-large-dev' : ''} ${
         props.postClass
       } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
       style={

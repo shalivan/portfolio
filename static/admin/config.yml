@@ -133,6 +133,39 @@ collections:
 
 
 
+##################
+  - name: "pro"
+    label: "Pro"
+    folder: "src/content/pro"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "work-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+#########################
 
 
 
