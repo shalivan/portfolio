@@ -12,6 +12,32 @@ local_backend: true
 media_folder: static/img
 public_folder: /img
 
+
+
+# Blog / mnews !!!!!!!!!!!!!!!!!!!!!!!!!!
+################## DEV
+################## CAM
+################## PRO
+######################### Work  // !!!!!!!!!!!
+######################### Exhibitions  // !!!!!!!!!!!!!!!!
+######################### Pages  // not used 
+######################### Bio  // not used 
+
+######################### Work  // !!!!!!!!!!!!
+######################### Exhibitions  // !!!!!!!!!!!!!!!!!
+######################### News  // !!!!!!!!!!!!!!!!! 
+######################### Contact  // not used 
+
+#bio 
+#photo 
+#games 
+#photo (news)
+#work 
+#sold 
+#news 
+#contact 
+
+
 # collection !!!!!!!!!!!!!!!!!!!!!!!!!!
 collections:
   - name: "blog"
@@ -285,6 +311,7 @@ collections:
               options: [{ label: "Main", value: "main" }],
             }
           - { label: "Body", name: "body", widget: "markdown" }
+
 
 
 
