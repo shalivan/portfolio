@@ -4,7 +4,7 @@ thumbnail: /img/dev/CoverWF02.jpg
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
-number: 2
+number: 3
 pagetype:
   - main
 featuredimage: /img/dev/CoverAF01.png
