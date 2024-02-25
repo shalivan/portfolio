@@ -470,7 +470,8 @@ footer.site-foot a {
   overflow: hidden;
   counter-increment: posts;
   margin: 1rem;
-  border-radius: 12px;  
+ /* border-radius: 12px;  */
+  border-radius: 100%;
 }
 
 
