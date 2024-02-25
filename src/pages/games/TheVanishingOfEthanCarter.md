@@ -3,6 +3,9 @@ templateKey: dev-sub-page
 thumbnail: /img/dev/CoverEC02.jpg
 date: 2023-03-16T04:59:59.653Z
 title: The Vanishing of Ethan Carter
+number: 1
+pagetype:
+  - main
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
