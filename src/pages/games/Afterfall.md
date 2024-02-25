@@ -1,5 +1,5 @@
 ---
-templateKey: dev-sub-page
+templateKey: game-sub-page
 thumbnail: /img/dev/CoverAF01.png
 number: 5
 pagetype:
