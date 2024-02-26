@@ -1,6 +1,6 @@
 ---
 templateKey: dev-sub-page
-thumbnail: /img/dev/TVOEC01.jpg
+thumbnail: /img/dev/adam-bryla-highresscreenshot00050-s.jpg
 date: 2019-03-06T05:10:14.676Z
 title: Necrovision
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
