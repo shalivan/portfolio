@@ -415,6 +415,13 @@ footer.site-foot a {
   border-radius: 12px;  
 }
 
+
+
+
+/* -----------------2----------------------------------- */
+
+
+
 .post-card-dev {
   position: relative;
   flex: 1 1 44%;
@@ -429,6 +436,7 @@ footer.site-foot a {
   border-radius: 12px;  
 }
 
+/* -----------------3----------------------------------- */
 
 .post-card-pro {
   position: relative;
@@ -443,6 +451,8 @@ footer.site-foot a {
   margin: 1rem;
   border-radius: 12px;  
 }
+
+/* -----------------5----------------------------------- */
 
 .post-card-home {
   position: relative;
@@ -459,6 +469,8 @@ footer.site-foot a {
 }
 
 
+/* -----------------4----------------------------------- */
+
 .post-card-cam {
   position: relative;
   flex: 1 1 23%;
@@ -474,6 +486,9 @@ footer.site-foot a {
    /* border-radius: 100%;*/
 }
 
+
+/* -----------------4---------- circle------------------------- */
+
 .post-card-circle {
   position: relative;
   flex: 1 1 23%;
@@ -488,6 +503,10 @@ footer.site-foot a {
  /* border-radius: 12px;  */
   border-radius: 100%;
 }
+
+
+
+/* -----------------4--------circle --------------------------- */
 
 .post-card-bio {
   position: relative;
