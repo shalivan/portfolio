@@ -12,4 +12,4 @@ featuredimage: /img/cam/PS01.png
 
 
 
-@@ INDEX  @@
+::: Main site ::: 
