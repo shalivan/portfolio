@@ -4,7 +4,9 @@ thumbnail: /img/cam/DSC_0316.jpg
 date: 2020-03-02T10:17:05.133Z
 title: Bio
 description: A stunning Gatsby theme designed for captivating image-centric websites, perfect for photographers, portfolios, and more.
-
+number: 8
+pagetype:
+  - main
 featuredimage: /img/cam/PS01.png
 ---
 
@@ -20,6 +22,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <a href="https://unsplash.com/@tomcrewceramics" target="_blank">Image credits - Tom Crew</a>
 
 
-number: 8
-pagetype:
-  - main
