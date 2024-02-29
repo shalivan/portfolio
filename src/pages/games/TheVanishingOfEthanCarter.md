@@ -1,6 +1,6 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/CoverEC02.jpg
+thumbnail: /img/dev/CoverEC02.png
 date: 2023-03-16T04:59:59.653Z
 title: The Vanishing of Ethan Carter
 number: 4
@@ -37,7 +37,6 @@ https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
 <iframe width="267" height="151" src="https://www.youtube.com/embed/9oxbkL3N_fM" title="The Vanishing of Ethan Carter - Welcome to Red Creek Valley Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
---- 
 
 
 ## Awards 
@@ -46,4 +45,3 @@ https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
 
 <iframe width="2312" height="1017" src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-With many nominations: 

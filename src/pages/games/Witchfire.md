@@ -1,6 +1,6 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/CoverWF02.jpg
+thumbnail: /img/dev/CoverWF01.png
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
