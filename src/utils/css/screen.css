@@ -418,7 +418,7 @@ footer.site-foot a {
 
 
 
-/* -----------------2------------------home dev----------------- */
+/* -----------------2----------------------------------- */
 
 
 
@@ -452,14 +452,14 @@ footer.site-foot a {
   border-radius: 12px;  
 }
 
-/* -----------------5--------------------main home - --ostatnie nie uzywane-------------- */
+/* -----------------5----------------------------------- */
 
 .post-card-home {
   position: relative;
   flex: 1 1 15%;
   display: flex;
   position: relative;
-  height: 10vw;
+  height: 40vw;
   background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
   background-size: cover;
   overflow: hidden;
@@ -469,29 +469,11 @@ footer.site-foot a {
 }
 
 
-/* -----------------4---------------- cam ------------------ */
+/* -----------------4----------------------------------- */
 
 .post-card-cam {
   position: relative;
-  flex: 1 1 21%;
-  display: flex;
-  position: relative;
-  height: 22vw;
-  background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
-  background-size: cover;
-  overflow: hidden;
-  counter-increment: posts;
-  margin: 1rem;
-  border-radius: 12px;  
-   /* border-radius: 100%;*/
-}
-
-
-/* -----------------4-----------------main cover ------------------ */
-
-.post-card-cover {
-  position: relative;
-  flex: 1 1 21%;
+  flex: 1 1 23%;
   display: flex;
   position: relative;
   height: 22vw;
