@@ -7,6 +7,17 @@ const Layout = props => {
   const { title, children, social } = props
   // const path = props&&props.location&&props.location
 
+
+  // contct example 
+              //  <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
+              //  <Link to={`/contact`}>projects</Link>
+              //  </li>
+
+  // formating  example 
+               // <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
+                //  <Link to={`/elements`}>typo</Link>
+               // </li>
+
   const [toggleNav, setToggleNav] = React.useState(false)
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
@@ -38,16 +49,12 @@ const Layout = props => {
                 <Link to={`/dev`}>game dev</Link>
               </li>
 
-              <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/contact`}>projects</Link>
-              </li>
+
               
               <li className={`nav-home  ${data.pathname.includes('/cam') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/cam`}>photography</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/elements`}>typo</Link>
-              </li>
+
               <li className={`nav-home  ${data.pathname.includes('/bio') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/bio`}>bio</Link>
               </li>
