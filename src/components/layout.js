@@ -46,7 +46,7 @@ const Layout = props => {
               </li>
               
               <li className={`nav-home  ${data.pathname.includes('/dev') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/dev`}>game dev</Link>
+                <Link to={`/dev`}>real time</Link>
               </li>
 
 

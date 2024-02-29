@@ -491,7 +491,7 @@ footer.site-foot a {
   flex: 1 1 21%;
   display: flex;
   position: relative;
-  height: 45vw;
+  height: 35vw;
   background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
   background-size: cover;
   overflow: hidden;
@@ -534,7 +534,7 @@ footer.site-foot a {
   overflow: hidden;
   counter-increment: posts;
   margin: 1rem;
-  border-radius: 42px; 
+  border-radius: 122px; 
 }
 
 
