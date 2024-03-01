@@ -1,6 +1,6 @@
 ---
 templateKey: cam-sub-page
-thumbnail: /img/cam/andy/SHL_7912.png
+thumbnail: /img/cam/andy/SHL_8313.jpg
 thumbnails:
   - image: /img/cam/andy/SHL_7912.png
   - image: /img/cam/andy/SHL_7709.jpg
