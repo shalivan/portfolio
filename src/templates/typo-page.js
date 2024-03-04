@@ -57,7 +57,7 @@ query IndexPage {
       }
     }
   }
-  markdownRemark(frontmatter: {templateKey: {eq: "dev-page"}}) {
+  markdownRemark(frontmatter: {templateKey: {eq: "typo-page"}}) {
     frontmatter {
       title
       description
@@ -72,7 +72,7 @@ query IndexPage {
     
   }
   allMarkdownRemark(
-    filter: {frontmatter: {templateKey: {eq: "dev-sub-page"}}}
+    filter: {frontmatter: {templateKey: {eq: "typo-sub-page"}}}
     limit: 30
     sort: {frontmatter: {date: DESC}}
   ) {
