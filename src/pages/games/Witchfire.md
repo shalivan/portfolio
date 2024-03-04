@@ -3,7 +3,7 @@ templateKey: game-sub-page
 thumbnail: /img/dev/CoverWF01.png
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire
-description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
+description: "2024r. First person shooter"
 number: 3
 pagetype:
   - main

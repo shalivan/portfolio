@@ -35,9 +35,7 @@ The Vanishing of Ethan Carter was created inhouse by **8 people** team and is **
 --- 
 
 
-![Witchfire Key Art](/img/dev/ethan_carter_rocky_path.gif)
-
-![Witchfire Key Art](/img/dev/ethan_carter_cemetery.gif)
+![Witchfire Key Art](/img/dev/RustyWood.jpg)
 
 
 
@@ -59,3 +57,11 @@ https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
 
 <iframe width="2312" height="1017" src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+
+
+
+
+![Witchfire Key Art](/img/dev/ethan_carter_rocky_path.gif)
+
+![Witchfire Key Art](/img/dev/ethan_carter_cemetery.gif)

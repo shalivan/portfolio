@@ -6,5 +6,7 @@ title: The Vanishing of Ethan Carter
 description: "GDE. "
 ---
 
-![Witchfire Key Art](/img/pro/gde/artist_inz.png)
+![](/img/pro/gde/artist_inz.png)
+![](/img/pro/gde/artist_zam.png)
+![](/img/pro/gde/artists_yas2.png)
 
