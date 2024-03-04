@@ -1,5 +1,5 @@
 ---
-templateKey: bio-page
+templateKey: typo-page
 thumbnail: /img/cam/DSC_0316.jpg
 date: 2020-03-02T10:17:05.133Z
 title: Bio
