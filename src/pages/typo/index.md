@@ -1,5 +1,5 @@
 ---
-templateKey: typo-sub-page
+templateKey: typo-page
 thumbnail: /img/pro/gde/artist_inz.png
 date: 2020-03-02T10:17:05.133Z
 title: Typo
