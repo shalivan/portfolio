@@ -1,6 +1,6 @@
 ---
 templateKey: typo-sub-page
-thumbnail: /img/pro/gde/artist_inz.png
+thumbnail: /img/typo/GDE1.png
 date: 2023-03-16T04:59:59.653Z
 title: GDE
 description: "GDE. "
