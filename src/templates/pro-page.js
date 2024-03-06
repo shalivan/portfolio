@@ -72,7 +72,7 @@ query IndexPage {
     
   }
   allMarkdownRemark(
-    filter: {frontmatter: {templateKey: {eq: "typo-sub-page"}}}
+    filter: {frontmatter: {templateKey: {eq: "pro-sub-page"}}}
     limit: 30
     sort: {frontmatter: {date: DESC}}
   ) {
