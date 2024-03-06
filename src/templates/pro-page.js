@@ -3,7 +3,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import PostCardTypo from "../components/postCardTypo"
+import PostCardPro from "../components/postCardPro"
 
 // eslint-disable-next-line
 const WorkPage = ({ data }) => {
@@ -32,7 +32,7 @@ const WorkPage = ({ data }) => {
         {posts.map(({ node }) => {
           postCounter++
           return (
-            <PostCardTypo
+            <PostCardPro
               key={node.fields.slug}
               count={postCounter}
               node={node}
@@ -57,7 +57,7 @@ query IndexPage {
       }
     }
   }
-  markdownRemark(frontmatter: {templateKey: {eq: "typo-page"}}) {
+  markdownRemark(frontmatter: {templateKey: {eq: "pro-page"}}) {
     frontmatter {
       title
       description
