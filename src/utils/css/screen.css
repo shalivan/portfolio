@@ -424,7 +424,7 @@ footer.site-foot a {
 
 .post-card-dev {
   position: relative;
-  flex: 1 1 44%;
+  flex: 1 1 40%;
   display: flex;
   position: relative;
   height: 20vw;
@@ -525,7 +525,7 @@ footer.site-foot a {
 
 .post-card-bio {
   position: relative;
-  flex: 1 1 23%;
+  flex: 1 1 20%;
   display: flex;
   position: relative;
   height: 22vw;
@@ -534,7 +534,7 @@ footer.site-foot a {
   overflow: hidden;
   counter-increment: posts;
   margin: 1rem;
-  border-radius: 122px; 
+  border-radius: 222px; 
 }
 
 
