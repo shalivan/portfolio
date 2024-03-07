@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 export default props => (
   <article
-  className={`${props.count === 1 ? "post-card-bio" : props.count === 2 || props.count === 3 ? "post-card-cover" : props.count === 4 ? "post-card-cover" : "post-card-cover"} ${
+  className={`${props.count === 1 ? "post-card-bio" : props.count === 2 || props.count === 3 ? "post-card-dev" : props.count === 4 ? "post-card-cover" : "post-card-cover"} ${
       props.postClass
     } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
     style={

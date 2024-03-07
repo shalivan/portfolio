@@ -440,7 +440,7 @@ footer.site-foot a {
 
 .post-card-pro {
   position: relative;
-  flex: 1 1 30%;
+  flex: 1 1 32%;
   display: flex;
   position: relative;
   height: 40vw;
@@ -525,7 +525,7 @@ footer.site-foot a {
 
 .post-card-bio {
   position: relative;
-  flex: 1 1 15%;
+  flex: 1 1 17%;
   display: flex;
   position: relative;
   height: 20vw;
