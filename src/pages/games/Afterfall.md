@@ -1,7 +1,7 @@
 ---
 templateKey: game-sub-page
 thumbnail: /img/dev/CoverAF01.png
-number: 5
+number: 6
 pagetype:
   - main
 date: 2021-03-06T05:10:14.676Z
