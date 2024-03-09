@@ -587,6 +587,15 @@ footer.site-foot a {
   height: 22vw;
 }
 
+
+.post-card-twosquares-min {
+  /* flex: 0 0 calc(50% - 2rem); /* Two cards per row with margins */
+  /*  counter-increment: posts; */
+  flex: 1 1 50%;
+  height: 40vw;
+}
+
+
 .post-card-large-dev {
   /* flex: 0 0 calc(50% - 2rem); /* Two cards per row with margins */
   /*  counter-increment: posts; */
