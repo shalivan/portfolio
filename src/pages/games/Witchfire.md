@@ -1,13 +1,13 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/logo_wf.png
+thumbnail: /img/typo/logo_wf.png
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire
 description: "2024r. First person shooter"
 number: 3
 pagetype:
   - main
-featuredimage: /img/dev/logo_wf.png
+featuredimage: /img/typo/logo_wf.png
 ---
 
 
