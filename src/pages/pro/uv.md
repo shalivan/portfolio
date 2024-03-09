@@ -6,4 +6,4 @@ title: UV
 description: "UV checker"
 ---
 
-![](/img/cam/GridUv_01Uv.png)
+![](/imga/dev/GridUv_01Uv.png)
