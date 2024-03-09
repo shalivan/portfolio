@@ -1,5 +1,5 @@
 ---
-
+templateKey: work-sub-page
 thumbnail: /img/cam/studio/DSC_0382.png
 date: 2023-03-16T04:59:59.653Z
 title: STUDIO
