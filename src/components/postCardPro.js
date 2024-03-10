@@ -2,9 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 //                          ${props.count % 3    className={`post-card ${props.count % 4 === 0 && `post-card-large-cam`} ${
 //    className={`post-card ${props.count % 4 === 0 ? `post-card-large` : `` } ${
+  //
+  // post-card-twosquares-min
   export default props => (
     <article
-      className={`post-card ${`post-card-twosquares-min`} ${
+      className={`post-card ${`post-card-large-dev`} ${
         props.postClass
       } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
       style={
