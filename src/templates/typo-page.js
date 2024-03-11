@@ -30,7 +30,7 @@ const WorkPage = ({ data }) => {
       )}
 
 <div>
-      <p>This is additional text.</p>
+      <p>This is additional text 1 typo-page.js.</p>
     </div>
 
 
@@ -47,6 +47,13 @@ const WorkPage = ({ data }) => {
           )
         })}
       </div>
+
+
+      <div>
+      <p>This is additional text 2 typo-page.js.</p>
+    </div>
+
+
     </Layout>
   )
 }

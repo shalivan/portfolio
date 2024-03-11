@@ -1,6 +1,6 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/CoverEC02.png
+thumbnail: /img/dev/the-vanishing-of-ethan-carter-concept-art.jpg
 date: 2023-03-16T04:59:59.653Z
 title: Ethan Carter
 number: 4
@@ -34,14 +34,11 @@ The Vanishing of Ethan Carter was created inhouse by **8 people** team and is **
 
 --- 
 
+![Witchfire Key Art](/img/dev/the-vanishing-of-ethan-carter-concept-art.jpg)
+
 
 ![Witchfire Key Art](/img/dev/RustyWood.jpg)
 
-
-
-## Steam
-
-https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
 
 
 ## Trailer 
@@ -51,6 +48,24 @@ https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
 
 
 
+
+![Witchfire Key Art](/img/dev/ethan_carter_rocky_path.gif)
+
+![Witchfire Key Art](/img/dev/ethan_carter_cemetery.gif)
+
+
+
+--- 
+
+
+## Steam
+
+Ethan Carter Steam Site: https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
+
+
+
+--- 
+
 ## Awards 
 
 
@@ -59,9 +74,3 @@ https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
 
 
 
-
-
-
-![Witchfire Key Art](/img/dev/ethan_carter_rocky_path.gif)
-
-![Witchfire Key Art](/img/dev/ethan_carter_cemetery.gif)
