@@ -28,6 +28,12 @@ const WorkPage = ({ data }) => {
           </h2>
         </header>
       )}
+
+<div>
+      <p>This is additional text.</p>
+    </div>
+
+
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++
