@@ -1,9 +1,7 @@
 ---
 templateKey: typo-sub-page
-thumbnail: /img/typo/f2.png
-date: 2022-03-16T04:59:59.653Z
-title: WF MAP
+thumbnail: /img/pro/maps/map_51s.jpg
+date: 2000-03-16T04:59:59.653Z
+title: Ethan Carter World Building
 description: "MAP"
 ---
-
-![](/img/typo/f2.png)
