@@ -1,6 +1,6 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/CoverAF01.png
+thumbnail: /img/dev/covers/CoverAF01.png
 number: 6
 pagetype:
   - main

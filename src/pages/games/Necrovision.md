@@ -1,6 +1,6 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/A.png
+thumbnail: /img/dev/covers/CoverA01_logo.png
 date: 2021-03-06T05:10:14.676Z
 title: Necrovision
 number: 5

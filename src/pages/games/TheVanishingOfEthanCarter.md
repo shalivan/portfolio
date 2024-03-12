@@ -1,6 +1,6 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/the-vanishing-of-ethan-carter-concept-art.jpg
+thumbnail: /img/dev/covers/CoverEC01_logo.png
 date: 2023-03-16T04:59:59.653Z
 title: Ethan Carter
 number: 4

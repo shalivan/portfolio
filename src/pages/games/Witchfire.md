@@ -7,7 +7,7 @@ description: "2024r. First person shooter"
 number: 3
 pagetype:
   - main
-featuredimage: /img/dev/CoverWF01.png
+featuredimage: /img/dev/covers/CoverWF01_logo.png
 ---
 
 
