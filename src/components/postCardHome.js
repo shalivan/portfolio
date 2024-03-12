@@ -7,7 +7,7 @@ export default props => (
  //  className={`${props.count === 1 ? "post-card-biosq" : props.count === 2 || props.count === 3 ? "post-card-dev" : props.count === 3 ? "post-card-cam" : "post-card-cover"} ${
   // className={`post-card ${props.count % 3 === 0 && `post-card-cover`} ${
 
-  className={`post-card ${props.count % 3 === 0 ? 'post-card-cover' : 'post-card' } ${
+  className={`post-card ${props.count % 3 === 0 ? 'post-card' : 'post-card-cover' } ${
  
     props.postClass
 
