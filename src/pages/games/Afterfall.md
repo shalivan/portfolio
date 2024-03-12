@@ -1,11 +1,11 @@
 ---
 templateKey: game-sub-page
-thumbnail: /img/dev/covers/CoverWF01_logo.png
+thumbnail: /img/dev/covers/CoverAF01_logo.png
 number: 6
 pagetype:
   - main
 date: 2021-03-06T05:10:14.676Z
-title: Afterfall
+title: 
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
