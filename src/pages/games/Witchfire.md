@@ -2,7 +2,7 @@
 templateKey: game-sub-page
 thumbnail: /img/dev/covers/CoverWF01_logo.png
 date: 2024-03-06T05:10:14.676Z
-title: 
+title: .
 description: "2024r. First person shooter"
 number: 3
 pagetype:
