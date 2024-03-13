@@ -2,10 +2,10 @@
 templateKey: game-sub-page
 thumbnail: /img/dev/covers/CoverAF01_logo.png
 number: 6
+title: x
 pagetype:
   - main
 date: 2021-03-06T05:10:14.676Z
-title: .
 description: "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!"
 ---
 
