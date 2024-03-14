@@ -49,12 +49,6 @@ The Vanishing of Ethan Carter was created inhouse by **8 people** team and is **
 
 
 
-![Witchfire Key Art](/img/dev/ethan_carter_rocky_path.gif)
-
-![Witchfire Key Art](/img/dev/ethan_carter_cemetery.gif)
-
-
-
 --- 
 
 
