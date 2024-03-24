@@ -45,6 +45,44 @@ const BioPage = (props) => {
           <footer className="post-content-footer">
           </footer>
         </article>
+
+
+
+
+        <div>
+      <p>This is additional text 1 typo-page.js.</p>
+    </div>
+
+
+      <div className="post-feed">
+        {posts.map(({ node }) => {
+          postCounter++
+          return (
+            <PostCardTypo
+              key={node.fields.slug}
+              count={postCounter}
+              node={node}
+              postClass={`post`}
+            />
+          )
+        })}
+      </div>
+
+
+      <div>
+      <p>This is additional text 2 typo-page.js.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
       </Layout>
     );
 };
