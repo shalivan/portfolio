@@ -38,6 +38,17 @@ The Vanishing of Ethan Carter was created inhouse by **8 people** team and is **
 
 ## Steam
 
+
+“A story told with a level of cleverness and elegance rarely seen in games.”
+9/10 – GameSpot
+
+“Leaves you with several amazing memories; moments that you will want to talk to your friends about for hours.”
+9/10 – EuroGamer
+
+“One of the best games of the year.”
+9/10 – US Gamer
+
+
 Ethan Carter Steam Site: https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/
 
 --- 
