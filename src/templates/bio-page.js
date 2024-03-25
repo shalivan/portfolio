@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import PostCardTypo from "../components/postCardTypo"
+
 // eslint-disable-next-line
 
 
@@ -50,29 +50,6 @@ const BioPage = (props) => {
 
 
 
-        <div>
-      <p>This is additional text 1 typo-page.js.</p>
-    </div>
-
-
-      <div className="post-feed">
-        {posts.map(({ node }) => {
-          postCounter++
-          return (
-            <PostCardTypo
-              key={node.fields.slug}
-              count={postCounter}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
-      </div>
-
-
-      <div>
-      <p>This is additional text 2 typo-page.js.</p>
-    </div>
 
 
 
