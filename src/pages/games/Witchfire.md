@@ -35,7 +35,7 @@ Armed with strange weapons and forbidden pagan magic, hunt a powerful witch hold
 Some of my articles from Astro Blog: 
 
 
-● [Art Direction Note](https://www.theastronauts.com/2019/03/art-direction-wallpapers/)
+● ![Art Direction Note](https://www.theastronauts.com/2019/03/art-direction-wallpapers/)
 
 
 ----
@@ -44,7 +44,7 @@ Some of my articles from Astro Blog:
 
 # Store link 
 
-[Epic Game Store](https://store.epicgames.com/en-US/p/witchfire-db273e)
+![Epic Game Store](https://store.epicgames.com/en-US/p/witchfire-db273e)
 
 
 ![Digital Frontiers screenshots](/img/dev/games/51-copy.jpg)
