@@ -2,7 +2,7 @@
 templateKey: game-sub-page
 thumbnail: /img/dev/covers/CoverEC01_logo.png
 date: 2023-03-16T04:59:59.653Z
-title:
+title: The Vanishing Of Ethan Carter
 number: 4
 pagetype:
   - main
@@ -16,9 +16,10 @@ The Vanishing of Ethan Carter was created inhouse by **8 people** team and is **
 ![](/img/dev/FamilyHouse.jpg)
 
 
+---
+
 ## Articels
 
----
 
 - The Creative Process: INDIE VS AAA   
 - Our Approach to foliage   
@@ -56,38 +57,38 @@ Ethan Carter Steam Site: https://store.steampowered.com/app/258520/The_Vanishing
 ## Awards 
 
 #### Winner 
-2015 "**Innovation**" at The British Academy Video Games Award
-2014 "Indie 2014" at VMAG
-2014 "**Best Visual Design**" at EDGE
+- "**Innovation**" at The British Academy Video Games Award
+- "Indie 2014" at VMAG
+- "**Best Visual Design**" at EDGE
 
 
 #### Nominations: 
-2014 PC "**GOTY**" at Gamespot
-2015 "**Debut Game**" at The British Academy Video Games Award
-2015 "**New Intellectual Property**" at The British Academy Video Games Award
-2015 " " at The British Academy Video Games Award
-2014 "Outstanding Achievement in Game Direction" at D.I.C.E.
-2014 "**Outstanding Achievement in Art Direction**" at D.I.C.E.
-2014 "Outstanding Achievement in Original Music Composition" at D.I.C.E.
-2014 "**Adventure Game of the Year**" @ D.I.C.E.
-2014 "**Best Independend**" @ The Game Awards
-2014 "**Excellence in Visual Achievement**" @ SXSW Gaming Awards
-2014 "Excelent in Audio" at IGF 
-2014 "**Innovation Award**" at Game Developers Choice Award
-2014 "**Best Debiut**" at Game Developers Choice Award 
-2014 "Best Narrative" at Game Developers Choice Award 
-2014 "Best Audio" at Game Developers Choice Award 
-2014 "Best Story" at ING 
-2014 "**Best PC Game**" at ING 
-2014 "Best Adventure" at ING  
-2014 "**Best Graphics-Technology**" at ING  
-2014 "Best Sound Design" at ING  
+- PC "**GOTY**" at Gamespot
+- "**Debut Game**" at The British Academy Video Games Award
+- "**New Intellectual Property**" at The British Academy Video Games Award
+- " " at The British Academy Video Games Award
+- "Outstanding Achievement in Game Direction" at D.I.C.E.
+- "**Outstanding Achievement in Art Direction**" at D.I.C.E.
+- "Outstanding Achievement in Original Music Composition" at D.I.C.E.
+- "**Adventure Game of the Year**" @ D.I.C.E.
+- "**Best Independend**" @ The Game Awards
+- "**Excellence in Visual Achievement**" @ SXSW Gaming Awards
+- "Excelent in Audio" at IGF 
+- "**Innovation Award**" at Game Developers Choice Award
+- "**Best Debiut**" at Game Developers Choice Award 
+- "Best Narrative" at Game Developers Choice Award 
+- "Best Audio" at Game Developers Choice Award 
+- "Best Story" at ING 
+- "**Best PC Game**" at ING 
+- "Best Adventure" at ING  
+- "**Best Graphics-Technology**" at ING  
+- "Best Sound Design" at ING  
 
 #### Honorable Mentions:
 
-2014 "**Best Visual Art**" at Game Developers Choice Award
-2014 "**Excelent in Graphic**" at IGF 
-2014 "Seumas McNallyGrand Prize" at IGF 
+- "**Best Visual Art**" at Game Developers Choice Award
+- **Excelent in Graphic**" at IGF 
+- "Seumas McNallyGrand Prize" at IGF 
 
 
 
