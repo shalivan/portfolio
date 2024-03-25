@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import PostCardTypo from "../components/postCardTypo"
 // eslint-disable-next-line
 
 
