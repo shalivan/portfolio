@@ -62,7 +62,10 @@ Concept Art by : Bernard Kowalczuk
 
 ## Steam
 
-![Ethan Carter Steam Site](https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter/)
+[Ethan Carter Steam Site](https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter)
+
+ <a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter">Ethan Carter Steam Site</a> 
+
 
 
 --- 
