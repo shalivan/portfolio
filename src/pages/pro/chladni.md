@@ -6,16 +6,9 @@ title: CHLADNI
 description: "Chladni patterns shader Unreal"
 ---
 
-![](/img/pro/chladni/2019-02-26_22-01-55.gif)
 
-![](/img/pro/chladni/2019-02-26_22-01-55.mp4)
+![](/img/pro/chladni/HighresScreenshot00074.png)
 
-![](/img/pro/chladni/2019-02-26_22-01-55.webm)
+![](/img/pro/chladni/HighresScreenshot00098.png)
 
-
-![](/img/pro/chladni/chladni_01.png)
-
-![](/img/pro/chladni/chladni_02.png)
-
-![](/img/pro/chladni/chladni_03.png)
 
