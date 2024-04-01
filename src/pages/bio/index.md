@@ -11,7 +11,11 @@ featuredimage: /img/pro/AB.png
 ---
 
 
+Research in space and enviroment for realtime engins. Interested in: Art, Culture, Creating new IP's, RnD, Design, Procedural Graphic, Shading, Audio Visuals,  and Fractals. Trying to contribute in non conventional projects, and pushing boundaries. Lately spend too much time in game development. 
 
+ Contact:  
+
+ 
 
 --- 
 

@@ -40,6 +40,30 @@ Some of my articles from Astro Blog:
 <a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/">Art Direction Note A HREF</a>
 
 
+ [Jean-Marc Denis](http://jmd.im/black)
+
+
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](/img/dev/games/12-copy-1.jpg)
+
+</div>
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](/img/dev/games/12-copy-1.jpg)
+
+</div>
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](/img/dev/games/12-copy-1.jpg)
+
+</div>
+
+
+
 ----
 
 
