@@ -1,7 +1,7 @@
 ---
 templateKey: pro-sub-page
 thumbnail: /img/pro/mat_01/b.png
-date: 2023-01-16T04:59:59.653Z
+date: 2022-11-16T04:59:59.653Z
 title: TEX
 description: "TEX"
 ---
