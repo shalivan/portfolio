@@ -1,6 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import PostCardTypo from "../components/postCardTypo"
@@ -49,6 +50,14 @@ const WorkPage = ({ data }) => {
           <hr />
 
 
+
+          <figure className="kg-card kg-image-card kg-width-full">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Full bleed image</figcaption>
+          </figure>
 
 
 
