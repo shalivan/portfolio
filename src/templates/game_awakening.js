@@ -10,7 +10,18 @@ import Seo from "../components/seo"
 const BioPage = (props) => {
 
 
-    const { markdownRemark: post, site } = props.data;
+  const { pageContext } = props
+  const nextSlug = pageContext?.next ? pageContext?.next?.fields?.slug.split('/').slice(2, -1).join('/') === '' ? '/' :
+    `/${pageContext.next.fields.slug.split('/').slice(2, -1).join('/')}` : '/';
+  const previousSlug = pageContext.previous ? pageContext?.previous?.fields?.slug?.split('/').slice(2, -1).join('/') === '' ? '/' :
+    `/${pageContext.previous.fields.slug.split('/').slice(2, -1).join('/')}` : "/"
+  const nextLinkStatus = pageContext?.next ? pageContext?.next?.frontmatter?.templateKey === 'work-sub-page' ? true : false : false
+  const previousLinkStatus = pageContext?.previous ? pageContext?.previous?.frontmatter?.templateKey === 'work-sub-page' ? true : false : false
+
+  const post = props.data.markdownRemark
+  const siteTitle = props.data.site.siteMetadata.title
+  const social = props.data.site.siteMetadata.social
+
 
     return (
         <Layout location={props.location} title={site.siteMetadata.title } social={site.siteMetadata.social}>
@@ -25,6 +36,20 @@ const BioPage = (props) => {
               <div className="post-content-body">
          
 AWAKWE
+
+
+<GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Large image</figcaption>
+          </figure>
+          <figure className="kg-card kg-image-card kg-width-full">
+
+
+
+            
+          </figure>
          
           <h1 id="heading-level-1">Heading Level 1</h1>
           <h2 id="heading-level-2">Heading Level 2</h2>

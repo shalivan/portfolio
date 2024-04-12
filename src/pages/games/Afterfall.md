@@ -1,5 +1,5 @@
 ---
-templateKey: game_awakening
+templateKey: game-sub-page
 thumbnail: /img/dev/covers/CoverAF02_logo.png
 number: 6
 title: Afterfall
