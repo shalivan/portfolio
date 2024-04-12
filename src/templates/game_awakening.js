@@ -25,9 +25,13 @@ const BioPage = (props) => {
       <article
         className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
       >
-        <header className="post-content-header">
+
+<header className="post-content-header">
           <h1 className="post-content-title">{post.frontmatter.title}</h1>
         </header>
+        {post.frontmatter.description && (
+          <p className="post-content-excerpt">{post.frontmatter.description}</p>
+        )}
 
               <div className="post-content-body">
          
