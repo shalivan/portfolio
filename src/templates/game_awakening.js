@@ -9,11 +9,13 @@ import Seo from "../components/seo"
 
 const BioPage = (props) => {
 
+// JAK NIE ZADZIAŁA TO MOZANA USTAWI MANUALNIEL   const siteTitle = "Your Static Title Here";
+  const siteTitle = props.data.site.siteMetadata.title
 
     const { markdownRemark: post, site } = props.data;
 
     return (
-        <Layout location={props.location} title={site.siteMetadata.title } social={site.siteMetadata.social}>
+        <Layout location={props.location} title={siteTitle } social={site.siteMetadata.social}>
         <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
