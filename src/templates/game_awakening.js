@@ -38,18 +38,7 @@ const BioPage = (props) => {
 AWAKWE
 
 
-<GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Large image</figcaption>
-          </figure>
-          <figure className="kg-card kg-image-card kg-width-full">
 
-
-
-            
-          </figure>
          
           <h1 id="heading-level-1">Heading Level 1</h1>
           <h2 id="heading-level-2">Heading Level 2</h2>
