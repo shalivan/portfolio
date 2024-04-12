@@ -35,7 +35,7 @@ const BioPage = (props) => {
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
         )}
 
-              <div className="post-content-body">
+              <div className="post-content">
          
 
          
