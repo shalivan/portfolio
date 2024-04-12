@@ -50,14 +50,6 @@ const WorkPage = ({ data }) => {
 
 
 
-          <figure className="kg-card kg-image-card kg-width-full">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Full bleed image</figcaption>
-          </figure>
-
 
 
 
