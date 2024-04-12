@@ -35,7 +35,7 @@ const WorkPage = ({ data }) => {
 
 
 
-<div className="post-content-body">XXxx 
+<div className="post-content">XXxx 
 
 
 
