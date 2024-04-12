@@ -32,6 +32,51 @@ const WorkPage = ({ data }) => {
 
 
 
+
+
+
+<div className="post-content-body">XXxx 
+
+
+
+
+          <h1 id="heading-level-1">Heading Level 1</h1>
+          <h2 id="heading-level-2">Heading Level 2</h2>
+          <h3 id="heading-level-3">Heading Level 3</h3>
+          <h4 id="heading-level-4">Heading Level 4</h4>
+          <h5 id="heading-level-5">Heading Level 5</h5>
+          <h6 id="heading-level-6">Heading Level 6</h6>
+          <hr />
+          <p>
+            This is{" "}
+            <strong>
+              <strong>bold</strong>
+            </strong>{" "}
+            and this is{" "}
+            <strong>
+              <strong>strong</strong>
+            </strong>
+            . This is{" "}
+            <em>
+              <em>italic</em>
+            </em>{" "}
+            and this is{" "}
+            <em>
+              <em>emphasized</em>
+            </em>
+            . This is <sup>superscript</sup>text and this is{" "}
+            <sub>subscript</sub> text. This is <u>underlined</u> and this is
+            code:{" "}
+            <code>
+              for (;;) {"{"} ... {"}"}
+            </code>
+            . Finally, this is a <a href="#">link</a>.
+          </p>
+
+
+</div>
+
+
 <h2 id="blockquote">
             <strong>Typography</strong>
           </h2>
