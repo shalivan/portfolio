@@ -29,6 +29,38 @@ const WorkPage = ({ data }) => {
         </header>
       )}
 
+
+
+
+<h2 id="blockquote">
+            <strong>Blockquote</strong>
+          </h2>
+
+
+
+
+          <blockquote>
+            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+            sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+            faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+            adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+            faucibus vestibulum. Blandit adipiscing eu felis.
+          </blockquote>
+          <hr />
+
+
+
+          <figure className="kg-card kg-image-card kg-width-full">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Full bleed image</figcaption>
+          </figure>
+
+
+
+
 <div>
       <p>This is additional text 1 typo-page.js.</p>
     </div>
