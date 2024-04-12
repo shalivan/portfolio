@@ -10,7 +10,7 @@ import Seo from "../components/seo"
 const BioPage = (props) => {
 
 // JAK NIE ZADZIAŁA TO MOZANA USTAWI MANUALNIEL   const siteTitle = "Your Static Title Here";
-  const siteTitle = props.data.site.siteMetadata.title
+  const siteTitle = "Your Static Title Here"
 
     const { markdownRemark: post, site } = props.data;
 
