@@ -64,13 +64,19 @@ const BioPage = (props) => {
           </blockquote>
           <hr />
           <h2 id="images">Images</h2>
+
+
+
           <figure className="kg-card kg-image-card">
           <GatsbyImage
-                image={getImage(post.frontmatter.featuredimage)}
+                image={getImage(post.frontmatter.thumbnail)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Regular image</figcaption>
           </figure>
+
+
+
           <figure className="kg-card kg-image-card kg-width-wide">
           <GatsbyImage
                 image="/img/dev/adam-bryla-2.jpg"
@@ -81,7 +87,8 @@ const BioPage = (props) => {
 
 
           
-          <figure className="kg-card kg-image-card kg-width-wide">
+          
+ <figure className="kg-card kg-image-card kg-width-wide">
   <img
     src="/img/dev/CoverWF01.jpg" // Replace this path with the relative path to your image
     className="kg-image"
