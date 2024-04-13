@@ -1,5 +1,5 @@
 ---
-templateKey: cam-sub-page
+templateKey: bio-sub-page
 thumbnail: /img/cam/studio/DSC_0382.png
 thumbnails:
   - image: /img/cam/studio/DSC_0297.png

@@ -33,6 +33,8 @@ const WorkPage = ({ data }) => {
 
 
 
+  {/* BODY OF PAGE */}
+  {/* Above cards */}
 
 
 <div className="post-content">XXxx 
@@ -74,10 +76,7 @@ const WorkPage = ({ data }) => {
           </p>
 
 
-</div>
-
-
-<h2 id="blockquote">
+          <h2 id="blockquote">
             <strong>Typography</strong>
           </h2>
 
@@ -94,16 +93,11 @@ const WorkPage = ({ data }) => {
           <hr />
 
 
+</div>
 
 
 
-
-
-
-<div>
-      <p>This is additional text 1 typo-page.js.</p>
-    </div>
-
+  {/* Cards */}
 
       <div className="post-feed">
         {posts.map(({ node }) => {
@@ -120,10 +114,7 @@ const WorkPage = ({ data }) => {
       </div>
 
 
-      <div>
-      <p>This is additional text 2 typo-page.js.</p>
-    </div>
-
+  {/* Below cards */}
 
     </Layout>
   )
@@ -141,7 +132,7 @@ query IndexPage {
       }
     }
   }
-  markdownRemark(frontmatter: {templateKey: {eq: "typo-page"}}) {
+  markdownRemark(frontmatter: {templateKey: {eq: "bio-page"}}) {
     frontmatter {
       title
       description
@@ -156,7 +147,7 @@ query IndexPage {
     
   }
   allMarkdownRemark(
-    filter: {frontmatter: {templateKey: {eq: "typo-sub-page"}}}
+    filter: {frontmatter: {templateKey: {eq: "bio-sub-page"}}}
     limit: 30
     sort: {frontmatter: {date: DESC}}
   ) {
