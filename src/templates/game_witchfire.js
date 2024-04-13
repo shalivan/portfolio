@@ -73,7 +73,7 @@ const BioPage = (props) => {
           </figure>
           <figure className="kg-card kg-image-card kg-width-wide">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
+                image="/img/dev/adam-bryla-2.jpg"
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Large image</figcaption>
