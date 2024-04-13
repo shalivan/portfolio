@@ -1,5 +1,5 @@
 ---
-templateKey: game-sub-page
+templateKey: game_witchfire
 thumbnail: /img/dev/covers/CoverWF01_logo.png
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire

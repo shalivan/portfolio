@@ -39,6 +39,30 @@ const WorkPage = ({ data }) => {
 
 <div className="post-content">XXxx 
 
+asdawda   
+
+<h2 id="images">Images</h2>
+          <figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+          </figure>
+          <figure className="kg-card kg-image-card kg-width-wide">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Large image</figcaption>
+          </figure>
+          <figure className="kg-card kg-image-card kg-width-full">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Full bleed image</figcaption>
+          </figure>
 
 
 
