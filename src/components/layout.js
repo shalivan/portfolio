@@ -52,11 +52,11 @@ const Layout = props => {
 
               
               <li className={`nav-home  ${data.pathname.includes('/cam') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/cam`}>photography</Link>
+                <Link to={`/cam`}>photo</Link>
               </li>
 
               <li className={`nav-home  ${data.pathname.includes('/pro') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/pro`}>projects</Link>
+                <Link to={`/pro`}>cg</Link>
               </li>
 
               <li className={`nav-home  ${data.pathname.includes('/typo') ? 'nav-current' : ""} `} role="menuitem">
