@@ -24,6 +24,17 @@ const BlogPostTemplate = (props) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+
+
+
+
+
+
+
+
+
+
+
       <article
         className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
       >
@@ -34,10 +45,19 @@ const BlogPostTemplate = (props) => {
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
         )}
         {/* Removed the thumbnail section */}
+
+
+        
         <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+
+
+
+
+
+
         <div className="post-link">
           <div>
             <a style={{ display: nextLinkStatus ? "flex" : 'none', alignItems: "center", color: "#131313", fontSize: "2rem" }} href={nextSlug} >
@@ -58,6 +78,22 @@ const BlogPostTemplate = (props) => {
           </div>
         </div>
       </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </Layout>
   );
 

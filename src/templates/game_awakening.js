@@ -10,7 +10,8 @@ import Seo from "../components/seo"
 const BioPage = (props) => {
 
 // JAK NIE ZADZIAŁA TO MOZANA USTAWI MANUALNIEL   const siteTitle = "Your Static Title Here";
-  const siteTitle = "Your Static Title Here"
+// <h1 className="post-content-title">{post.frontmatter.title}</h1>
+  const siteTitle = props.data.site.siteMetadata.title
 
     const { markdownRemark: post, site } = props.data;
 
@@ -23,13 +24,26 @@ const BioPage = (props) => {
 
         />
 
+
+
+
+
+
+
+
+
+
+
+
+
         
       <article
         className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
       >
 
 <header className="post-content-header">
-          <h1 className="post-content-title">{post.frontmatter.title}</h1>
+
+          <h1 className="post-content-title">THE AWAKENING</h1>
         </header>
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
@@ -548,6 +562,37 @@ const BioPage = (props) => {
           <footer className="post-content-footer">
           </footer>
         </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </Layout>
     );
 };
