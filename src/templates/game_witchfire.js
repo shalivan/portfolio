@@ -70,7 +70,10 @@ const BioPage = (props) => {
 
           <hr />
 
-
+          <div
+          className="post-content-body"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
 
 
 
