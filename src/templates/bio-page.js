@@ -37,21 +37,60 @@ const WorkPage = ({ data }) => {
   {/* Above cards */}
 
 
-<div className="post-content">XXxx 
+<div className="post-content">
 
-asdawda   
-
-
+  
 
 
-          <h1 id="heading-level-1">Heading Level 1</h1>
-          <h2 id="heading-level-2">Heading Level 2</h2>
-          <h3 id="heading-level-3">Heading Level 3</h3>
-          <h4 id="heading-level-4">Heading Level 4</h4>
-          <h5 id="heading-level-5">Heading Level 5</h5>
-          <h6 id="heading-level-6">Heading Level 6</h6>
+          <h2 id="blockquote">
+            <strong>Artist / Art Director</strong>
+          </h2>
+          <blockquote>
+Research in space and enviroment for realtime engins. Interested in: Art, Culture, Creating new IP's, RnD, Design, Procedural Graphic, Shading, Audio Visuals,  and Fractals. Trying to contribute in non conventional projects, and pushing boundaries. Lately spend too much time in game development. 
+
+          </blockquote>
           <hr />
-          <p>
+          
+          <h2 id="heading-level-2">Software:  </h2>
+
+          Here is some of great tech I'm used to use and explore on daily basis:
+
+          <img src="/img/dev/adam-bryla-2.jpg" alt="Additional Image" />
+
+          <hr />
+
+          <h2 id="heading-level-2">Contact:  </h2>
+
+          <hr />
+
+
+
+
+</div>
+
+
+
+  {/* Cards */}
+
+      <div className="post-feed">
+        {posts.map(({ node }) => {
+          postCounter++
+          return (
+            <PostCardTypo
+              key={node.fields.slug}
+              count={postCounter}
+              node={node}
+              postClass={`post`}
+            />
+          )
+        })}
+      </div>
+
+
+  {/* Below cards */}
+
+
+  <p>
             This is{" "}
             <strong>
               <strong>bold</strong>
@@ -78,45 +117,15 @@ asdawda
           </p>
 
 
-          <h2 id="blockquote">
-            <strong>Typography</strong>
-          </h2>
 
 
 
 
-          <blockquote>
-            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-            sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-            adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis.
-          </blockquote>
-          <hr />
-
-
-</div>
 
 
 
-  {/* Cards */}
-
-      <div className="post-feed">
-        {posts.map(({ node }) => {
-          postCounter++
-          return (
-            <PostCardTypo
-              key={node.fields.slug}
-              count={postCounter}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
-      </div>
 
 
-  {/* Below cards */}
 
     </Layout>
   )
