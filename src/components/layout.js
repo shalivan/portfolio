@@ -50,14 +50,14 @@ const Layout = props => {
               </li>
 
 
+              <li className={`nav-home  ${data.pathname.includes('/pro') ? 'nav-current' : ""} `} role="menuitem">
+                <Link to={`/pro`}>digital</Link>
+              </li>
               
               <li className={`nav-home  ${data.pathname.includes('/cam') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/cam`}>photo</Link>
               </li>
 
-              <li className={`nav-home  ${data.pathname.includes('/pro') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/pro`}>digital</Link>
-              </li>
 
               <li className={`nav-home  ${data.pathname.includes('/typo') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/typo`}>typo</Link>
