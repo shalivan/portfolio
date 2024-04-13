@@ -55,17 +55,23 @@ Research in space and enviroment for realtime engins. Interested in: Art, Cultur
 
           Here is some of great tech I'm used to use and explore on daily basis:
 
-          <img src="/img/dev/adam-bryla-2.jpg" alt="Additional Image" />
+          <img src="../../img/dev/adam-bryla-2.jpg" alt="Additional Image" />
 
           <hr />
 
           <h2 id="heading-level-2">Contact:  </h2>
 
           <hr />
+Credited in: 
+- The Vanishing of Ethan Carter (2015): The Astronauts
+- Afterfall: InSanity - Extended Edition (2012): Cinematic Executors
+- NecroVisioN (2009): Art Director, Environment Artists2
 
-
-
-
+Thanks: 
+- Seven: The Days Long Gone (2017): Special Thanks
+- Superhot (2016): Thanks
+- Kholat (2015): 3D Artists
+- MouseCraft (2014): Special Thanks
 </div>
 
 
