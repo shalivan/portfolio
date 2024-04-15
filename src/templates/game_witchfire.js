@@ -45,12 +45,33 @@ const BioPage = (props) => {
 
           <h1 className="post-content-title">THE AWAKENING</h1>
         </header>
+
+
+
+
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
         )}
 
-              <div className="post-content">
-         
+
+
+
+
+<div className="post-content">
+      
+
+
+<figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+
+
+
 
           <h2 id="blockquote">
             <strong>Blockquote</strong>
@@ -67,7 +88,7 @@ const BioPage = (props) => {
 
 
 
-          <img src="/img/dev/CoverWF01.jpg" alt="Witchfire Key Art"></img>
+          <img src="dev/CoverWF01.jpg" alt="Witchfire Key Art"></img>
 
 <p>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay.</p>
 
