@@ -70,10 +70,10 @@ const GameWFPage = (props) => {
 </figure>
 
 
-## Image 1 GatsbyImage array 
+## Image 1 GatsbyImage xxx old
 <figure className="kg-card kg-image-card">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnails[0])}
+                image={getImage(post.frontmatter.thumbnail)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Regular image</figcaption>
