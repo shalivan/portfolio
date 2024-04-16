@@ -26,16 +26,6 @@ const GameWFPage = (props) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
         
       <article
         className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
@@ -46,9 +36,6 @@ const GameWFPage = (props) => {
           <h1 className="post-content-title">Witchfire</h1>
         </header>
 
-
-
-
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
         )}
@@ -56,9 +43,53 @@ const GameWFPage = (props) => {
 
 
 
-
 <div className="post-content">
       
+
+
+
+
+      
+<figure className="kg-card kg-image-card kg-width-wide">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+
+
+
+
+<h2 id="blockquote">
+            <strong>Blockquote</strong>
+          </h2>
+          <blockquote>
+          Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. 
+
+          </blockquote>
+          <hr />
+
+
+
+Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.
+
+## Game Awards Trailer 
+
+
+<iframe width="1053" height="601" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
 <hr />
 ## Image 1 GatsbyImage
 <figure className="kg-card kg-image-card">
@@ -98,13 +129,6 @@ const GameWFPage = (props) => {
 </figure>
 
 ## Image 1 GatsbyImage xx3 old
-<figure className="kg-card kg-image-card kg-width-wide">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
-</figure>
 
 
 
@@ -112,17 +136,6 @@ const GameWFPage = (props) => {
 
 
 
-          <h2 id="blockquote">
-            <strong>Blockquote</strong>
-          </h2>
-          <blockquote>
-            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-            sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-            adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis.
-          </blockquote>
-          <hr />
           <h2 id="images">Images</h2>
 
           ## Image 2 img src
