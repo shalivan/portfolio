@@ -63,7 +63,7 @@ const GameWFPage = (props) => {
 ## Image 1 GatsbyImage
 <figure className="kg-card kg-image-card">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail2)}
+                image={getImage(post.frontmatter.thumbnailx)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Regular image</figcaption>
@@ -72,6 +72,33 @@ const GameWFPage = (props) => {
 
 ## Image 1 GatsbyImage xxx old
 <figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+## Image 1 GatsbyImage xx1 old
+<figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+## Image 1 GatsbyImage xx2 old
+<figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+## Image 1 GatsbyImage xx3 old
+<figure className="kg-card kg-image-card kg-width-wide">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail)}
                 className="kg-image"
@@ -558,6 +585,16 @@ export const GameWFPageQuery = graphql`
             
             }
           }
+
+
+          thumbnailx {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
+
+
         }
         html
       }
