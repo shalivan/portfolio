@@ -532,7 +532,7 @@ export const GameWFPageQuery = graphql`
           }
         }
       }
-    markdownRemark(frontmatter: {templateKey: {eq: "game-witchfire"}}) {
+    markdownRemark(frontmatter: {templateKey: {eq: "game_witchfire"}}) {
         frontmatter {
           title
           description
