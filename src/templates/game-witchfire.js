@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 // eslint-disable-next-line
 
 
-const BioPage = (props) => {
+const GameWFPage = (props) => {
 
 // JAK NIE ZADZIAŁA TO MOZANA USTAWI MANUALNIEL   const siteTitle = "Your Static Title Here";
 // <h1 className="post-content-title">{post.frontmatter.title}</h1>
@@ -43,7 +43,7 @@ const BioPage = (props) => {
 
 <header className="post-content-header">
 
-          <h1 className="post-content-title">THE AWAKENING</h1>
+          <h1 className="post-content-title">Witchfire</h1>
         </header>
 
 
@@ -515,14 +515,14 @@ const BioPage = (props) => {
     );
 };
 
-BioPage.propTypes = {
+GameWFPage.propTypes = {
     data: PropTypes.object.isRequired,
 };
 
-export default BioPage;
+export default GameWFPage;
 
-export const BioPageQuery = graphql`
-  query BioPage {
+export const GameWFPageQuery = graphql`
+  query GameWFPage {
     site {
         siteMetadata {
           title

@@ -28,6 +28,16 @@ const WorkPage = ({ data }) => {
           </h2>
         </header>
       )}
+
+
+
+{/* Above cards */}
+<h2 id="blockquote"> <strong>Computer Graphic projects</strong> </h2>
+<blockquote> Shaders / renders and other fun stuff..  </blockquote>
+<hr />
+
+
+
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++
