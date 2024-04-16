@@ -1,6 +1,10 @@
 ---
 templateKey: game_witchfire
 thumbnail: /img/dev/covers/CoverWF01_logo.png
+thumbnail2: /img/dev/games/12-copy-1.jpg
+thumbnails:
+  - wfcover: /img/dev/CoverWF01.jpg
+  - wfcover2: /img/dev/games/12-copy-1.jpg
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire
 description: "2024r. Dark Fantasy FPS With Guns."
