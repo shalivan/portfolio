@@ -48,7 +48,7 @@ Some of my articles from Astro Blog:
 
 
 
-<div class="kg-card kg-image-card kg-width-full">
+<div class="thumbnail">
 
 ![Darkness](/img/dev/games/12-copy-1.jpg)
 
@@ -60,12 +60,18 @@ Some of my articles from Astro Blog:
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-width">
 
 ![Darkness](/img/dev/games/12-copy-1.jpg)
 
 </div>
 
+
+<div class="kg-width-wide">
+
+![Darkness](/img/dev/games/12-copy-1.jpg)
+
+</div>
 
 
 ----

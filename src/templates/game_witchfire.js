@@ -59,8 +59,8 @@ const GameWFPage = (props) => {
 
 <div className="post-content">
       
-
-
+<hr />
+## Image 1 GatsbyImage
 <figure className="kg-card kg-image-card">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail2)}
@@ -70,6 +70,18 @@ const GameWFPage = (props) => {
 </figure>
 
 
+## Image 1 GatsbyImage array 
+<figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnails[0])}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+
+
+<hr />
 
 
 
@@ -86,12 +98,14 @@ const GameWFPage = (props) => {
           <hr />
           <h2 id="images">Images</h2>
 
-
+          ## Image 2 img src
 
           <img src="dev/CoverWF01.jpg" alt="Witchfire Key Art"></img>
 
 <p>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay.</p>
 
+
+## Image 3 
 <img src="/img/dev/games/12-copy-1.jpg" alt="Digital Frontiers screenshots"></img>
 <p>Screen by: Digital Frontiers</p>
 
@@ -108,6 +122,8 @@ const GameWFPage = (props) => {
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+
+
 
 
 
