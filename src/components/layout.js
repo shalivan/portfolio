@@ -78,7 +78,7 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <Link
-                to={`https://facebook.com/${social.facebook}`}
+                to={`https://x.com/${social.facebook}`}
                 title="X"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -86,7 +86,7 @@ const Layout = props => {
                 Artstation
               </Link>
               <Link
-                to={`https://instagram.com/${social.twitter}`}
+                to={`https://www.linkedin.com/in/${social.twitter}`}
                 title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -96,7 +96,7 @@ const Layout = props => {
 
               
               <Link
-                to={`https://github.com/lilxyzz/gatsby-clay`}
+                to={`https://artstation.com/adambryla`}
                 title="Artstation"
                 target="_blank"
                 rel="noopener noreferrer"

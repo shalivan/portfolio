@@ -8,8 +8,8 @@ const siteConfig = {
   url: '/', // Domain of your site without prefix!
   prefix: '/',
   author: 'Adam Bryła',
-  twitter: 'https://twitter.com/BrylaAdam' ,
-  facebook:'',
+  twitter: 'adambryla/' ,
+  facebook:'BrylaAdam',
   github:'',
   manifest_icon:`src/img/ab.png`,
   image:`/ab.png`
