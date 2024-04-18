@@ -38,7 +38,7 @@ const WorkPage = ({ data }) => {
 
 <header className="post-content-header">
 
-         <h1 className="post-content-title">Artist / Art Director</h1>
+         <h1 className="post-content-title">Artist</h1>
          {/*<h1 className="post-content-title">Witchfire</h1>*/}
         </header>
 
@@ -73,8 +73,22 @@ Research in space and enviroment for realtime engins. Interested in: Art, Cultur
           <h2 id="heading-level-2">Contact:  </h2>
 
           <hr />
+
+
+          <h2>Articles </h2>
+
+A selection of articles authored for the Astro Blog:
+
+
+<h3 id="unordered">
+          </h3>
+          <ul>
+            <li>The Vanishing of Ethan Carter (2015): The Astronauts</li>
+          </ul>
+
+
 Credited in: 
-- The Vanishing of Ethan Carter (2015): The Astronauts
+
 - Afterfall: InSanity - Extended Edition (2012): Cinematic Executors
 - NecroVisioN (2009): Art Director, Environment Artists2
 
