@@ -125,20 +125,15 @@ XXXXX
 
 
 
-
-
 <h2>Articles </h2>
 
 A selection of articles authored for the Astro Blog:
 
 
 <h3 id="unordered">
-            <strong>
-              <strong>Unordered</strong>
-            </strong>
           </h3>
           <ul>
-            <li>Art Direction Note.</li>
+            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/">Art Direction Note</a></li>
           </ul>
 
 
@@ -146,10 +141,7 @@ A selection of articles authored for the Astro Blog:
 
 <h2>Store </h2>
 
-
-
-
-
+<a href="https://store.epicgames.com/en-US/p/witchfire-db273e">EPIC GAME STORE LINK</a>
 
 
 

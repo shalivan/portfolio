@@ -32,9 +32,8 @@ const WorkPage = ({ data }) => {
 
 {/* Above cards */}
 <h2 id="blockquote"> <strong>Photography</strong> </h2>
-<blockquote> Photography works.  </blockquote>
+<blockquote> Showcasing selected photography works, each carefully chosen to convey distinct narratives and evoke emotive responses.  </blockquote>
 <hr />
-
 
 
       <div className="post-feed">
