@@ -15,7 +15,9 @@ The Vanishing of Ethan Carter was created inhouse by **8 people** team and is **
 
 ![](/img/dev/FamilyHouse.jpg)
 
+![Ethan Carter Art](/img/dev/covers/CoverEC01_logo.png)
 
+![Ethan Carter Art](/img/dev/covers/CoverEC01_logo.jpg)
 
 ---
 
