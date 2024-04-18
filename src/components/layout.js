@@ -42,11 +42,11 @@ const Layout = props => {
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
             <li className={`nav-home  ${data.pathname === '/' ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/`}>◯  🔘 Ｏ 〇 ◯ </Link>
+                <Link to={`/`}>◯</Link>
               </li>
               
               <li className={`nav-home  ${data.pathname.includes('/dev') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/dev`}>real time</Link>
+                <Link to={`/dev`}>real-time</Link>
               </li>
 
 
