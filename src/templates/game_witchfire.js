@@ -104,55 +104,55 @@ XXXXX
             <figcaption>Witchfire keyart </figcaption>
 </figure>
 
-{/*   #######################################  body html from md */}
-
-
-IMG XXXD
-
+{/*   #######################################  POST CONTENT */}
 
 <div className="post-content">
-<figure className="kg-card kg-image-card kg-width-wide">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Witchfire keyart </figcaption>
-</figure>
 
 
 <h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h6>
 
 
-<h2 id="blockquote">
-            <strong>Blockquote</strong>
-          </h2>
-          <blockquote>
-          Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. 
 
-          </blockquote>
-          <hr />
-
-
-
-Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.
-
-## Game Awards Trailer \
-
-
-<iframe width="720" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-{/* width="1053" height="601" */}
-
-
-
-
-
-
-
+<h4>Backstory</h4>
+<h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
 
 <hr />
+
+<h2>Game Awards Trailer </h2>
+
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+<h2>Articles </h2>
+
+A selection of articles authored for the Astro Blog:
+
+
+<h3 id="unordered">
+            <strong>
+              <strong>Unordered</strong>
+            </strong>
+          </h3>
+          <ul>
+            <li>Art Direction Note.</li>
+          </ul>
+
+
+
+
+<h2>Store </h2>
+
+
+
+
+
+
+
+
 ## Image 1 GatsbyImage
 <figure className="kg-card kg-image-card">
           <GatsbyImage
@@ -363,6 +363,15 @@ Armed with strange weapons and forbidden pagan magic, hunt a powerful witch hold
 
 
 
+
+        <h2 id="blockquote">
+            <strong>Blockquote</strong>
+          </h2>
+          <blockquote>
+          Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. 
+
+          </blockquote>
+          <hr />
 
 
 

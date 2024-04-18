@@ -32,11 +32,8 @@ const WorkPage = ({ data }) => {
 
 {/* Above cards */}
 <h2 id="blockquote"> <strong>Virtual Photography</strong> </h2>
-<blockquote> Real time graphics - captures from engine. </blockquote>
+<blockquote> Featuring real-time graphics captured directly from the engine, showcasing environments available for personal exploration in titles such as Witchfire, The Vanishing of Ethan Carter, and Afterfall, over which I have had the opportunity to serve as the art director, and artist.  </blockquote>
 <hr />
-
-
-
 
       <div className="post-feed">
         {posts.map(({ node }) => {
