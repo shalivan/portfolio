@@ -39,6 +39,32 @@ const GameWFPage = (props) => {
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
         )}
+
+
+{/* THUMB BEFORE BODY  */}
+
+
+
+{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
+  <div key={index} className="post-content-image">
+    <GatsbyImage
+      image={getImage(thumbnail.image)}
+      className="kg-image"
+      alt={post.frontmatter.title}
+    />
+  </div>
+  )
+
+
+
+{/* POST CONTENT  */}
+
+
+
+
+
+
+
 <div className="post-content">
 <figure className="kg-card kg-image-card kg-width-wide">
           <GatsbyImage
@@ -49,7 +75,7 @@ const GameWFPage = (props) => {
 </figure>
 
 
-<h4>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h5>
+<h5>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h5>
 
 
 <h5>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h5>
