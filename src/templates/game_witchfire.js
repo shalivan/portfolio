@@ -20,20 +20,28 @@ const GameWFPage = (props) => {
         <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
-          image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src}
+          image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
+          // {/* TAK BYLO: image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src} */}
 
         />
 
 
 
+
+
+
+
+
+
         
-      <article
+<article
         className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
       >
 
 <header className="post-content-header">
 
-          <h1 className="post-content-title">Witchfire</h1>
+         <h1 className="post-content-title">{post.frontmatter.title}</h1>
+         {/*<h1 className="post-content-title">Witchfire</h1>*/}
         </header>
 
         {post.frontmatter.description && (
@@ -48,12 +56,42 @@ const GameWFPage = (props) => {
 
 
 
-{/* POST CONTENT  */}
+{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}
+
+
+{/*   #######################################  thumbnail removed */}
+{/*        {post.frontmatter.thumbnail && (
+          <div className="post-content-image">
+            <GatsbyImage
+              image={getImage(post.frontmatter.thumbnail)}
+              className="kg-image"
+              alt={post.frontmatter.title} />
+          </div>
+        )} 
+*/}
 
 
 
 
+{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
+  <div key={index} className="post-content-image">
+    <GatsbyImage
+      image={getImage(thumbnail.image)}
+      className="kg-image"
+      alt={post.frontmatter.title}
+    />
+  </div>
+))}
 
+
+
+{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}
+
+
+{/*   #######################################  body html from md */}
+
+
+IMG XXXD
 
 
 <div className="post-content">
