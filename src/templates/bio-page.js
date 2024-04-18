@@ -21,6 +21,11 @@ const WorkPage = ({ data }) => {
 
       />
 
+
+
+
+
+
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
@@ -31,6 +36,11 @@ const WorkPage = ({ data }) => {
 
 
 
+<header className="post-content-header">
+
+         <h1 className="post-content-title">Artist / Art Director</h1>
+         {/*<h1 className="post-content-title">Witchfire</h1>*/}
+        </header>
 
 
   {/* BODY OF PAGE */}
@@ -39,7 +49,8 @@ const WorkPage = ({ data }) => {
 
 <div className="post-content">
 
-  
+<h6>Research in space and enviroment for realtime engins. Interested in: Art, Culture, Creating new IP's, RnD, Design, Procedural Graphic, Shading, Audio Visuals,  and Fractals. Trying to contribute in non conventional projects, and pushing boundaries. Lately spend too much time in game development. </h6>
+
 
 
           <h2 id="blockquote">
