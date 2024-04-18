@@ -28,11 +28,6 @@ const GameWFPage = (props) => {
 
 
 
-
-
-
-
-
         
 <article
         className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
@@ -94,7 +89,6 @@ const GameWFPage = (props) => {
 
 {/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}
 
-XXXXX
 
 <figure className="kg-card kg-image-card kg-width-wide">
           <GatsbyImage
@@ -210,164 +204,28 @@ A selection of articles authored for the Astro Blog:
 <h2>Game Awards Trailer</h2>
 
 
-<h1>HTML</h1>
-
           <hr />
 
-          <div
+         {/*  <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
 
+*/}
 
 
-
-
-
-          <hr />
-          <h2 id="grid-system">Grid system</h2>
-          <div className="row">
-            <div className="col-12">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                12
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-3">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                3
-              </div>
-            </div>
-            <div className="col-9">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                9
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-6">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                6
-              </div>
-            </div>
-            <div className="col-6">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                6
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-          </div>
-          <div className="row">
-
-          </div>
-        </div>
+</div>
       
+ {/*   POST BODY !!!!!!!!!!*/}
+
+
+
           <footer className="post-content-footer">
           </footer>
+
+
+
         </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <h2 id="blockquote">
-            <strong>Blockquote</strong>
-          </h2>
-          <blockquote>
-          Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. 
-
-          </blockquote>
-          <hr />
-
-
 
 
       </Layout>
