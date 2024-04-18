@@ -76,7 +76,7 @@ const GameWFPage = (props) => {
 {post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
   <div key={index} className="post-content-image">
     <GatsbyImage
-      image={getImage(thumbnail.image)}
+      image={getImage(post.frontmatter.thumbnail)}
       className="kg-image"
       alt={post.frontmatter.title}
     />
@@ -104,9 +104,6 @@ IMG XXXD
 </figure>
 
 
-<h5>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h5>
-
-
 <h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h6>
 
 
@@ -123,13 +120,14 @@ IMG XXXD
 
 Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.
 
-## Game Awards Trailer 
+## Game Awards Trailer \
 
 
-<iframe width="1053" height="601" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
+{/* width="1053" height="601" */}
 
 
 
