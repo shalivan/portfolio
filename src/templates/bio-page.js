@@ -72,7 +72,6 @@ Thanks:
 - Superhot (2016): Thanks
 - Kholat (2015): 3D Artists
 - MouseCraft (2014): Special Thanks
-</div>
 
 
 
@@ -92,6 +91,7 @@ Thanks:
         })}
       </div>
 
+      </div>
 
   {/* Below cards */}
 
