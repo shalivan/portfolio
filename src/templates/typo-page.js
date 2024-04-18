@@ -33,7 +33,7 @@ const WorkPage = ({ data }) => {
 {/* BODY OF PAGE */}
 {/* Above cards */}
 <h2 id="blockquote"> <strong>Typography</strong> </h2>
-<blockquote> Commercial and private typography and identity works.  </blockquote>
+<blockquote> Spotlighting a compilation of commercial and private projects centered around <strong>typography</strong> and brand <strong>identity</strong> design.  </blockquote>
 <hr />
 
 <div className="post-feed">

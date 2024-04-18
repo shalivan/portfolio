@@ -33,7 +33,7 @@ const WorkPage = ({ data }) => {
 
 {/* Above cards */}
 <h2 id="blockquote"> <strong>Computer Graphic projects</strong> </h2>
-<blockquote> Shaders / renders and other fun stuff..  </blockquote>
+<blockquote> Collection of personal <strong>CG</strong> projects. Include real-time shaders / renders and other fun stuff..  </blockquote>
 <hr />
 
 

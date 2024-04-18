@@ -124,6 +124,7 @@ XXXXX
 <iframe width="720" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+<hr />
 
 <h2>Articles </h2>
 
@@ -138,6 +139,7 @@ A selection of articles authored for the Astro Blog:
 
 
 
+<hr />
 
 <h2>Store </h2>
 
