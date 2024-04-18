@@ -31,7 +31,7 @@ const WorkPage = ({ data }) => {
 
 
 {/* Above cards */}
-<h2 id="blockquote"> <strong>Photography</strong> </h2>
+<h2 id="blockquote"> <strong>Classic Photography</strong> </h2>
 <blockquote> Showcasing <strong>selected photography works</strong>. Carefully chosen to convey distinct narratives and evoke emotive responses.  </blockquote>
 <hr />
 

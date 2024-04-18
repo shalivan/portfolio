@@ -186,22 +186,16 @@ A selection of articles authored for the Astro Blog:
 
 
 
-          <h2 id="images">Images</h2>
 
           ## Image 2 img src
 
           <img src="dev/CoverWF01.jpg" alt="Witchfire Key Art"></img>
 
-<p>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay.</p>
 
 
 ## Image 3 
 <img src="/img/dev/games/12-copy-1.jpg" alt="Digital Frontiers screenshots"></img>
-<p>Screen by: Digital Frontiers</p>
 
-<p>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</p>
-
-<h2>Game Awards Trailer</h2>
 
 
           <hr />
