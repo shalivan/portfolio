@@ -85,8 +85,24 @@ const GameWFPage = (props) => {
 
 
 
+
+<GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+
+
 {/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}
 
+XXXXX
+
+<figure className="kg-card kg-image-card kg-width-wide">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Witchfire keyart </figcaption>
+</figure>
 
 {/*   #######################################  body html from md */}
 
