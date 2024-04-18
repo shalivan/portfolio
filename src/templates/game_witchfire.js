@@ -57,7 +57,7 @@ const GameWFPage = (props) => {
             <strong>Blockquote</strong>
           </h2>
           <blockquote>
-          Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. 
+          <h5>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h5>
 
           </blockquote>
           <hr />
@@ -145,7 +145,7 @@ Armed with strange weapons and forbidden pagan magic, hunt a powerful witch hold
 <h2>Game Awards Trailer</h2>
 
 
-<h1>HTML</h2>
+<h1>HTML</h1>
 
           <hr />
 
