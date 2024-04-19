@@ -53,20 +53,7 @@ const WorkPage = ({ data }) => {
 
 
 
-          <h2 id="blockquote">
-            <strong>Artist / Art Director</strong>
-          </h2>
-          <blockquote>
-Research in space and enviroment for realtime engins. Interested in: Art, Culture, Creating new IP's, RnD, Design, Procedural Graphic, Shading, Audio Visuals,  and Fractals. Trying to contribute in non conventional projects, and pushing boundaries. Lately spend too much time in game development. 
 
-          </blockquote>
-          <hr />
-          
-          <h2 id="heading-level-2">Software:  </h2>
-
-          Here is some of great tech I'm used to use and explore on daily basis:
-
-          <img src="../../img/dev/adam-bryla-2.jpg" alt="Additional Image" />
 
           <hr />
 
@@ -75,30 +62,38 @@ Research in space and enviroment for realtime engins. Interested in: Art, Cultur
           <hr />
 
 
-          <h2>Articles </h2>
+<h2>Credits </h2>
 
-A selection of articles authored for the Astro Blog:
-
-
+<h4>Credited in:</h4>
 <h3 id="unordered">
           </h3>
           <ul>
             <li>The Vanishing of Ethan Carter (2015): The Astronauts</li>
+          </ul>          <ul>
+            <li>Afterfall: InSanity(2012): Art Director</li>
+          </ul>          <ul>
+            <li>NecroVisioN (2009): Environment Artistst</li>
+          </ul>
+
+<h4>Special Thanks:</h4>
+<ul>
+            <li>Seven: The Days Long Gone (2017)</li>
+          </ul>
+          <ul>
+            <li>Superhot (2016)</li>
+          </ul>
+          <ul>
+            <li>Kholat (2015)</li>
+          </ul>
+          <ul>
+            <li>MouseCraft (2014)</li>
           </ul>
 
 
-Credited in: 
-
-- Afterfall: InSanity - Extended Edition (2012): Cinematic Executors
-- NecroVisioN (2009): Art Director, Environment Artists2
-
-Thanks: 
-- Seven: The Days Long Gone (2017): Special Thanks
-- Superhot (2016): Thanks
-- Kholat (2015): 3D Artists
-- MouseCraft (2014): Special Thanks
+<h2>Awards</h2>
 
 
+<hr />
 
   {/* Cards */}
 
@@ -118,34 +113,18 @@ Thanks:
 
       </div>
 
+
+
+
+
+
+
   {/* Below cards */}
 
 
   <p>
-            This is{" "}
-            <strong>
-              <strong>bold</strong>
-            </strong>{" "}
-            and this is{" "}
-            <strong>
-              <strong>strong</strong>
-            </strong>
-            . This is{" "}
-            <em>
-              <em>italic</em>
-            </em>{" "}
-            and this is{" "}
-            <em>
-              <em>emphasized</em>
-            </em>
-            . This is <sup>superscript</sup>text and this is{" "}
-            <sub>subscript</sub> text. This is <u>underlined</u> and this is
-            code:{" "}
-            <code>
-              for (;;) {"{"} ... {"}"}
-            </code>
-            . Finally, this is a <a href="#">link</a>.
-          </p>
+  <a href="#"><h3>up</h3></a>. <a href="#"><h3>home</h3></a>.
+ </p>
 
 
 
