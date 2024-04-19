@@ -49,7 +49,7 @@ const WorkPage = ({ data }) => {
 
 <div className="post-content">
 
-
+{/* 
 <figure className="kg-card kg-image-card">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail)}
@@ -57,8 +57,8 @@ const WorkPage = ({ data }) => {
                 alt={post.frontmatter.title} />
             <figcaption>Regular image</figcaption>
           </figure>
+*/}
 
-          
 <h6>Research in space and enviroment for realtime engins. Interested in: Art, Culture, Creating new IP's, RnD, Design, Procedural Graphic, Shading, Audio Visuals,  and Fractals. Trying to contribute in non conventional projects, and pushing boundaries. Lately spend too much time in game development. </h6>
 
 
