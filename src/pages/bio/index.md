@@ -4,9 +4,6 @@ thumbnail: /img/pro/AB.png
 date: 2020-03-02T10:17:05.133Z
 title: 
 description: Bio A stunning Gatsby theme designed for captivating image-centric websites, perfect for photographers, portfolios, and more.
-number: 11
-pagetype:
-  - main
 featuredimage: /img/pro/AB.png
 ---
 
