@@ -72,7 +72,7 @@ const GameWFPage = (props) => {
   <div key={index} className="post-content-image">
     <GatsbyImage
       image={getImage(post.frontmatter.thumbnail)}
-      className="kg-image"
+      className="kg-image kg-width-wide"
       alt={post.frontmatter.title}
     />
   </div>
