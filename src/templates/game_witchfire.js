@@ -91,7 +91,7 @@ const GameWFPage = (props) => {
 
 <h2>Articles </h2>
 
-A selection of articles authored for the Astro Blog:
+<h6>A selection of articles authored for the Astro Blog:
 
 
 <h3 id="unordered">
@@ -100,16 +100,21 @@ A selection of articles authored for the Astro Blog:
             <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/">Art Direction Note</a></li>
           </ul>
 
-
+</h6>
 
 <hr />
 
 <h2>Store </h2>
 
-<a href="https://store.epicgames.com/en-US/p/witchfire-db273e">EPIC GAME STORE LINK</a>
+
+
+              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" className="button primary">
+              Epic Games Store
+              </a>
 
 
 
+<hr />
 
 
 ## Image 1 GatsbyImage
@@ -122,26 +127,14 @@ A selection of articles authored for the Astro Blog:
 </figure>
 
 
+<h2>Awards </h2>
+
+Nominee: 
+
+- DD 24 - 
 
 
 <hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-<hr />
-
-
-
-
-
 
 
           <hr />

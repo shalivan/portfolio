@@ -32,7 +32,8 @@ const WorkPage = ({ data }) => {
 
 {/* Above cards */}
 <h2 id="blockquote"> <strong>Virtual Photography</strong> </h2>
-<blockquote> Featuring <strong>real-time graphics</strong> captured <strong>directly from the engine</strong>, showcasing environments available for personal exploration in titles such as Witchfire, The Vanishing of Ethan Carter, and Afterfall, over which I have had the opportunity to serve as the <strong>art director</strong>, and <strong>artist</strong> Working on conception, level & world design, lore, assets, shaders, lighting & composition.  </blockquote>
+<blockquote>Featuring <strong>real-time graphics captured directly from the engine</strong>, showcasing environments available for personal exploration in titles such as Witchfire, The Vanishing of Ethan Carter, and Afterfall, over which I have had the opportunity to serve as the <strong>art director</strong> and <strong>artist</strong>. Working on conception, level & world design, lore, assets, shaders, lighting & composition.
+</blockquote>
 <hr />
 
       <div className="post-feed">

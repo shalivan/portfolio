@@ -64,19 +64,12 @@ const WorkPage = ({ data }) => {
 
 
 
-
-          <hr />
-
-          <h2 id="heading-level-2">Contact:  </h2>
-
-          <hr />
-
-
 <h2>Credits </h2>
 
-<h4>Credited in:</h4>
+<h4>Credited in</h4>
 <h3 id="unordered">
           </h3>
+          <h6>
           <ul>
             <li>The Vanishing of Ethan Carter (2015): The Astronauts</li>
           </ul>          <ul>
@@ -84,8 +77,9 @@ const WorkPage = ({ data }) => {
           </ul>          <ul>
             <li>NecroVisioN (2009): Environment Artistst</li>
           </ul>
-
-<h4>Special Thanks:</h4>
+          </h6>
+<h4>Special Thanks</h4>
+<h6>
 <ul>
             <li>Seven: The Days Long Gone (2017)</li>
           </ul>
@@ -98,6 +92,20 @@ const WorkPage = ({ data }) => {
           <ul>
             <li>MouseCraft (2014)</li>
           </ul>
+
+</h6>
+
+
+
+
+
+<hr />
+
+<h2 id="heading-level-2">Contact</h2>
+
+<hr />
+
+
 
 
 <h2>Awards</h2>
