@@ -44,7 +44,7 @@ const GameWFPage = (props) => {
       }
 
           {post.frontmatter.thumbnail && (
-            <div className="post-content-image">
+            <div className="post-content-image-game">
               <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail)}
                 className="kg-image"
