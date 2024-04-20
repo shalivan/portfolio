@@ -22,25 +22,36 @@ const GameWFPage = (props) => {
           description={post.frontmatter.description || ''}
           image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
           // {/* TAK BYLO: image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src} */}
-
-        />
-
+        />        
 
 
 
-        
+
+
+
+
 <article
-        className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
+        className={`post-content-cam ${post.frontmatter.thumbnail || `no-image`}`}
       >
 
-<header className="post-content-header">
-
-         <h1 className="post-content-title">{post.frontmatter.title}</h1>
-         {/*<h1 className="post-content-title">Witchfire</h1>*/}
-        </header>
+ <header className="post-content-header">
+ <h1 className="post-content-title">{post.frontmatter.title}</h1>    {/*<h1 className="post-content-title">Witchfire</h1>*/}
+ </header>
 
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
+
+
+
+
+
+
+
+
+
+
+
+
         )}
 
 

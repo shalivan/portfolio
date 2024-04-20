@@ -25,18 +25,33 @@ const BlogPostTemplate = (props) => {
   description={post.frontmatter.description || post.excerpt}
   image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
 />
+{/* #######################################  headerb  post-content-cam << ustawienia szerokosci  w #screen.css  */}
 
-{/*   #######################################  headerb  
-post-content-cam << ustawienia szerokosci  w #screen.css
-*/}
-      <article
+
+
+
+<article
         className={`post-content-cam ${post.frontmatter.thumbnail || `no-image`}`}
       >
-        <header className="post-content-header">
-          <h1 className="post-content-title">{post.frontmatter.title}</h1>
-        </header>
+
+  <header className="post-content-header">
+  <h1 className="post-content-title">{post.frontmatter.title}</h1>
+  </header>
+
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
+
+
+
+
+
+
+
+
+
+
+
+          
         )}
 {/*   #######################################  thumbnail removed */}
 {/*        {post.frontmatter.thumbnail && (
