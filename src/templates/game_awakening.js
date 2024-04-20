@@ -559,6 +559,96 @@ const BioPage = (props) => {
           </div>
         </div>
       
+
+
+      
+
+
+
+
+
+{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
+  <div key={index} className="post-content-image">
+    <GatsbyImage
+      image={getImage(post.frontmatter.thumbnail)}
+      className="kg-image kg-width-wide"
+      alt={post.frontmatter.title}
+    />
+  </div>
+))}
+
+
+
+
+<GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image kg-width-wide"
+                alt={post.frontmatter.title} />
+
+<figure className="kg-card kg-image-card kg-width-wide">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Witchfire keyart </figcaption>
+</figure>
+
+
+
+
+
+
+## Image 1 GatsbyImage xxx old
+<figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+## Image 1 GatsbyImage xx1 old
+<figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+## Image 1 GatsbyImage xx2 old
+<figure className="kg-card kg-image-card">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+## Image 1 GatsbyImage xx3 old
+
+
+
+<hr />
+
+
+
+
+          ## Image 2 img src
+
+          <img src="dev/CoverWF01.jpg" alt="Witchfire Key Art"></img>
+
+
+
+## Image 3 
+<img src="/img/dev/games/12-copy-1.jpg" alt="Digital Frontiers screenshots"></img>
+
+
+
+
+
+
+
           <footer className="post-content-footer">
           </footer>
         </article>
