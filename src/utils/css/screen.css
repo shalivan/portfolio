@@ -726,6 +726,14 @@ footer.site-foot a {
   padding: 3vw 0;
 }
 
+.post-content-game {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3vw 0;
+}
+
+
+
 .contact-form {
   max-width: 720px;
   margin: 0 auto;

@@ -31,7 +31,7 @@ const GameWFPage = (props) => {
 
 
 <article
-        className={`post-content-cam ${post.frontmatter.thumbnail || `no-image`}`}
+        className={`post-content-game ${post.frontmatter.thumbnail || `no-image`}`}
       >
 
  <header className="post-content-header">
@@ -40,24 +40,28 @@ const GameWFPage = (props) => {
 
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
+        )
+      }
+
+          {post.frontmatter.thumbnail && (
+            <div className="post-content-image">
+              <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            </div>
+          )} 
 
 
 
 
 
 
-
-
-
-
-
-
-        )}
 
 
 {/* THUMB BEFORE BODY  */}
 
-
+xxxxxxxxxxxxxxxxxx BODY xxxxxxxxxxxxxxxxxxxxx 
 
 
 
