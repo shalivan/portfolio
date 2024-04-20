@@ -61,57 +61,11 @@ const GameWFPage = (props) => {
 
 {/* THUMB BEFORE BODY  */}
 
-xxxxxxxxxxxxxxxxxx BODY xxxxxxxxxxxxxxxxxxxxx 
-
 
 
 
 {/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}
 
-
-{/*   #######################################  thumbnail removed */}
-{/*        {post.frontmatter.thumbnail && (
-          <div className="post-content-image">
-            <GatsbyImage
-              image={getImage(post.frontmatter.thumbnail)}
-              className="kg-image"
-              alt={post.frontmatter.title} />
-          </div>
-        )} 
-*/}
-
-
-
-
-{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
-  <div key={index} className="post-content-image">
-    <GatsbyImage
-      image={getImage(post.frontmatter.thumbnail)}
-      className="kg-image kg-width-wide"
-      alt={post.frontmatter.title}
-    />
-  </div>
-))}
-
-
-
-
-<GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image kg-width-wide"
-                alt={post.frontmatter.title} />
-
-
-{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}
-
-
-<figure className="kg-card kg-image-card kg-width-wide">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Witchfire keyart </figcaption>
-</figure>
 
 {/*   #######################################  POST CONTENT */}
 
@@ -153,6 +107,38 @@ A selection of articles authored for the Astro Blog:
 <h2>Store </h2>
 
 <a href="https://store.epicgames.com/en-US/p/witchfire-db273e">EPIC GAME STORE LINK</a>
+
+
+
+
+
+{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
+  <div key={index} className="post-content-image">
+    <GatsbyImage
+      image={getImage(post.frontmatter.thumbnail)}
+      className="kg-image kg-width-wide"
+      alt={post.frontmatter.title}
+    />
+  </div>
+))}
+
+
+
+
+<GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image kg-width-wide"
+                alt={post.frontmatter.title} />
+
+<figure className="kg-card kg-image-card kg-width-wide">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Witchfire keyart </figcaption>
+</figure>
+
+
 
 
 
