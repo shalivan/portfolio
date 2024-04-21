@@ -76,18 +76,19 @@ const GameWFPage = (props) => {
 
 
 
-<h4>Backstory</h4>
+<h4>Game Backstory</h4>
 <h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
 
 <hr />
 
-<h2>Game Awards Trailer </h2>
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnailx)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
 
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-<hr />
 
 <h2>Articles </h2>
 
@@ -102,17 +103,26 @@ const GameWFPage = (props) => {
 
 </h6>
 
+
+
+
+<h2>Game Awards Trailer </h2>
+
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 <hr />
 
 <h2>Store </h2>
 
-
+<center>
 
               <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" className="button primary">
               Epic Games Store
               </a>
 
-
+              </center>
 
 <hr />
 
