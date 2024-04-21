@@ -98,7 +98,7 @@ const GameWFPage = (props) => {
 <h3 id="unordered">
           </h3>
           <ul>
-            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/">Art Direction Note</a></li>
+            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer">Art Direction Note</a></li>
           </ul>
 
 </h6>
@@ -118,7 +118,7 @@ const GameWFPage = (props) => {
 
 <center>
 
-              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" className="button primary">
+              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
               Epic Games Store
               </a>
 
