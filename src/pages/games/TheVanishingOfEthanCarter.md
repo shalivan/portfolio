@@ -78,6 +78,7 @@ Concept Art by : Bernard Kowalczuk
 - "**Innovation**" at The British Academy Video Games Award
 - "**Indie 2014**" at VMAG
 - "**Best Visual Design**" at EDGE
+- "Best Visual Art" at Digital Dragons
 
 #### Nominations: 
 - PC "**GOTY**" at Gamespot
@@ -95,6 +96,10 @@ Concept Art by : Bernard Kowalczuk
 - "**Best Graphics-Technology**" at ING  
 - "Best Story" at ING 
 - "Best Adventure" at ING  
+- "Best game design" at Digital Dragons
+- "Best polish game" at Digital Dragons
+
+
 
 #### Honorable Mentions:
 

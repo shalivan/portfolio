@@ -139,9 +139,20 @@ const GameWFPage = (props) => {
 
 <h2>Awards </h2>
 
-Nominee: 
 
-- DD 24 - 
+<h6>Nominee
+
+
+<h3 id="unordered">
+          </h3>
+          <ul>
+            <li><strong>Best game design</strong> at Digital Dragons</li>
+          </ul>
+          <ul>
+            <li><strong>Best game art</strong> at Digital Dragons</li>
+          </ul>
+
+</h6>
 
 
 <hr />
