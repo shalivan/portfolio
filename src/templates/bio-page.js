@@ -131,6 +131,21 @@ const WorkPage = ({ data }) => {
 
       </div>
 
+      <ul>
+            <li>”Innovation” at The British Academy Video Games Award</li>
+          </ul>
+          <ul>
+            <li>”Indie 2014” at VMAG</li>
+          </ul>
+          <ul>
+            <li>”Best Visual Design” at EDGE</li>
+          </ul>
+          <ul>
+            <li>“Best Visual Art” at Digital Dragons</li>
+          </ul>
+
+
+      
 
 
 
