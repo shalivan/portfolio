@@ -1,6 +1,6 @@
 ---
 templateKey: bio-sub-page
-thumbnail: /img/cam/dystopia/proprt.jpg
+thumbnail: /img/pro/SHL_9245.jpg
 thumbnails:
   - image: /img/cam/studio/DSC_0297.png
   - image: /img/cam/studio/DSC_0382.png
@@ -11,3 +11,4 @@ date: 2020-03-16T04:59:59.653Z
 title: BAFTA 
 description: "BAFTA"
 ---
+img\pro
