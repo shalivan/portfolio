@@ -1,6 +1,6 @@
 ---
 templateKey: bio-sub-page
-thumbnail: /img/pro/ogor/6004.jpg
+thumbnail: /img/pro/ogor/6003.jpg
 thumbnails:
   - image: /img/cam/studio/DSC_0297.png
   - image: /img/cam/studio/DSC_0382.png

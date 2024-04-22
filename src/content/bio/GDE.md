@@ -1,6 +1,6 @@
 ---
 templateKey: bio-sub-page
-thumbnail: /img/cam/cybr/PXL_20220820_225820788.jpg
+thumbnail: /img/pro/IMG_20200809_054739.jpg
 thumbnails:
   - image: /img/cam/studio/DSC_0297.png
   - image: /img/cam/studio/DSC_0382.png
