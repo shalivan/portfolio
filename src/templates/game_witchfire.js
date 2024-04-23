@@ -92,7 +92,7 @@ const GameWFPage = (props) => {
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnailsArray.find(image => image === 'xxx'))}
+                image={getImage(post.frontmatter.thumbnails[0])}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Regular image</figcaption>
