@@ -90,6 +90,19 @@ const GameWFPage = (props) => {
 </figure>
 
 
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnailsArray.find(image => image === 'xxx'))}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+
+
+
+
+
 <h2>Articles </h2>
 
 <h6>A selection of articles authored for the Astro Blog:
