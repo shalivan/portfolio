@@ -90,14 +90,6 @@ const GameWFPage = (props) => {
 </figure>
 
 
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnails.xxx)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
-</figure>
-
 
 
 
@@ -116,6 +108,26 @@ const GameWFPage = (props) => {
 
 </h6>
 
+
+
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_poster)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
+
+
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
 
 
 
