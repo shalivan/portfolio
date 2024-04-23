@@ -280,6 +280,10 @@ footer.site-foot a {
   padding: 12px 12px 12px 12px;
 }
 
+
+.player {
+  border-radius: 10px;
+}
 @media (max-width: 850px) {
   .site-head {
     padding: 0;
