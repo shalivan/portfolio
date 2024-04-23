@@ -103,7 +103,7 @@ const GameWFPage = (props) => {
 <h3 id="unordered">
           </h3>
           <ul>
-            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer">Art Direction Note</a></li>
+            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer">Art Direction Note</a> - where I tackle inspirations and choices behind our art direction decisions</li>
           </ul>
 
 </h6>
