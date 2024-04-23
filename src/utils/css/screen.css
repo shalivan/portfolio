@@ -284,6 +284,8 @@ footer.site-foot a {
 .player {
   border-radius: 10px;
 }
+
+
 @media (max-width: 850px) {
   .site-head {
     padding: 0;

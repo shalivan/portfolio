@@ -8,6 +8,9 @@ thumbnails:
   - image: /img/cam/studio/DSC_0377.png
   - image: /img/cam/studio/DSC_0378.png
 date: 2012-03-16T04:59:59.653Z
-title: JEROZOLIMA / ARTSTUDIO 
+title: JEROZOLIMA ARTSTUDIO 
 description: "Studio. Jerozolimasie 57"
 ---
+
+Matecznik Art studio 
+Ksiazka 

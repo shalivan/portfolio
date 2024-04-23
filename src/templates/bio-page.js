@@ -100,10 +100,12 @@ const WorkPage = ({ data }) => {
 
 
 <h2>Awards</h2>
-
+<h6>
 
 <ul>
-            <li>”Innovation” at The British Academy Video Games Award</li>
+          <ul>
+            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">”Innovation” at The British Academy Video Games Award</a></li>
+          </ul>            
           </ul>
           <ul>
             <li>”Indie 2014” at VMAG</li>
@@ -115,7 +117,7 @@ const WorkPage = ({ data }) => {
             <li>“Best Visual Art” at Digital Dragons</li>
           </ul>
 
-
+          </h6>
 
 
 
