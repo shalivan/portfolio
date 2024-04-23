@@ -99,16 +99,26 @@ const WorkPage = ({ data }) => {
 
 
 
-<hr />
-
-<h2 id="heading-level-2">Contact</h2>
-
-<hr />
-
-
-
-
 <h2>Awards</h2>
+
+
+<ul>
+            <li>”Innovation” at The British Academy Video Games Award</li>
+          </ul>
+          <ul>
+            <li>”Indie 2014” at VMAG</li>
+          </ul>
+          <ul>
+            <li>”Best Visual Design” at EDGE</li>
+          </ul>
+          <ul>
+            <li>“Best Visual Art” at Digital Dragons</li>
+          </ul>
+
+
+
+
+
 
 
 <hr />
@@ -131,20 +141,6 @@ const WorkPage = ({ data }) => {
 
       </div>
 
-      <ul>
-            <li>”Innovation” at The British Academy Video Games Award</li>
-          </ul>
-          <ul>
-            <li>”Indie 2014” at VMAG</li>
-          </ul>
-          <ul>
-            <li>”Best Visual Design” at EDGE</li>
-          </ul>
-          <ul>
-            <li>“Best Visual Art” at Digital Dragons</li>
-          </ul>
-
-
       
 
 
@@ -153,6 +149,18 @@ const WorkPage = ({ data }) => {
 
 
   {/* Below cards */}
+
+
+
+
+  <hr />
+
+<h2 id="heading-level-2">Contact</h2>
+
+<hr />
+
+
+
 
 
   <p>
