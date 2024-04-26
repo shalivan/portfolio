@@ -111,7 +111,7 @@ const WorkPage = ({ data }) => {
 
 <ul>
           <ul>
-            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>”Game Innovation” </strong>at The British Academy Video Games Award</a></li>
+            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for: <strong>”Game Innovation” </strong></a></li> - The British Academy Video Games Award
           </ul>            
           
           <ul>
