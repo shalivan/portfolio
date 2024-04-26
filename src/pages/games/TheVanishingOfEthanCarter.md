@@ -99,7 +99,7 @@ Concept Art by : Bernard Kowalczuk
 - "Best game design" at Digital Dragons
 - "Best polish game" at Digital Dragons
 
-
+- 2015 Nominee Golden Joystick Award  Best Visual Design
 
 #### Honorable Mentions:
 

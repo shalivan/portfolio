@@ -73,13 +73,8 @@ const GameWFPage = (props) => {
 
 
 <h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h6>
-
-
-
-<h4>Game Backstory</h4>
 <h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
 
-<hr />
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -103,12 +98,18 @@ const GameWFPage = (props) => {
 <h3 id="unordered">
           </h3>
           <ul>
-            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer">Art Direction Note</a> - where I tackle inspirations and choices behind our art direction decisions</li>
+            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a> </li>
           </ul>
 
 </h6>
 
-
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnailx)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Regular image</figcaption>
+</figure>
 
 
 <figure className="post-content-image-game">
@@ -129,6 +130,29 @@ const GameWFPage = (props) => {
             <figcaption>Regular image</figcaption>
 </figure>
 
+
+
+<h2>Awards </h2>
+
+
+<h6>Nominee
+
+
+<h3 id="unordered">
+          </h3>
+          <ul>
+            <li><strong>Best game design</strong> at Digital Dragons</li>
+          </ul>
+          <ul>
+            <li><strong>Best game art</strong> at Digital Dragons</li>
+          </ul>
+
+</h6>
+
+
+
+
+<hr />
 
 
 <h2>Game Awards Trailer </h2>
@@ -162,22 +186,6 @@ const GameWFPage = (props) => {
 </figure>
 
 
-<h2>Awards </h2>
-
-
-<h6>Nominee
-
-
-<h3 id="unordered">
-          </h3>
-          <ul>
-            <li><strong>Best game design</strong> at Digital Dragons</li>
-          </ul>
-          <ul>
-            <li><strong>Best game art</strong> at Digital Dragons</li>
-          </ul>
-
-</h6>
 
 
 <hr />
