@@ -148,7 +148,7 @@ const WorkPage = ({ data }) => {
         })}
       </div>
 
-      </div>
+      
 
       
 
@@ -177,7 +177,7 @@ const WorkPage = ({ data }) => {
  </p>
 
 
-
+ </div>
 
 
 
