@@ -72,12 +72,12 @@ const WorkPage = ({ data }) => {
 <h6>
 <ul> 
           <ul>
-            <li><strong>Witchfire (2024): Art Director</strong></li>
+            <li><strong>Witchfire</strong>  (2024): Art Director</li>
           </ul>   
           <ul>
             <li><strong>The Vanishing of Ethan Carter</strong> (2015): The Astronauts</li>
           </ul>          <ul>
-            <li><strong>Afterfall: InSanity </strong>(2012): Art Director</li>
+            <li><strong>Afterfall</strong>(2012): Art Director</li>
           </ul>          <ul>
             <li><strong>NecroVisioN </strong>(2009): Environment Artistst</li>
           </ul>
