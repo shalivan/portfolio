@@ -68,19 +68,26 @@ const WorkPage = ({ data }) => {
 
 <h4>Credited in</h4>
 <h3 id="unordered">
-          </h3>
-          <h6>
+</h3>
+<h6>
+<ul> 
           <ul>
-            <li>The Vanishing of Ethan Carter (2015): The Astronauts</li>
+            <li><strong>Witchfire (2024): Art Director</strong></li>
+          </ul>   
+          <ul>
+            <li><strong>The Vanishing of Ethan Carter</strong> (2015): The Astronauts</li>
           </ul>          <ul>
-            <li>Afterfall: InSanity(2012): Art Director</li>
+            <li><strong>Afterfall: InSanity </strong>(2012): Art Director</li>
           </ul>          <ul>
-            <li>NecroVisioN (2009): Environment Artistst</li>
+            <li><strong>NecroVisioN </strong>(2009): Environment Artistst</li>
           </ul>
-          </h6>
+</ul>
+</h6>
+
 <h4>Special Thanks</h4>
 <h6>
 <ul>
+          <ul>
             <li>Seven: The Days Long Gone (2017)</li>
           </ul>
           <ul>
@@ -92,7 +99,7 @@ const WorkPage = ({ data }) => {
           <ul>
             <li>MouseCraft (2014)</li>
           </ul>
-
+</ul>
 </h6>
 
 
@@ -104,9 +111,9 @@ const WorkPage = ({ data }) => {
 
 <ul>
           <ul>
-            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">”Innovation” at The British Academy Video Games Award</a></li>
+            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>”Game Innovation” </strong>at The British Academy Video Games Award</a></li>
           </ul>            
-          </ul>
+          
           <ul>
             <li>”Indie 2014” at VMAG</li>
           </ul>
@@ -116,7 +123,7 @@ const WorkPage = ({ data }) => {
           <ul>
             <li>“Best Visual Art” at Digital Dragons</li>
           </ul>
-
+</ul>
           </h6>
 
 
