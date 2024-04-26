@@ -79,7 +79,7 @@ const WorkPage = ({ data }) => {
           </ul>          <ul>
             <li><strong>Afterfall</strong>(2012): Art Director</li>
           </ul>          <ul>
-            <li><strong>NecroVisioN </strong>(2009): Environment Artistst</li>
+            <li><strong>NecroVisioN </strong>(2009): Artistst</li>
           </ul>
 </ul>
 </h6>
