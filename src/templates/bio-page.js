@@ -66,7 +66,7 @@ const WorkPage = ({ data }) => {
 
 <h2>Credits </h2>
 
-<h4>Credited in</h4>
+<h4>Credited as Art Director</h4>
 <h3 id="unordered">
 </h3>
 <h6>
@@ -75,26 +75,36 @@ const WorkPage = ({ data }) => {
             <li><strong>Witchfire</strong>  (2024): Art Director</li>
           </ul>   
           <ul>
-            <li><strong>The Vanishing of Ethan Carter</strong> (2015): The Astronauts</li>
+            <li><strong>The Vanishing of Ethan Carter</strong> (2015): Astronaut</li>
           </ul>          <ul>
             <li><strong>Afterfall</strong>(2012): Art Director</li>
-          </ul>          <ul>
-            <li><strong>NecroVisioN </strong>(2009): Artistst</li>
+          </ul>          
+</ul>
+</h6>
+
+<h4>Credited as an Artist</h4>
+<h3 id="unordered">
+</h3>
+<h6>
+<ul> 
+          <ul>
+            <li>NecroVisioN (2009): Artistst</li>
+          </ul>
+          <ul>
+            <li>Kholat (2015)</li>
           </ul>
 </ul>
 </h6>
 
-<h4>Special Thanks</h4>
+
+<h4>Acknowledgments</h4>
 <h6>
 <ul>
-          <ul>
-            <li>Seven: The Days Long Gone (2017)</li>
-          </ul>
-          <ul>
+<ul>
             <li>Superhot (2016)</li>
           </ul>
           <ul>
-            <li>Kholat (2015)</li>
+            <li>Seven: The Days Long Gone (2017)</li>
           </ul>
           <ul>
             <li>MouseCraft (2014)</li>
@@ -111,17 +121,17 @@ const WorkPage = ({ data }) => {
 
 <ul>
           <ul>
-            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>Game Innovation </strong></a></li>  in 2015
+            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>Game Innovation </strong></a></li> (2015)
           </ul>            
           
           <ul>
-            <li>”Indie 2014” at VMAG</li>
+            <li>VMAG for ”Indie 2014” (2014) </li>
           </ul>
           <ul>
-            <li>”Best Visual Design” at EDGE</li>
+            <li>EDGE Award for ”Best Visual Design” </li>
           </ul>
           <ul>
-            <li>“Best Visual Art” at Digital Dragons</li>
+            <li>Digital Dragons for “Best Visual Art”</li>
           </ul>
 </ul>
           </h6>
