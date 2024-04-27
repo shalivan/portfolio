@@ -63,6 +63,7 @@ const WorkPage = ({ data }) => {
 
 
 
+<hr />
 
 <h2>Credits </h2>
 
@@ -82,7 +83,7 @@ const WorkPage = ({ data }) => {
 </ul>
 </h6>
 
-<h4>Credited as an Artist</h4>
+<h4>Credited as Artist</h4>
 <h3 id="unordered">
 </h3>
 <h6>
@@ -114,6 +115,7 @@ const WorkPage = ({ data }) => {
 
 
 
+<hr />
 
 
 <h2>Awards</h2>
@@ -121,7 +123,7 @@ const WorkPage = ({ data }) => {
 
 <ul>
           <ul>
-            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>Game Innovation </strong></a></li> (2015)
+            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>Game Innovation </strong></a>  (2015)</li>
           </ul>            
           
           <ul>
