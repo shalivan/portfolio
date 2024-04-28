@@ -31,7 +31,7 @@ const GameWFPage = (props) => {
 
 
 <article
-        className={`post-content-game ${post.frontmatter.featuredimage || `no-image`}`}
+        className={`post-content-game ${post.frontmatter.thumbnail || `no-image`}`}
       >
 
  <header className="post-content-header">
@@ -109,18 +109,9 @@ const GameWFPage = (props) => {
                 image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła</figcaption>
+            <figcaption>Key Art sketches by: ....</figcaption>
 </figure>
 
-
-
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_poster)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Witchfire posters by various artists.</figcaption>
-</figure>
 
 
 
@@ -137,12 +128,13 @@ const GameWFPage = (props) => {
 <h3 id="unordered">
           </h3>
           <ul>
+          <ul>
             <li><strong>Best game design</strong> at Digital Dragons</li>
           </ul>
           <ul>
             <li><strong>Best game art</strong> at Digital Dragons</li>
           </ul>
-
+          </ul>
 </h6>
 
 
@@ -186,11 +178,18 @@ const GameWFPage = (props) => {
 </figure>
 
 
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_poster)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Witchfire posters by various artists.</figcaption>
+</figure>
+
+
 
 <hr />
 
-
-          <hr />
 
          {/*  <div
           className="post-content-body"
