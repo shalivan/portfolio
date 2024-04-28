@@ -8,7 +8,6 @@ thumbnail_scr003: /img/dev/games/WF_scr_001.jpg
 thumbnail_scr004: /img/dev/games/WF_scr_001.jpg
 thumbnail_poster: /img/dev/games/WF_posters.jpg
 thumbnail_keyart_sketch: /img/dev/games/WF_keyartsketch_B01.jpg
-thumbnail_keyart_sketch: /img/dev/games/WF_keyartsketch_B01.jpg
 date: 2024-03-06T05:10:14.676Z
 title: Witchfire
 description: "2024r. Dark Fantasy FPS With Guns."
