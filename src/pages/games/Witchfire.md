@@ -1,11 +1,11 @@
 ---
 templateKey: game_witchfire
-featuredimage: /img/dev/covers/CoverWF01_logo.png
-thumbnail: /img/dev/covers/CoverWF01.png
+featuredimage: /img/dev/covers/CoverWF01_w.png
+thumbnail: /img/dev/covers/CoverWF01_logo.png
 thumbnail_scr001: /img/dev/games/WF_scr_001.jpg
-thumbnail_scr002: /img/dev/games/WF_scr_001.jpg
-thumbnail_scr003: /img/dev/games/WF_scr_001.jpg
-thumbnail_scr004: /img/dev/games/WF_scr_001.jpg
+thumbnail_scr002: /img/dev/games/WF_scr_002.jpg
+thumbnail_scr003: /img/dev/games/WF_scr_003.jpg
+thumbnail_scr004: /img/dev/games/WF_scr_004.jpg
 thumbnail_poster: /img/dev/games/WF_posters.jpg
 thumbnail_keyart_sketch: /img/dev/games/WF_keyartsketch_B01.jpg
 date: 2024-03-06T05:10:14.676Z
