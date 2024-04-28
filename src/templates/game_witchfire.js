@@ -105,7 +105,7 @@ const GameWFPage = (props) => {
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnailx)}
+                image={getImage(post.frontmatter.thumbnail_scr001)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Regular image</figcaption>
@@ -248,11 +248,37 @@ export const GameWFPageQuery = graphql`
           }
 
 
-          thumbnailx {
+          thumbnail_scr001 {
             childImageSharp {
               gatsbyImageData
             }
           }
+          thumbnail_scr002 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          thumbnail_scr003 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          thumbnail_scr004 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          thumbnail_keyart_sketch {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        }
+        thumbnail_poster {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
 
 
 
@@ -261,3 +287,7 @@ export const GameWFPageQuery = graphql`
       }
   }
 `;
+
+
+
+
