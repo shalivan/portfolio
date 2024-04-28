@@ -286,7 +286,7 @@ export const GameWFPageQuery = graphql`
         html
       }
   }
-`;
+`
 
 
 
