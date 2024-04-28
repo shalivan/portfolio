@@ -273,7 +273,6 @@ export const GameWFPageQuery = graphql`
               gatsbyImageData
             }
           }
-        }
         thumbnail_poster {
           childImageSharp {
             gatsbyImageData
@@ -281,7 +280,7 @@ export const GameWFPageQuery = graphql`
         }
 
 
-
+      }
         }
         html
       }
