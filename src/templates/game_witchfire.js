@@ -78,38 +78,30 @@ const GameWFPage = (props) => {
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr001)}
+                image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
+            <figcaption>InEngine Footage by Adam Bryła</figcaption>
 </figure>
-
-
-
 
 
 
 
 <h2>Articles </h2>
 
-<h6>A selection of articles authored for the Astro Blog:
+<h6>My contributions to the Astronauts blog during Witchfire development include a selection of articles I authored:
 
 
 <h3 id="unordered">
           </h3>
+        <ul>
           <ul>
             <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a> </li>
           </ul>
+        </ul>
 
 </h6>
 
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr002)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła </figcaption>
-</figure>
 
 
 <figure className="post-content-image-game">
@@ -117,7 +109,7 @@ const GameWFPage = (props) => {
                 image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
+            <figcaption>InEngine Footage by Adam Bryła</figcaption>
 </figure>
 
 
@@ -185,6 +177,13 @@ const GameWFPage = (props) => {
 
 <hr />
 
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr001)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>InEngine Footage by Adam Bryła </figcaption>
+</figure>
 
 
 
