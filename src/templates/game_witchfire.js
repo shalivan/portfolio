@@ -240,6 +240,9 @@ export const GameWFPageQuery = graphql`
         frontmatter {
           title
           description
+
+
+
           thumbnail {
             childImageSharp {
               gatsbyImageData
@@ -280,12 +283,11 @@ export const GameWFPageQuery = graphql`
         }
 
 
-      }
         }
         html
       }
   }
-`
+`;
 
 
 
