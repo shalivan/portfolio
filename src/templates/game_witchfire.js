@@ -96,7 +96,10 @@ const GameWFPage = (props) => {
           </h3>
         <ul>
           <ul>
-            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a> </li>
+            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a> 
+            <blockquote>With Witchfire, we’re moving two centuries forward. We’re still influenced by Romanticism, but in a bit more modern, 19th century
+American art movement way.</blockquote>
+</li>
           </ul>
         </ul>
 
