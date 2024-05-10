@@ -20,8 +20,8 @@ const GameWFPage = (props) => {
         <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
-          image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
-          // {/* TAK BYLO: image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src} */}
+          //image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
+          image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src} 
         />        
 
 
@@ -46,7 +46,7 @@ const GameWFPage = (props) => {
           {post.frontmatter.thumbnail && (
             <div className="post-content-image-game">
               <GatsbyImage
-                image={getImage(post.frontmatter.featuredimage)}
+                image={getImage(post.frontmatter.thumbnail)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             </div>
@@ -83,6 +83,16 @@ const GameWFPage = (props) => {
                 alt={post.frontmatter.title} />
             <figcaption>InEngine Footage by Adam Bryła</figcaption>
 </figure>
+
+
+
+<center>
+
+              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
+              Epic Games Store
+              </a>
+
+</center>
 
 
 
@@ -124,7 +134,7 @@ American art movement way.</blockquote>
 
 <h2>Awards </h2>
 
-
+Even though the game is in early access, we were nominated for some awards:
 <h6>Nominee
 
 
@@ -151,27 +161,6 @@ American art movement way.</blockquote>
 
 <hr />
 
-
-<h2>Game Awards Trailer </h2>
-
-
-<iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-<hr />
-
-<h2>Store </h2>
-
-<center>
-
-              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
-              Epic Games Store
-              </a>
-
-              </center>
-
-<hr />
-
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_scr001)}
@@ -179,6 +168,10 @@ American art movement way.</blockquote>
                 alt={post.frontmatter.title} />
             <figcaption>InEngine Footage by Adam Bryła </figcaption>
 </figure>
+
+
+<h2>Lore </h2>
+
 
 
 <figure className="post-content-image-game">
@@ -194,6 +187,24 @@ American art movement way.</blockquote>
 <hr />
 
 
+
+
+
+<h2>Trailers </h2>
+
+
+Trailer  that revealed the game at The Game Awards gala:
+
+<iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<hr />
+
+
+
+
+
+
          {/*  <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -205,6 +216,11 @@ American art movement way.</blockquote>
 </div>
       
  {/*   POST BODY !!!!!!!!!!*/}
+
+
+
+
+
 
 
 
