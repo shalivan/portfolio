@@ -73,7 +73,6 @@ const GameWFPage = (props) => {
 
 
 <h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h6>
-<h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
 
 
 <figure className="post-content-image-game">
@@ -107,8 +106,7 @@ const GameWFPage = (props) => {
         <ul>
           <ul>
             <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a> 
-            <blockquote>With Witchfire, we’re moving two centuries forward. We’re still influenced by Romanticism, but in a bit more modern, 19th century
-American art movement way.</blockquote>
+            
 </li>
           </ul>
         </ul>
@@ -172,6 +170,7 @@ Even though the game is in early access, we were nominated for some awards:
 
 <h2>Lore </h2>
 
+<h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
 
 
 <figure className="post-content-image-game">
@@ -198,7 +197,7 @@ Trailer  that revealed the game at The Game Awards gala:
 <iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-<hr />
+
 
 
 
