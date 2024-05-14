@@ -182,12 +182,10 @@ Even though the game is in early access, we were nominated for some awards:
 
 
 
-<hr />
-
 
 
 <h2>Trailers </h2>
-
+<hr />
 
 Trailer  that revealed the game at The Game Awards gala:
 
