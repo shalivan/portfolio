@@ -120,7 +120,7 @@ const GameWFPage = (props) => {
                 image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Key Art sketches by: ....</figcaption>
+            <figcaption>Key Art sketches by Snapfingers.</figcaption>
 </figure>
 
 
@@ -154,10 +154,10 @@ Even though the game is in early access, we were nominated for some awards:
                 image={getImage(post.frontmatter.thumbnail_scr003)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła </figcaption>
+            <figcaption>InEngine Footage by Digital Frontiers. </figcaption>
 </figure>
 
-<hr />
+{/* <hr />
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -166,8 +166,7 @@ Even though the game is in early access, we were nominated for some awards:
                 alt={post.frontmatter.title} />
             <figcaption>InEngine Footage by Adam Bryła </figcaption>
 </figure>
-
-
+*/}
 <h2>Lore </h2>
 
 <h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
@@ -184,8 +183,6 @@ Even though the game is in early access, we were nominated for some awards:
 
 
 <hr />
-
-
 
 
 
