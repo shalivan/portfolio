@@ -1,5 +1,5 @@
 ---
-templateKey: game-sub-page
+templateKey: game_ethancarter
 thumbnail: /img/dev/covers/CoverEC01_logo.png
 date: 2023-03-16T04:59:59.653Z
 title: The Vanishing Of Ethan Carter

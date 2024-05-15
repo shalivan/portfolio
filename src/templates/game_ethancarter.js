@@ -72,7 +72,9 @@ const GameWFPage = (props) => {
 <div className="post-content">
 
 
-<h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h6>
+<h6>
+The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> team and is <strong>first IP by The Astronauts</strong>. Originaly we made it in Unreal 3, was later ported to Unreal 4 at PC, Xbox, Playstation and Nintendo Switch. With oneiric atmosphere and visuals that takes you to magical valley of Red Creek which was inspired by traditional Poland  scenery. Game was recived verry  warmly with <strong>83 metascore</strong> and end up with over <strong>a million of copies sold</strong>. Also recive few prestige awards nominations and was honored with the <strong>BAFTA award</strong> in Game Innovation category. Some of my deeper development thoughts can be found on those few Astro blogposts: 
+</h6>
 
 
 <figure className="post-content-image-game">
@@ -87,8 +89,8 @@ const GameWFPage = (props) => {
 
 <center>
 
-              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
-              Epic Games Store
+              <a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
+              STEAM
               </a>
 
 </center>
@@ -98,22 +100,39 @@ const GameWFPage = (props) => {
 
 <h2>Articles </h2>
 
-<h6>My contributions to the Astronauts blog during Witchfire development include a selection of articles I authored:
+<h6>Some of my articles i wrote for Astro Blog:
+
+
+ 
+
+- []()   
+- []()
+- []()  
+
+
+Article form Culture magazine:
+- At []( )  
 
 
 <h3 id="unordered">
           </h3>
         <ul>
           <ul>
-            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a> 
-            
-</li>
+            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> - ...</a></li>
+            <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - ...</a></li>
+            <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - ...</a></li>
           </ul>
         </ul>
 
 </h6>
 
-
+<h3 id="unordered">
+          </h3>
+        <ul>
+          <ul>
+            <li><a href="culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA</strong> - ...</a></li>
+</ul>
+        </ul>
 
 <figure className="post-content-image-game">
           <GatsbyImage
