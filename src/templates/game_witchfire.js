@@ -21,7 +21,7 @@ const GameWFPage = (props) => {
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
           //image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
-          image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src} 
+          //image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src} 
         />        
 
 
