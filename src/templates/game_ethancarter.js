@@ -100,18 +100,15 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 
 <h2>Articles </h2>
 
-<h3 id="unordered">
-          </h3>
+<h6>          
         <ul>
           <ul>
-            <li><a href="https://www.culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
-</ul>
+            <li><a href="https://culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
+          </ul>
         </ul>
 
-<h6>Some articles authored by me during the development:
+Some articles authored by me during the development:
 
-<h3 id="unordered">
-          </h3>
         <ul>
           <ul>
              <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - Some making of notes. </a></li>
@@ -120,10 +117,7 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
             </ul>
         </ul>
 
-
-
-
-        </h6>
+</h6>
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
@@ -134,6 +128,26 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 
 
 
+          <h5 id="blockquote">
+            <strong>9/10 – GameSpot</strong>
+          </h5>
+          <blockquote>
+          “A story told with a level of cleverness and elegance rarely seen in games.”
+          </blockquote>
+
+          <h5 id="blockquote">
+            <strong>9/10 – EuroGamer</strong>
+          </h5>
+          <blockquote>
+          “Leaves you with several amazing memories; moments that you will want to talk to your friends about for hours.”
+          </blockquote>
+
+          <h5 id="blockquote">
+            <strong>9/10 – US Gamer</strong>
+          </h5>
+          <blockquote>
+          “One of the best games of the year.”
+          </blockquote>
 
 
 
@@ -222,26 +236,6 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
 
 
 
-<h4 id="blockquote">
-            <strong>9/10 – GameSpot</strong>
-          </h4>
-          <blockquote>
-          “A story told with a level of cleverness and elegance rarely seen in games.”
-          </blockquote>
-
-          <h4 id="blockquote">
-            <strong>9/10 – EuroGamer</strong>
-          </h4>
-          <blockquote>
-          “Leaves you with several amazing memories; moments that you will want to talk to your friends about for hours.”
-          </blockquote>
-
-          <h4 id="blockquote">
-            <strong>9/10 – US Gamer</strong>
-          </h4>
-          <blockquote>
-          “One of the best games of the year.”
-          </blockquote>
 
 
          {/*  <div
