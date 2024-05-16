@@ -186,9 +186,9 @@ Some articles authored by me during the development:
 
 <ul>
             <li><strong>Game Innovation</strong>at The British Academy Video Games Award</li>
-            <li><strong>Indie 2014</strong>at VMAG</li>
-            <li><strong>Best Visual Design</strong>at EDGE</li>
-            <li><strong>Best Visual Art</strong>at Digital Dragons</li>
+            <li><strong>Indie 2014</strong> at VMAG</li>
+            <li><strong>Best Visual Design</strong> at EDGE</li>
+            <li><strong>Best Visual Art</strong> at Digital Dragons</li>
 
 
 </ul>
@@ -231,7 +231,7 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
 
 
 </h6>
-<iframe width="720"  src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="720"  height="405"  src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
