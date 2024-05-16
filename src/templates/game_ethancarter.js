@@ -100,16 +100,15 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 
 <h2>Articles </h2>
 
-<h6>Some of articles I authored for Astro Blog during development:
-
+<h6>Some articles authored by me during the development:
 
 <h3 id="unordered">
           </h3>
         <ul>
           <ul>
-             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - Making of Ethan Carter </a></li>
-             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>2014/02/18 How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - Some Unreal3 technical tricks, photogrametry and process </a></li>
-            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>2013/02/27 The Creative Process: INDIE VS AAA</strong> -  First Astro blog post with my thoughts after moving from +60 team to 5 people studio </a></li>
+             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - Some making of notes. </a></li>
+             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - (2014/02/18) Some Unreal3 technical tricks, photogrametry and process </a></li>
+            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> - (2013/02/27) First Astro blog post with my thoughts after moving from +60 team to 5 people studio </a></li>
             </ul>
         </ul>
 
