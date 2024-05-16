@@ -100,31 +100,20 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 
 <h2>Articles </h2>
 
-<h6>Some of my articles i wrote for Astro Blog:
-
-
- 
-
-- []()   
-- []()
-- []()  
-
-
-Article form Culture magazine:
-- At []( )  
+<h6>Some of articles I authored for Astro Blog during development:
 
 
 <h3 id="unordered">
           </h3>
         <ul>
           <ul>
-            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> - ...</a></li>
-            <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - ...</a></li>
-            <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - ...</a></li>
-          </ul>
+             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - Making of Ethan Carter </a></li>
+             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>2014/02/18 How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - Some Unreal3 technical tricks, photogrametry and process </a></li>
+            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>2013/02/27 The Creative Process: INDIE VS AAA</strong> -  First Astro blog post with my thoughts after moving from +60 team to 5 people studio </a></li>
+            </ul>
         </ul>
 
-</h6>
+
 
 <h3 id="unordered">
           </h3>
@@ -133,7 +122,7 @@ Article form Culture magazine:
             <li><a href="culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA</strong> - ...</a></li>
 </ul>
         </ul>
-
+        </h6>
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
@@ -149,23 +138,6 @@ Article form Culture magazine:
 
 
 
-<h2>Awards </h2>
-
-Even though the game is in early access, we were nominated for some awards:
-<h6>Nominee
-
-
-<h3 id="unordered">
-          </h3>
-          <ul>
-          <ul>
-            <li><strong>Best game design</strong> at Digital Dragons</li>
-          </ul>
-          <ul>
-            <li><strong>Best game art</strong> at Digital Dragons</li>
-          </ul>
-          </ul>
-</h6>
 
 
 <figure className="post-content-image-game">
@@ -186,28 +158,64 @@ Even though the game is in early access, we were nominated for some awards:
             <figcaption>InEngine Footage by Adam Bryła </figcaption>
 </figure>
 */}
-<h2>Lore </h2>
-
-<h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
-
-
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_poster)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Witchfire posters by various artists.</figcaption>
-</figure>
 
 
 
 
+<h2>Awards </h2>
 
-<h2>Trailers </h2>
 
-Trailer  that revealed the game at The Game Awards gala:
+<h4>Winner </h4>
+<h6>
 
-<iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<ul>
+            <li><strong>Game Innovation</strong>at The British Academy Video Games Award</li>
+            <li><strong>Indie 2014</strong>at VMAG</li>
+            <li><strong>Best Visual Design</strong>at EDGE</li>
+            <li><strong>Best Visual Art</strong>at Digital Dragons</li>
+
+
+</ul>
+
+<h4>Nominations:</h4>
+<ul>
+    <li>PC <strong>GOTY</strong> at Gamespot</li>
+    <li><strong>Debut Game</strong> at The British Academy Video Games Award</li>
+    <li><strong>New Intellectual Property</strong> at The British Academy Video Games Award</li>
+    <li><strong>Best Visual Design</strong> at Golden Joystick Award</li>   
+    <li><strong>Outstanding Achievement in Game Direction</strong> at D.I.C.E.</li>
+    <li><strong>Outstanding Achievement in Art Direction</strong> at D.I.C.E.</li>
+    <li><strong>Adventure Game of the Year</strong> @ D.I.C.E.</li>
+    <li><strong>Best Independend</strong> @ The Game Awards</li>
+    <li><strong>Excellence in Visual Achievement</strong> @ SXSW Gaming Awards</li>
+    <li><strong>Innovation Award</strong> at Game Developers Choice Award</li>
+    <li><strong>Best Debiut</strong> at Game Developers Choice Award</li>
+    <li><strong>Best Narrative</strong> at Game Developers Choice Award</li>
+    <li><strong>Best PC Game</strong> at ING</li>
+    <li><strong>Best Graphics-Technology</strong> at ING</li>
+    <li><strong>Best Story</strong> at ING</li>
+    <li><strong>Best Adventure</strong> at ING</li>
+    <li><strong>Best game design</strong> at Digital Dragons</li>
+    <li><strong>Best polish game</strong> at Digital Dragons</li>
+ 
+</ul>
+
+<h4>Honorable Mentions:</h4>
+<ul>
+    <li><strong>Best Visual Art</strong> at Game Developers Choice Award</li>
+    <li><strong>Excelent in Graphic</strong> at IGF</li>
+    <li>Seumas McNallyGrand Prize at IGF</li>
+</ul>
+
+
+</h6>
+
+
+The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015:
+
+<iframe width="2312" height="1017" src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
 
