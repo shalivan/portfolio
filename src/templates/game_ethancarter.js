@@ -90,7 +90,7 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 <center>
 
               <a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
-              STEAM
+              Steam store 
               </a>
 
 </center>
@@ -100,6 +100,14 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 
 <h2>Articles </h2>
 
+<h3 id="unordered">
+          </h3>
+        <ul>
+          <ul>
+            <li><a href="https://www.culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
+</ul>
+        </ul>
+
 <h6>Some articles authored by me during the development:
 
 <h3 id="unordered">
@@ -107,20 +115,14 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
         <ul>
           <ul>
              <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - Some making of notes. </a></li>
-             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - (2014/02/18) Some Unreal3 technical tricks, photogrametry and process </a></li>
-            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> - (2013/02/27) First Astro blog post with my thoughts after moving from +60 team to 5 people studio </a></li>
+             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - Unreal3, photogrametry tech tricks and process. </a></li>
+            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> -  First Astro blog post with my thoughts after moving from +60 team to 5 people studio. </a></li>
             </ul>
         </ul>
 
 
 
-<h3 id="unordered">
-          </h3>
-        <ul>
-          <ul>
-            <li><a href="culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA</strong> - ...</a></li>
-</ul>
-        </ul>
+
         </h6>
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -208,20 +210,38 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 </ul>
 
 
-</h6>
+
 
 
 The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015:
 
-<iframe width="2312" height="1017" src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</h6>
+<iframe width="720"  src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
 
+<h4 id="blockquote">
+            <strong>9/10 – GameSpot</strong>
+          </h4>
+          <blockquote>
+          “A story told with a level of cleverness and elegance rarely seen in games.”
+          </blockquote>
 
+          <h4 id="blockquote">
+            <strong>9/10 – EuroGamer</strong>
+          </h4>
+          <blockquote>
+          “Leaves you with several amazing memories; moments that you will want to talk to your friends about for hours.”
+          </blockquote>
 
-
-
+          <h4 id="blockquote">
+            <strong>9/10 – US Gamer</strong>
+          </h4>
+          <blockquote>
+          “One of the best games of the year.”
+          </blockquote>
 
 
          {/*  <div
