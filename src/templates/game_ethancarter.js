@@ -294,7 +294,7 @@ export const GameECPageQuery = graphql`
           }
         }
       }
-    markdownRemark(frontmatter: {templateKey: {eq: "game_witchfire"}}) {
+    markdownRemark(frontmatter: {templateKey: {eq: "game_ethancarter"}}) {
         frontmatter {
           title
           description
