@@ -46,7 +46,7 @@ const GameECPage = (props) => {
           {post.frontmatter.thumbnail && (
             <div className="post-content-image-game">
               <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
+                image={getImage(post.frontmatter.featuredimage)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             </div>
@@ -82,7 +82,7 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
                 image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła</figcaption>
+            <figcaption></figcaption>
 </figure>
 
 
@@ -123,7 +123,7 @@ Some articles authored by me during the development:
                 image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Key Art sketches by Snapfingers.</figcaption>
+            <figcaption></figcaption>
 </figure>
 
 
@@ -160,7 +160,7 @@ Some articles authored by me during the development:
                 image={getImage(post.frontmatter.thumbnail_scr003)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Digital Frontiers. </figcaption>
+            <figcaption></figcaption>
 </figure>
 
 {/* <hr />
@@ -253,13 +253,6 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
 
 
 
- <figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr002)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła</figcaption>
-</figure>
 
 
 

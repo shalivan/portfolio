@@ -1,11 +1,12 @@
 ---
 templateKey: game_ethancarter
 thumbnail: /img/dev/covers/CoverEC01_logo.png
-featuredimage: /img/dev/covers/CoverWF01_w.png
+featuredimage: /img/dev/covers/CoverEC01_w.png
 thumbnail_scr001: /img/dev/games/TVOEC_scr_001.jpg
 thumbnail_scr002: /img/dev/games/TVOEC_scr_002.jpg
-thumbnail_scr003: /img/dev/games/TVOEC_concept_001.jpg
-thumbnail_scr004: /img/dev/games/TVOEC_concept_002.jpg
+thumbnail_scr003: /img/dev/games/TVOEC_scr_003.jpg
+thumbnail_scr004: /img/dev/games/TVOEC_concept_001.jpg
+thumbnail_scr005: /img/dev/games/TVOEC_concept_002.jpg
 date: 2023-03-16T04:59:59.653Z
 title: The Vanishing Of Ethan Carter
 number: 4
