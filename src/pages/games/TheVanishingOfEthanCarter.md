@@ -34,7 +34,6 @@ Article form Culture magazine:
 
 --- 
 
-![](/img/dev/the-vanishing-of-ethan-carter-concept-art.jpg)
 Concept Art by : Bernard Kowalczuk
 
 
