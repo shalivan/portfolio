@@ -172,7 +172,7 @@ Even though the game is in early access, we were nominated for some awards:
 
 <h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
 
-
+{/*
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_poster)}
@@ -180,7 +180,7 @@ Even though the game is in early access, we were nominated for some awards:
                 alt={post.frontmatter.title} />
             <figcaption>Witchfire posters by various artists.</figcaption>
 </figure>
-
+*/}
 
 
 
