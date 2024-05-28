@@ -253,6 +253,14 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
 
 
 
+ <figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr002)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>InEngine Footage by Adam Bryła</figcaption>
+</figure>
+
 
 
 
@@ -292,7 +300,6 @@ export const GameWFPageQuery = graphql`
           description
 
 
-
           thumbnail {
             childImageSharp {
               gatsbyImageData
@@ -311,11 +318,21 @@ export const GameWFPageQuery = graphql`
               gatsbyImageData
             }
           }
+          
           thumbnail_scr003 {
             childImageSharp {
               gatsbyImageData
             }
           }
+          featuredimage {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
+
+
+
           thumbnail_scr004 {
             childImageSharp {
               gatsbyImageData
@@ -331,6 +348,7 @@ export const GameWFPageQuery = graphql`
             gatsbyImageData
           }
         }
+
 
 
         }
