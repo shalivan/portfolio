@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 // eslint-disable-next-line
 
 
-const GameWFPage = (props) => {
+const GameECPage = (props) => {
 
 // JAK NIE ZADZIAŁA TO MOZANA USTAWI MANUALNIEL   const siteTitle = "Your Static Title Here";
 // <h1 className="post-content-title">{post.frontmatter.title}</h1>
@@ -277,14 +277,14 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
     );
 };
 
-GameWFPage.propTypes = {
+GameECPage.propTypes = {
     data: PropTypes.object.isRequired,
 };
 
-export default GameWFPage;
+export default GameECPage;
 
-export const GameWFPageQuery = graphql`
-  query GameWFPage {
+export const GameECPageQuery = graphql`
+  query GameECPage {
     site {
         siteMetadata {
           title
