@@ -72,20 +72,27 @@ const GameAFPage = (props) => {
 <div className="post-content">
 
 
-
-
-
-
-
-
-![Afterfall Key Art](/img/dev/covers/CoverAF02.png)
-
-<h6>Afterfall, formerly known as **Bourgeoisie: Pearl of the Wasteland**, started as a concept for an RPG game set in a post-apocalyptic Eastern European setting. It evolved as a fan project and was eventually sold to Nicolas Games S.A., where it devolved into a shooter.
+<h6>Afterfall, formerly known as <strong>Bourgeoisie: Pearl of the Wasteland</strong>, started as a concept for an RPG game set in a post-apocalyptic Eastern European setting. It evolved as a fan project and was eventually sold to Nicolas Games S.A., where it devolved into a shooter.
 </h6>
 
---- 
+I had a pleasure to Art Direct several parts of universe during project lifetime. 
 
-## Trailer 
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr004)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Concept arts done by team.</figcaption>
+</figure>
+
+
+
+
+
+
+<h4>Trailer </h4>
+
 
 <iframe width="266" height="151" src="https://www.youtube.com/embed/xUL5yPTW9Gk" title="Afterfall  Insanity  E3 2010   Teaser Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
