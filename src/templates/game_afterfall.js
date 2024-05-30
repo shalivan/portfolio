@@ -72,16 +72,18 @@ const GameAFPage = (props) => {
 <div className="post-content">
 
 
-<h6>Afterfall, formerly known as <strong>Bourgeoisie: Pearl of the Wasteland</strong>, started as a concept for an RPG game set in a post-apocalyptic Eastern European setting. It evolved as a fan project and was eventually sold to Nicolas Games S.A., where it devolved into a shooter.
+<h6>
+Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborative project among friends, set in the unique world we crafted by ourselfs. 
+ Initially conceived as an RPG, the project evolved as a fan-driven initiative and was eventually sold to Nicolas Games S.A., where it transitioned into a shooter that uses Afterfall lore.
+
 </h6>
 
-I had a pleasure to Art Direct several parts of universe during project lifetime. 
 
 
 
 <h2>Lore </h2>
-<h6>Post-apo.
 
+<h6>Set in a post-apocalyptic Eastern European setting.
 </h6>
 
 
