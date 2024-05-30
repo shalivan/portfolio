@@ -94,6 +94,15 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 You play the game as Paul Prospero, an occult-minded detective who receives a disturbing letter from Ethan Carter. Realizing the boy is in grave danger, Paul arrives at Ethan’s home of Red Creek Valley, where things turn out to be even worse than he imagined. Ethan has vanished in the wake of a brutal murder, which Paul quickly discerns might not be the only local murder worth looking into.
 </h6>
 
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
+
+
 <h2>Articles </h2>
 
 <h6>          
@@ -123,6 +132,7 @@ Some articles authored by me during the development:
 </figure>
 
 
+<hr />
 
           <h5 id="blockquote">
             <strong>9/10 – GameSpot</strong>

@@ -116,12 +116,11 @@ const GameWFPage = (props) => {
 
 
 <h2>Awards </h2>
-
+<h6>
 Even though the game is in early access, we were nominated for some awards:
+</h6>
 <h6>Nominee
-
-
-<h3 id="unordered">
+  <h3 id="unordered">
           </h3>
           <ul>
           <ul>
@@ -131,54 +130,42 @@ Even though the game is in early access, we were nominated for some awards:
             <li><strong>Best game art</strong> at Digital Dragons</li>
           </ul>
           </ul>
-</h6>
+  </h6>
 
+      {/* <hr />
+      <figure className="post-content-image-game">
+                <GatsbyImage
+                      image={getImage(post.frontmatter.thumbnail_scr001)}
+                      className="kg-image"
+                      alt={post.frontmatter.title} />
+                  <figcaption>InEngine Footage by Adam Bryła </figcaption>
+      </figure>
+      */}
 
-
-{/* <hr />
-
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr001)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła </figcaption>
-</figure>
-*/}
-
-{/*
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_poster)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Witchfire posters by various artists.</figcaption>
-</figure>
-*/}
+      {/*
+      <figure className="post-content-image-game">
+                <GatsbyImage
+                      image={getImage(post.frontmatter.thumbnail_poster)}
+                      className="kg-image"
+                      alt={post.frontmatter.title} />
+                  <figcaption>Witchfire posters by various artists.</figcaption>
+      </figure>
+      */}
 
 
 
 
 <h2>Trailers </h2>
-
-Trailer  that revealed the game at The Game Awards gala:
-
-<iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-
-
-
-
-
+  <h6>
+  Trailer  that revealed the game at The Game Awards gala:
+  </h6>
+  <iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
          {/*  <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-
-*/}
+        */}
 
 
 </div>
