@@ -78,6 +78,13 @@ const GameAFPage = (props) => {
 I had a pleasure to Art Direct several parts of universe during project lifetime. 
 
 
+
+<h2>Lore </h2>
+<h6>Post-apo.
+
+</h6>
+
+
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_scr004)}
@@ -91,7 +98,7 @@ I had a pleasure to Art Direct several parts of universe during project lifetime
 
 
 
-<h4>Trailer </h4>
+<h2>Trailer </h2>
 
 
 <iframe width="266" height="151" src="https://www.youtube.com/embed/xUL5yPTW9Gk" title="Afterfall  Insanity  E3 2010   Teaser Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

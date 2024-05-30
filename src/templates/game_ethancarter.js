@@ -88,10 +88,11 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
             <figcaption></figcaption>
 </figure>
 
+<h2>Lore</h2>
 
-
-
-
+<h6>
+You play the game as Paul Prospero, an occult-minded detective who receives a disturbing letter from Ethan Carter. Realizing the boy is in grave danger, Paul arrives at Ethan’s home of Red Creek Valley, where things turn out to be even worse than he imagined. Ethan has vanished in the wake of a brutal murder, which Paul quickly discerns might not be the only local murder worth looking into.
+</h6>
 
 <h2>Articles </h2>
 
@@ -188,7 +189,7 @@ Some articles authored by me during the development:
 
 </ul>
 
-<h4>Nominations:</h4>
+<h4>Nomenee</h4>
 <ul>
     <li>PC <strong>GOTY</strong> at Gamespot</li>
     <li><strong>Debut Game</strong> at The British Academy Video Games Award</li>
@@ -211,16 +212,14 @@ Some articles authored by me during the development:
  
 </ul>
 
-<h4>Honorable Mentions:</h4>
+<h4>Honorable Mention</h4>
 <ul>
     <li><strong>Best Visual Art</strong> at Game Developers Choice Award</li>
     <li><strong>Excelent in Graphic</strong> at IGF</li>
     <li>Seumas McNallyGrand Prize at IGF</li>
 </ul>
 
-
-
-
+<hr />
 
 The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015:
 

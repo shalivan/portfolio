@@ -70,48 +70,40 @@ const GameWFPage = (props) => {
 {/*   #######################################  POST CONTENT */}
 
 <div className="post-content">
-
-
-
-<h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. </h6>
-<center>
+<h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. 
+</h6>
+  <center>
               <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
               Epic Games Store
               </a>
-</center>
-<figure className="post-content-image-game">
+  </center>
+  <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>InEngine Footage by Adam Bryła</figcaption>
-</figure>
-
-
-
-
-
-
-
-
+  </figure>
+<h2>Lore </h2>
+  <h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
+  <figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr003)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>InEngine Footage by Digital Frontiers. </figcaption>
+  </figure>
 <h2>Articles </h2>
-
-<h6>My contributions to the Astronauts blog during Witchfire development include a selection of articles I authored:
-
-
-<h3 id="unordered">
+  <h6>My contributions to the Astronauts blog during Witchfire development include a selection of articles I authored:
+  <h3 id="unordered">
           </h3>
         <ul>
           <ul>
-            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a> 
-            
-</li>
+            <li><a href="https://www.theastronauts.com/2019/03/art-direction-wallpapers/" target="_blank" rel="noopener noreferrer"> <strong>Art Direction Note</strong> - where I tackle inspirations and choices behind our art direction decisions</a>       
+  </li>
           </ul>
         </ul>
-
-</h6>
-
-
+  </h6>
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -120,11 +112,6 @@ const GameWFPage = (props) => {
                 alt={post.frontmatter.title} />
             <figcaption>Key Art sketches by Snapfingers.</figcaption>
 </figure>
-
-
-
-
-
 
 
 
@@ -147,13 +134,6 @@ Even though the game is in early access, we were nominated for some awards:
 </h6>
 
 
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr003)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Digital Frontiers. </figcaption>
-</figure>
 
 {/* <hr />
 
@@ -165,9 +145,6 @@ Even though the game is in early access, we were nominated for some awards:
             <figcaption>InEngine Footage by Adam Bryła </figcaption>
 </figure>
 */}
-<h2>Lore </h2>
-
-<h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
 
 {/*
 <figure className="post-content-image-game">
