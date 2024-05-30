@@ -2,9 +2,6 @@
 templateKey: game_afterfall
 thumbnail: /img/dev/covers/CoverAF02_logo.png
 featuredimage: /img/dev/covers/CoverAF02_w.png
-thumbnail_scr001: /img/dev/games/AF_scr_001.jpg
-thumbnail_scr002: /img/dev/games/AF_scr_002.jpg
-thumbnail_scr003: /img/dev/games/AF_scr_003.jpg
 thumbnail_scr004: /img/dev/games/AF_concept_001.jpg
 thumbnail_scr005: /img/dev/games/AF_concept_002.jpg
 
