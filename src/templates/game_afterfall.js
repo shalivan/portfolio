@@ -96,8 +96,11 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
 </figure>
 
 
+<br></br>
 
-
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xUL5yPTW9Gk" title="Afterfall Insanity E3 2010 Teaser Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 <h2>Trailer </h2>

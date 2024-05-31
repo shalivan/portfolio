@@ -96,11 +96,12 @@ You play the game as Paul Prospero, an occult-minded detective who receives a di
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
+                image={getImage(post.frontmatter.thumbnail_scr003)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
 </figure>
+
 
 
 <h2>Articles </h2>
@@ -116,23 +117,17 @@ Some articles authored by me during the development:
 
         <ul>
           <ul>
-             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness</strong> - Some making of notes. </a></li>
-             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter</strong> - Unreal3, photogrametry tech tricks and process. </a></li>
-            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> -  First Astro blog post with my thoughts after moving from +60 team to 5 people studio. </a></li>
+             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness.</strong> Making of notes. </a></li>
+             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter.</strong></a></li>
+            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> </a></li>
             </ul>
         </ul>
 
 </h6>
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_keyart_sketch)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption></figcaption>
-</figure>
-
 
 <hr />
+
+
 
           <h5 id="blockquote">
             <strong>9/10 – GameSpot</strong>
@@ -163,10 +158,10 @@ Some articles authored by me during the development:
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr003)}
+                image={getImage(post.frontmatter.thumbnail_scr005)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption></figcaption>
+            <figcaption>Concept art by Bernard Kowalczuk</figcaption>
 </figure>
 
 {/* <hr />
