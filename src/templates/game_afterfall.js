@@ -206,8 +206,14 @@ export const GameAFPageQuery = graphql`
 
 
 
-
           thumbnail_scr004 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
+
+          thumbnail_scr005 {
             childImageSharp {
               gatsbyImageData
             }
