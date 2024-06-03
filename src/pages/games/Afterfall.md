@@ -18,8 +18,6 @@ date: 2021-03-06T05:10:14.676Z
 description: 2010r."
 ---
 
-![Afterfall Key Art](/img/dev/covers/CoverAF02.png)
-
 
 Afterfall, formerly known as **Bourgeoisie: Pearl of the Wasteland**, started as a concept for an RPG game set in a post-apocalyptic Eastern European setting. It evolved as a fan project and was eventually sold to Nicolas Games S.A., where it devolved into a shooter.
 
@@ -35,17 +33,6 @@ Afterfall, formerly known as **Bourgeoisie: Pearl of the Wasteland**, started as
 
 Concept art made by team: 
 
-
-![](/img/dev/games/123123.jpg)
-![](/img/dev/games/124124512.jpg)
-![](/img/dev/games/93.jpg)
-
-
-
-
-![](/img/dev/itm1.png)
-
-![](/img/dev/rsc6.jpg)
 
 
 --- 
