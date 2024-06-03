@@ -153,9 +153,13 @@ Even though the game is in early access, we were nominated for some awards:
       */}
 
 
-
-<hr />
-
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr001)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Raw Engine Footage by Adam Bryła</figcaption>
+</figure>
 
 
 <h2>Trailers </h2>

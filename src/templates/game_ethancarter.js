@@ -337,6 +337,7 @@ export const GameECPageQuery = graphql`
               gatsbyImageData
             }
           }
+          
           thumbnail_keyart_sketch {
             childImageSharp {
               gatsbyImageData
