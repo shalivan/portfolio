@@ -201,7 +201,9 @@ You play the game as Paul Prospero, an occult-minded detective who receives a di
     <li>Seumas McNallyGrand Prize at IGF</li>
 </ul>
 
-<hr />
+<br />
+<br />
+
 
 The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015:
 
@@ -213,9 +215,6 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
 
 
 
-<hr />
-
-
 <h2>Articles </h2>
 
 <h6>          
@@ -224,7 +223,7 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
             <li><a href="https://culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
           </ul>
         </ul>
-
+        <br /><br />
 Some articles authored by me during the development:
 
         <ul>
