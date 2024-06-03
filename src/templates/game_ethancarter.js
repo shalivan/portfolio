@@ -102,30 +102,7 @@ You play the game as Paul Prospero, an occult-minded detective who receives a di
             <figcaption></figcaption>
 </figure>
 
-
-
-<h2>Articles </h2>
-
-<h6>          
-        <ul>
-          <ul>
-            <li><a href="https://culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
-          </ul>
-        </ul>
-
-Some articles authored by me during the development:
-
-        <ul>
-          <ul>
-             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness.</strong> Making of notes. </a></li>
-             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter.</strong></a></li>
-            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> </a></li>
-            </ul>
-        </ul>
-
-</h6>
-
-<hr />
+<h2>Written About Us</h2>
 
 
 
@@ -236,6 +213,33 @@ The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Ga
 
 
 
+<hr />
+
+
+<h2>Articles </h2>
+
+<h6>          
+        <ul>
+          <ul>
+            <li><a href="https://culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
+          </ul>
+        </ul>
+
+Some articles authored by me during the development:
+
+        <ul>
+          <ul>
+             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness.</strong> Making of notes. </a></li>
+             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter.</strong></a></li>
+            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> </a></li>
+            </ul>
+        </ul>
+
+</h6>
+
+
+
+
 
          {/*  <div
           className="post-content-body"
@@ -322,10 +326,13 @@ export const GameECPageQuery = graphql`
             }
           }
 
-
-
-
           thumbnail_scr004 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
+          thumbnail_scr005 {
             childImageSharp {
               gatsbyImageData
             }

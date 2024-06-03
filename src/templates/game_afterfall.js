@@ -80,6 +80,16 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
 
 
 
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr001)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Unreal 3 Screenshot</figcaption>
+</figure>
+
+
+
 
 <h2>Lore </h2>
 
@@ -89,7 +99,7 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr004)}
+                image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Concept arts done by team.</figcaption>
@@ -97,6 +107,23 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
 
 
 <br></br>
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr004)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Concept arts done by team.</figcaption>
+</figure>
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_model004)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Model done by Afterfall team.</figcaption>
+</figure>
+
 
 
 
@@ -193,7 +220,7 @@ export const GameAFPageQuery = graphql`
             }
           }
           
-          thumbnail_scr003 {
+          thumbnail_model001 {
             childImageSharp {
               gatsbyImageData
             }
@@ -206,19 +233,19 @@ export const GameAFPageQuery = graphql`
 
 
 
-          thumbnail_scr004 {
+          thumbnail_model002 {
             childImageSharp {
               gatsbyImageData
             }
           }
 
 
-          thumbnail_scr005 {
+          thumbnail_model003 {
             childImageSharp {
               gatsbyImageData
             }
           }
-          thumbnail_keyart_sketch {
+          thumbnail_model004 {
             childImageSharp {
               gatsbyImageData
             }
