@@ -82,7 +82,7 @@ const GameWFPage = (props) => {
                 image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła</figcaption>
+            <figcaption>Raw Engine Footage by Adam Bryła</figcaption>
   </figure>
 <h2>Lore </h2>
   <h6>Armed with strange weapons and forbidden pagan magic, hunt a powerful witch holding the key to your salvation. Witchfire is a dark fantasy first person shooter.</h6>
@@ -91,7 +91,7 @@ const GameWFPage = (props) => {
                 image={getImage(post.frontmatter.thumbnail_scr003)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Digital Frontiers. </figcaption>
+            <figcaption>Raw Engine Footage by Digital Frontiers. </figcaption>
   </figure>
 <h2>Articles </h2>
   <h6>My contributions to the Astronauts blog during Witchfire development include a selection of articles I authored:
