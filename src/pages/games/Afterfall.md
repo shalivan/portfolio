@@ -9,7 +9,6 @@ thumbnail_model002: /img/dev/games/AF_models_002.jpg
 thumbnail_model003: /img/dev/games/AF_models_003.jpg
 thumbnail_model004: /img/dev/games/AF_models_004.jpg
 thumbnail_scr004: /img/dev/games/AF_concept_001.jpg
-thumbnail_scr005: /img/dev/games/AF_concept_002.jpg
 
 number: 6
 title: Afterfall
