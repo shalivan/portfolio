@@ -102,7 +102,7 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
                 image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Concept arts done by team.</figcaption>
+            <figcaption>Engine Screenshot.</figcaption>
 </figure>
 
 
@@ -110,7 +110,7 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr004)}
+                image={getImage(post.frontmatter.thumbnail_concept004)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption>Concept arts done by team.</figcaption>
@@ -121,10 +121,25 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
                 image={getImage(post.frontmatter.thumbnail_model004)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Model done by Afterfall team.</figcaption>
+            <figcaption>Vault inhabitant mutant variations. Models done by Afterfall team.</figcaption>
 </figure>
 
 
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_model001)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Vault inhabitant mutant variations. Models done by Afterfall team.</figcaption>
+</figure>
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_model003)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Vault inhabitant mutant variations. Models done by Afterfall team.</figcaption>
+</figure>
 
 
 <h2>Trailer </h2>
@@ -219,19 +234,20 @@ export const GameAFPageQuery = graphql`
               gatsbyImageData
             }
           }
+
+          
+          thumbnail_concept004 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
           
           thumbnail_model001 {
             childImageSharp {
               gatsbyImageData
             }
           }
-          featuredimage {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
-
-
 
           thumbnail_model002 {
             childImageSharp {
@@ -250,6 +266,14 @@ export const GameAFPageQuery = graphql`
               gatsbyImageData
             }
           }
+
+          featuredimage {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
+          
         thumbnail_poster {
           childImageSharp {
             gatsbyImageData
