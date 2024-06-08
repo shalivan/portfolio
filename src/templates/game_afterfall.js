@@ -85,7 +85,7 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
                 image={getImage(post.frontmatter.thumbnail_scr001)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Unreal 3 Screenshot</figcaption>
+            <figcaption>Unreal Engine 3 Screenshot.</figcaption>
 </figure>
 
 
@@ -102,19 +102,11 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
                 image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Engine Screenshot.</figcaption>
+            <figcaption>Unreal Engine 3 Screenshot.</figcaption>
 </figure>
 
 
 <br></br>
-
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_concept004)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Concept arts done by team.</figcaption>
-</figure>
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -125,20 +117,23 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
 </figure>
 
 
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_model001)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Vault inhabitant mutant variations. Models done by Afterfall team.</figcaption>
-</figure>
 
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_model003)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Vault inhabitant mutant variations. Models done by Afterfall team.</figcaption>
+            <figcaption>Mutant boss. Models done by Afterfall team.</figcaption>
+</figure>
+
+
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_concept004)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption>Concept arts done by team.</figcaption>
 </figure>
 
 
@@ -273,7 +268,7 @@ export const GameAFPageQuery = graphql`
             }
           }
 
-          
+
         thumbnail_poster {
           childImageSharp {
             gatsbyImageData
