@@ -73,7 +73,7 @@ const GameAFPage = (props) => {
 
 
 <h6>
-Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborative project among friends, set in the unique world we crafted by ourselfs. 
+Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborative project among friends, set in the unique world of a post-apocalyptic Eastern European we crafted by ourselfs. 
  Initially conceived as an RPG, the project evolved as a fan-driven initiative and was eventually sold to Nicolas Games S.A., where it transitioned into a shooter that uses Afterfall lore.
 
 </h6>
@@ -93,7 +93,7 @@ Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborati
 
 <h2>Lore </h2>
 
-<h6>Set in a post-apocalyptic Eastern European setting.
+<h6>In an alternate timeline where Nazi Germany developed the atom bomb just in time to stave off the Russian advance on the German homeland. This resulted in a 3-way cold war between Germany, the United States, and the Soviet Union, all of which had developed atomic weapons. The 3 superpowers eventually ended up starting World War III, devastating the surface of the Earth.
 </h6>
 
 
