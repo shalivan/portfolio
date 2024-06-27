@@ -509,7 +509,7 @@ footer.site-foot a {
 
 .post-card-cover {
   position: relative;
-  flex: 1 1 12%;
+  flex: 1 1 5%;
   display: flex;
   position: relative;
   height: 35vw;
