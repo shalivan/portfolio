@@ -70,7 +70,7 @@ const GameWFPage = (props) => {
 {/*   #######################################  POST CONTENT */}
 
 <div className="post-content">
-<h6>Witchfire was presented on <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong>  which is second <strong>Astronauts</strong> title. We want to maintain mystical atmosphere combined with dynamic and fun gameplay. 
+<h6>Witchfire was presented at <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We wanted to maintain a mystical atmosphere combined with dynamic and fun gameplay. Early Access was delivered in 2023 with a 12-person team.
 </h6>
   <center>
               <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
@@ -162,12 +162,22 @@ Even though the game is in early access, we were nominated for some awards:
 </figure>
 
 
-<h2>Trailers </h2>
+<h2>Media </h2>
   <h6>
-  Trailer  that revealed the game at The Game Awards gala:
-  </h6>
-  <iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+  <ul>
+          <ul>
+            <li><strong></strong> Trailer  that revealed the game at The Game Awards gala: https://www.youtube.com/embed/-zqjNkdXT94 </li>
+          </ul>
+          <ul>
+            <li><strong>Best game art</strong> at Digital Dragons</li>
+          </ul>
+          </ul>
+
+  
+  </h6>
+         {/* <iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ */}
          {/*  <div
           className="post-content-body"
           dangerouslySetInnerHTML={{ __html: post.html }}
