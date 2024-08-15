@@ -70,7 +70,7 @@ const GameWFPage = (props) => {
 {/*   #######################################  POST CONTENT */}
 
 <div className="post-content">
-<h6>Witchfire was presented at <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We wanted to maintain a mystical atmosphere combined with dynamic and fun gameplay. Early Access was delivered in 2023 with a 12-person team.
+<h6>Witchfire was presented at <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We wanted to maintain a mystical atmosphere combined with dynamic and fun gameplay. Early Access was delivered in 2023 with a 12-person team, and available now on the Epic Games Store. 
 </h6>
   <center>
               <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
@@ -167,10 +167,10 @@ Even though the game is in early access, we were nominated for some awards:
 
   <ul>
           <ul>
-            <li><strong></strong> Trailer  that revealed the game at The Game Awards gala: https://www.youtube.com/embed/-zqjNkdXT94 </li>
+            <li><a href="https://www.youtube.com/embed/-zqjNkdXT94" target="_blank" rel="noopener noreferrer"> <strong></strong> Trailer  that revealed the game at The Game Awards gala.</a>       
+            </li>
           </ul>
           <ul>
-            <li><strong>Best game art</strong> at Digital Dragons</li>
           </ul>
           </ul>
 
@@ -191,6 +191,7 @@ Even though the game is in early access, we were nominated for some awards:
 
 
 
+<a href="https://www.youtube.com/embed/-zqjNkdXT94" target="_blank" rel="noopener noreferrer"> <strong></strong> Trailer  that revealed the game at The Game Awards gala.</a>       
 
 
 

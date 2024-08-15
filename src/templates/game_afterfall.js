@@ -73,7 +73,7 @@ const GameAFPage = (props) => {
 
 
 <h6>
-Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborative project among friends, set in the unique world of a post-apocalyptic Eastern European we crafted by ourselfs. 
+Afterfall, formerly known as <strong>Bourgeoisie</strong> began as a collaborative project among friends, set in the unique world of a post-apocalyptic Eastern Europe. 
  Initially conceived as an RPG, the project evolved as a fan-driven initiative and was eventually sold to Nicolas Games S.A., where it transitioned into a shooter that uses Afterfall lore.
 
 </h6>
