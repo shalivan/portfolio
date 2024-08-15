@@ -59,9 +59,9 @@ const WorkPage = ({ data }) => {
           </figure>
 */}
 
-<h6>Research in space and enviroment for realtime engins. Interested in: Art, Culture, Creating new IP's, RnD, Design, Procedural Graphic, Shading, Audio Visuals,  and Fractals. Trying to contribute in non conventional projects, and pushing boundaries. Lately spend too much time in game development. </h6>
 
-
+<h6>Researching space and environmental dynamics for real-time engines. Enthralled by Art, Culture, IP creation, and R&D, with a particular emphasis on Visual Arts, especially in areas like Spaces, Proceduralism, and Shading. Focused on contributing to unconventional projects and pushing creative boundaries. Recently diving deep into game development.
+</h6>
 
 <hr />
 
@@ -78,7 +78,7 @@ const WorkPage = ({ data }) => {
           <ul>
             <li><strong>The Vanishing of Ethan Carter</strong> (2015): Astronaut</li>
           </ul>          <ul>
-            <li><strong>Afterfall</strong>(2012): Art Director</li>
+            <li><strong>Afterfall</strong> (2012): Art Director</li>
           </ul>          
 </ul>
 </h6>
@@ -92,7 +92,7 @@ const WorkPage = ({ data }) => {
             <li>NecroVisioN (2009): Artistst</li>
           </ul>
           <ul>
-            <li>Kholat (2015)</li>
+            <li>Kholat (2015): Artistst</li>
           </ul>
 </ul>
 </h6>
@@ -123,17 +123,17 @@ const WorkPage = ({ data }) => {
 
 <ul>
           <ul>
-            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>Game Innovation </strong></a>  (2015)</li>
+            <li><a href="https://awards.bafta.org/award/2015/games/game-innovation" target="_blank" rel="noopener noreferrer">BAFTA for <strong>”Game Innovation” </strong></a>  (2015). With additional nominations in the categories of <strong>”Debut Game”</strong> and <strong>”Original Property”</strong></li>
           </ul>            
           
           <ul>
-            <li>VMAG for ”Indie 2014” (2014) </li>
+            <li>VMAG for <strong>”Indie 2014”</strong> (2014) </li>
           </ul>
           <ul>
-            <li>EDGE Award for ”Best Visual Design” </li>
+            <li>EDGE Award for <strong>”Best Visual Design”</strong> </li>
           </ul>
           <ul>
-            <li>Digital Dragons for “Best Visual Art”</li>
+            <li>Digital Dragons for <strong>“Best Visual Art”</strong> </li>
           </ul>
 </ul>
           </h6>
