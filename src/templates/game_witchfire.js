@@ -70,12 +70,15 @@ const GameWFPage = (props) => {
 {/*   #######################################  POST CONTENT */}
 
 <div className="post-content">
-<h6>Witchfire was presented at <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We wanted to maintain a mystical atmosphere combined with dynamic and fun gameplay. Early Access was delivered in 2023 with a 12-person team, and available now on the Epic Games Store. 
+<h6>Witchfire was presented at <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We wanted to maintain a mystical atmosphere combined with dynamic and fun gameplay. Early Access was delivered in 2023 with a 12-person team, and available now on Steam & the Epic Games Store. 
 </h6>
   <center>
               <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
               Epic Games Store
-              </a>
+              </a>  / 
+              <a href="https://store.steampowered.com/app/3156770/Witchfire/" target="_blank" rel="noopener noreferrer" className="button primary">
+              Steam
+              </a> 
   </center>
   <figure className="post-content-image-game">
           <GatsbyImage

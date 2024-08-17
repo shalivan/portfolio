@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 // eslint-disable-next-line
 
 
-const BioPage = (props) => {
+const GameAPage = (props) => {
 
 // JAK NIE ZADZIAŁA TO MOZANA USTAWI MANUALNIEL   const siteTitle = "Your Static Title Here";
 // <h1 className="post-content-title">{post.frontmatter.title}</h1>
@@ -20,11 +20,9 @@ const BioPage = (props) => {
         <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
-          image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src}
-
-        />
-
-
+          //image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src : null}
+          //image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src} 
+        />        
 
 
 
@@ -32,616 +30,234 @@ const BioPage = (props) => {
 
 
 
-
-
-
-
-        
-      <article
-        className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
+<article
+        className={`post-content-game ${post.frontmatter.thumbnail || `no-image`}`}
       >
 
-<header className="post-content-header">
+ <header className="post-content-header">
+ <h1 className="post-content-title">{post.frontmatter.title}</h1>    {/*<h1 className="post-content-title">Witchfire</h1>*/}
+ </header>
 
-          <h1 className="post-content-title">THE AWAKENING</h1>
-        </header>
         {post.frontmatter.description && (
           <p className="post-content-excerpt">{post.frontmatter.description}</p>
-        )}
+        )
+      }
 
-              <div className="post-content">
-         
+          {post.frontmatter.thumbnail && (
+            <div className="post-content-image-game">
+              <GatsbyImage
+                image={getImage(post.frontmatter.featuredimage)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            </div>
+          )} 
 
-         
-          <h1 id="heading-level-1">Heading Level 1</h1>
-          <h2 id="heading-level-2">Heading Level 2</h2>
-          <h3 id="heading-level-3">Heading Level 3</h3>
-          <h4 id="heading-level-4">Heading Level 4</h4>
-          <h5 id="heading-level-5">Heading Level 5</h5>
-          <h6 id="heading-level-6">Heading Level 6</h6>
-          <hr />
-          <p>
-            This is{" "}
-            <strong>
-              <strong>bold</strong>
-            </strong>{" "}
-            and this is{" "}
-            <strong>
-              <strong>strong</strong>
-            </strong>
-            . This is{" "}
-            <em>
-              <em>italic</em>
-            </em>{" "}
-            and this is{" "}
-            <em>
-              <em>emphasized</em>
-            </em>
-            . This is <sup>superscript</sup>text and this is{" "}
-            <sub>subscript</sub> text. This is <u>underlined</u> and this is
-            code:{" "}
-            <code>
-              for (;;) {"{"} ... {"}"}
-            </code>
-            . Finally, this is a <a href="#">link</a>.
-          </p>
-          <hr />
-          <h2 id="this-is-a-section">This is a section</h2>
-          <p>
-            Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio
-            porttitor sem non mi integer non faucibus ornare mi ut ante amet
-            placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
-            varius montes viverra nibh in adipiscing blandit tempus accumsan.
-          </p>
-          <h3 id="this-is-a-sub-section">This is a sub-section</h3>
-          <p>
-            Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio
-            porttitor sem non mi integer non faucibus ornare mi ut ante amet
-            placerat aliquet.
-          </p>
-          <h3 id="this-is-a-sub-section-1">This is a sub-section</h3>
-          <p>
-            Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio
-            porttitor sem non mi integer non faucibus ornare mi ut ante amet
-            placerat aliquet.
-          </p>
-          <hr />
-          <h2 id="lists">Lists</h2>
-          <h3 id="unordered">
-            <strong>
-              <strong>Unordered</strong>
-            </strong>
-          </h3>
-          <ul>
-            <li>Dolor pulvinar etiam.</li>
-            <li>Sagittis lorem eleifend.</li>
-            <li>Felis feugiat dolore viverra.</li>
-            <li>Dolor pulvinar etiam.</li>
-          </ul>
-          <h3 id="ordered">Ordered</h3>
-          <ol>
-            <li>Dolor pulvinar etiam.</li>
-            <li>Etiam vel felis at viverra.</li>
-            <li>Felis enim feugiat magna.</li>
-            <li>Etiam vel felis nullam.</li>
-            <li>Felis enim et tempus.</li>
-          </ol>
-          <h3 id="definition">
-            <strong>Definition</strong>
-          </h3>
-          <dl>
-            <dt>Item 1</dt>
-            <dd>
-              <p>
-                Lorem ipsum dolor vestibulum ante ipsum primis in faucibus
-                vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-                adipiscing accumsan eu faucibus. Integer ac pellentesque
-                praesent.
-              </p>
-            </dd>
-            <dt>Item 2</dt>
-            <dd>
-              <p>
-                Lorem ipsum dolor vestibulum ante ipsum primis in faucibus
-                vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-                adipiscing accumsan eu faucibus. Integer ac pellentesque
-                praesent.
-              </p>
-            </dd>
-            <dt>Item 3</dt>
-            <dd>
-              <p>
-                Lorem ipsum dolor vestibulum ante ipsum primis in faucibus
-                vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-                adipiscing accumsan eu faucibus. Integer ac pellentesque
-                praesent.
-              </p>
-            </dd>
-          </dl>
-          <hr />
-          <h2 id="blockquote">
-            <strong>Blockquote</strong>
-          </h2>
+
+
+
+
+
+
+
+{/* THUMB BEFORE BODY  */}
+
+
+
+
+{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}{/* POST CONTENT  */}
+
+
+{/*   #######################################  POST CONTENT */}
+
+<div className="post-content">
+<h6>
+The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> team and is <strong>first IP by The Astronauts</strong>. Originaly we made it in Unreal 3, was later ported to Unreal 4 at PC, Xbox, Playstation and Nintendo Switch. With oneiric atmosphere and visuals that takes you to magical valley of Red Creek which was inspired by traditional Poland  scenery. Game was recived verry  warmly with <strong>83 metascore</strong> and end up with over <strong>a million of copies sold</strong>. Also recive few prestige awards nominations and was honored with the <strong>BAFTA award</strong> in Game Innovation category. Some of my deeper development thoughts can be found on those few Astro blogposts: 
+</h6>
+<center>
+
+<a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
+              Steam 
+              </a> /               <a href="https://store.epicgames.com/pl/p/the-vanishing-of-ethan-carter" target="_blank" rel="noopener noreferrer" className="button primary">
+              Epic Game store 
+              </a> 
+
+              
+
+</center>
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr002)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
+
+<h2>Lore</h2>
+
+<h6>
+You play the game as Paul Prospero, an occult-minded detective who receives a disturbing letter from Ethan Carter. Realizing the boy is in grave danger, Paul arrives at Ethan’s home of Red Creek Valley, where things turn out to be even worse than he imagined. Ethan has vanished in the wake of a brutal murder, which Paul quickly discerns might not be the only local murder worth looking into.
+</h6>
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr003)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
+
+<h2>Written About Us</h2>
+
+
+
+          <h5 id="blockquote">
+            <strong>9/10 – GameSpot</strong>
+          </h5>
           <blockquote>
-            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-            sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-            adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis.
+          “A story told with a level of cleverness and elegance rarely seen in games.”
           </blockquote>
-          <hr />
-          <h2 id="images">Images</h2>
-          <figure className="kg-card kg-image-card">
+
+          <h5 id="blockquote">
+            <strong>9/10 – EuroGamer</strong>
+          </h5>
+          <blockquote>
+          “Leaves you with several amazing memories; moments that you will want to talk to your friends about for hours.”
+          </blockquote>
+
+          <h5 id="blockquote">
+            <strong>9/10 – US Gamer</strong>
+          </h5>
+          <blockquote>
+          “One of the best games of the year.”
+          </blockquote>
+
+
+
+
+
+
+
+<figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
+                image={getImage(post.frontmatter.thumbnail_scr005)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
-          </figure>
-          <figure className="kg-card kg-image-card kg-width-wide">
+            <figcaption>Concept art by Bernard Kowalczuk</figcaption>
+</figure>
+
+{/* <hr />
+
+<figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
+                image={getImage(post.frontmatter.thumbnail_scr001)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Large image</figcaption>
-          </figure>
-          <figure className="kg-card kg-image-card kg-width-full">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Full bleed image</figcaption>
-          </figure>
-          <hr />
-          <h2 id="table">Table</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Item 1</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>29.99</td>
-              </tr>
-              <tr>
-                <td>Item 2</td>
-                <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                <td>19.99</td>
-              </tr>
-              <tr>
-                <td>Item 3</td>
-                <td> Morbi faucibus arcu accumsan lorem.</td>
-                <td>29.99</td>
-              </tr>
-              <tr>
-                <td>Item 4</td>
-                <td>Vitae integer tempus condimentum.</td>
-                <td>19.99</td>
-              </tr>
-              <tr>
-                <td>Item 5</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>29.99</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td colSpan={2} />
-                <td>100.00</td>
-              </tr>
-            </tfoot>
-          </table>
-          <hr />
-          <h2 id="buttons">Buttons</h2>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button primary">
-                Primary
+            <figcaption>InEngine Footage by Adam Bryła </figcaption>
+</figure>
+*/}
+
+
+
+
+<h2>Awards </h2>
+
+
+<h4>Winner </h4>
+<h6>
+
+
+<ul>
+            <li><strong>Game Innovation</strong>at The British Academy Video Games Award</li>
+            <li><strong>Indie 2014</strong> at VMAG</li>
+            <li><strong>Best Visual Design</strong> at EDGE</li>
+            <li><strong>Best Visual Art</strong> at Digital Dragons</li>
+
+
+</ul>
+
+<h4>Nomenee</h4>
+<ul>
+    <li>PC <strong>GOTY</strong> at Gamespot</li>
+    <li><strong>Debut Game</strong> at The British Academy Video Games Award</li>
+    <li><strong>New Intellectual Property</strong> at The British Academy Video Games Award</li>
+    <li><strong>Best Visual Design</strong> at Golden Joystick Award</li>   
+    <li><strong>Outstanding Achievement in Game Direction</strong> at D.I.C.E.</li>
+    <li><strong>Outstanding Achievement in Art Direction</strong> at D.I.C.E.</li>
+    <li><strong>Adventure Game of the Year</strong> @ D.I.C.E.</li>
+    <li><strong>Best Independend</strong> @ The Game Awards</li>
+    <li><strong>Excellence in Visual Achievement</strong> @ SXSW Gaming Awards</li>
+    <li><strong>Innovation Award</strong> at Game Developers Choice Award</li>
+    <li><strong>Best Debiut</strong> at Game Developers Choice Award</li>
+    <li><strong>Best Narrative</strong> at Game Developers Choice Award</li>
+    <li><strong>Best PC Game</strong> at ING</li>
+    <li><strong>Best Graphics-Technology</strong> at ING</li>
+    <li><strong>Best Story</strong> at ING</li>
+    <li><strong>Best Adventure</strong> at ING</li>
+    <li><strong>Best game design</strong> at Digital Dragons</li>
+    <li><strong>Best polish game</strong> at Digital Dragons</li>
+ 
+</ul>
+
+<h4>Honorable Mention</h4>
+<ul>
+    <li><strong>Best Visual Art</strong> at Game Developers Choice Award</li>
+    <li><strong>Excelent in Graphic</strong> at IGF</li>
+    <li>Seumas McNallyGrand Prize at IGF</li>
+</ul>
+
+<br />
+<br />
+
+<a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
+The Vanishing of Ethan Carter wins for Game Innovation wins Best Game
               </a>
-            </li>
-            <li>
-              <a href="#" className="button">
-                Default
-              </a>
-            </li>
+
+
+</h6>
+ {/*<iframe width="720"  height="405"  src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*/}
+
+
+
+<h2>Articles </h2>
+
+<h6>          
+        <ul>
+          <ul>
+            <li><a href="https://culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
           </ul>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button primary large">
-                Large
-              </a>
-            </li>
-            <li>
-              <a href="#" className="button">
-                Default
-              </a>
-            </li>
-            <li>
-              <a href="#" className="button small">
-                Small
-              </a>
-            </li>
-          </ul>
-          <ul className="actions fit">
-            <li>
-              <a href="#" className="button primary fit">
-                Fit
-              </a>
-            </li>
-            <li>
-              <a href="#" className="button fit">
-                Fit
-              </a>
-            </li>
-          </ul>
-          <ul className="actions fit small">
-            <li>
-              <a href="#" className="button primary fit small">
-                Fit + Small
-              </a>
-            </li>
-            <li>
-              <a href="#" className="button fit small">
-                Fit + Small
-              </a>
-            </li>
-          </ul>
-          <ul className="actions">
-            <li>
-              <span className="button primary disabled">Primary</span>
-            </li>
-            <li>
-              <span className="button disabled">Default</span>
-            </li>
-          </ul>
-          <hr />
-          <h2 id="forms">Forms</h2>
-          <form method="post" action="#">
-            <div className="row gtr-uniform">
-              <div className="col-6 col-12-xsmall">
-                <input
-                  type="text"
-                  name="demo-name"
-                  id="demo-name"
-                  defaultValue
-                  placeholder="Name"
-                />
-              </div>
-              <div className="col-6 col-12-xsmall">
-                <input
-                  type="email"
-                  name="demo-email"
-                  id="demo-email"
-                  defaultValue
-                  placeholder="Email"
-                />
-              </div>
-              {/* Break */}
-              <div className="col-12">
-                <select name="demo-category" id="demo-category">
-                  <option value>- Category -</option>
-                  <option value={1}>Manufacturing</option>
-                  <option value={1}>Shipping</option>
-                  <option value={1}>Administration</option>
-                  <option value={1}>Human Resources</option>
-                </select>
-              </div>
-              {/* Break */}
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-low"
-                  name="demo-priority"
-                  defaultChecked
-                />
-                <label htmlFor="demo-priority-low">Low</label>
-              </div>
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-normal"
-                  name="demo-priority"
-                />
-                <label htmlFor="demo-priority-normal">Normal</label>
-              </div>
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-high"
-                  name="demo-priority"
-                />
-                <label htmlFor="demo-priority-high">High</label>
-              </div>
-              {/* Break */}
-              <div className="col-6 col-12-small">
-                <input type="checkbox" id="demo-copy" name="demo-copy" />
-                <label htmlFor="demo-copy">Email me a copy</label>
-              </div>
-              <div className="col-6 col-12-small">
-                <input
-                  type="checkbox"
-                  id="demo-human"
-                  name="demo-human"
-                  defaultChecked
-                />
-                <label htmlFor="demo-human">I am a human</label>
-              </div>
-              {/* Break */}
-              <div className="col-12">
-                <textarea
-                  name="demo-message"
-                  id="demo-message"
-                  placeholder="Enter your message"
-                  rows={6}
-                  defaultValue={""}
-                />
-              </div>
-              {/* Break */}
-              <div className="col-12">
-                <ul className="actions">
-                  <li>
-                    <input
-                      type="submit"
-                      defaultValue="Send Message"
-                      className="primary"
-                    />
-                  </li>
-                  <li>
-                    <input type="reset" defaultValue="Reset" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </form>
-          <hr />
-          <h2 id="code">Code</h2>
-          <pre>
-            <code>
-              i = 0;{"\n"}
-              {"\n"}while (!deck.isInOrder()) {"{"}
-              {"\n"}
-              {"    "}print 'Iteration ' + i;{"\n"}
-              {"    "}deck.shuffle();{"\n"}
-              {"    "}i++;{"\n"}
-              {"}"}
-              {"\n"}
-              {"\n"}print 'It took ' + i + ' iterations to sort the deck.';
-            </code>
-          </pre>
-          <hr />
-          <h2 id="grid-system">Grid system</h2>
-          <div className="row">
-            <div className="col-12">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                12
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-3">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                3
-              </div>
-            </div>
-            <div className="col-9">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                9
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-6">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                6
-              </div>
-            </div>
-            <div className="col-6">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                6
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-                >
-                auto
-              </div>
-            </div>
-          </div>
-        </div>
+        </ul>
+        <br /><br />
+Some articles authored by me during the development:
+
+        <ul>
+          <ul>
+             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness.</strong> Making of notes. </a></li>
+             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter.</strong></a></li>
+            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> </a></li>
+            </ul>
+        </ul>
+
+</h6>
+
+
+
+
+
+         {/*  <div
+          className="post-content-body"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
+
+*/}
+
+
+</div>
       
+ {/*   POST BODY !!!!!!!!!!*/}
 
 
-      
-
-
-
-
-
-{post.frontmatter.thumbnails && post.frontmatter.thumbnails.map((thumbnail, index) => (
-  <div key={index} className="post-content-image">
-    <GatsbyImage
-      image={getImage(post.frontmatter.thumbnail)}
-      className="kg-image kg-width-wide"
-      alt={post.frontmatter.title}
-    />
-  </div>
-))}
-
-
-
-
-<GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image kg-width-wide"
-                alt={post.frontmatter.title} />
-
-<figure className="kg-card kg-image-card kg-width-wide">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Witchfire keyart </figcaption>
-</figure>
-
-
-
-
-
-
-## Image 1 GatsbyImage xxx old
-<figure className="kg-card kg-image-card">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
-</figure>
-
-## Image 1 GatsbyImage xx1 old
-<figure className="kg-card kg-image-card">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
-</figure>
-
-## Image 1 GatsbyImage xx2 old
-<figure className="kg-card kg-image-card">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption>Regular image</figcaption>
-</figure>
-
-## Image 1 GatsbyImage xx3 old
-
-
-
-<hr />
-
-
-
-
-          ## Image 2 img src
-
-          <img src="dev/CoverWF01.jpg" alt="Witchfire Key Art"></img>
-
-
-
-## Image 3 
-<img src="/img/dev/games/12-copy-1.jpg" alt="Digital Frontiers screenshots"></img>
 
 
 
@@ -651,50 +267,24 @@ const BioPage = (props) => {
 
           <footer className="post-content-footer">
           </footer>
+
+
+
         </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       </Layout>
     );
 };
 
-BioPage.propTypes = {
+GameAPage.propTypes = {
     data: PropTypes.object.isRequired,
 };
 
-export default BioPage;
+export default GameAPage;
 
-export const BioPageQuery = graphql`
-  query BioPage {
+export const GameAPageQuery = graphql`
+  query GameAPage {
     site {
         siteMetadata {
           title
@@ -704,18 +294,73 @@ export const BioPageQuery = graphql`
           }
         }
       }
-    markdownRemark(frontmatter: {templateKey: {eq: "bio-page"}}) {
+    markdownRemark(frontmatter: {templateKey: {eq: "game_ethancarter"}}) {
         frontmatter {
           title
           description
+
+
           thumbnail {
             childImageSharp {
               gatsbyImageData
             
             }
           }
+
+
+          thumbnail_scr001 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          thumbnail_scr002 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          
+          thumbnail_scr003 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          featuredimage {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
+          thumbnail_scr004 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+
+          thumbnail_scr005 {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+          
+          thumbnail_keyart_sketch {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
+        thumbnail_poster {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+
+
+
         }
         html
       }
   }
 `;
+
+
+
+

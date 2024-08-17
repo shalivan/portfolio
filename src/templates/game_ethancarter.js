@@ -75,9 +75,13 @@ The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> t
 </h6>
 <center>
 
-              <a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
-              Steam store 
-              </a>
+<a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
+              Steam 
+              </a> /               <a href="https://store.epicgames.com/pl/p/the-vanishing-of-ethan-carter" target="_blank" rel="noopener noreferrer" className="button primary">
+              Epic Game store 
+              </a> 
+
+              
 
 </center>
 <figure className="post-content-image-game">

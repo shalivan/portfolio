@@ -178,6 +178,8 @@ const WorkPage = ({ data }) => {
 
 <h2 id="heading-level-2">Contact</h2>
 
+
+You can contact me on Linkedin : https://www.linkedin.com/in/adambryla/ and X: 
 <hr />
 
 
