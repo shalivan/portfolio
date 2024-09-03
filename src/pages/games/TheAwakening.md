@@ -1,7 +1,7 @@
 ---
 templateKey: game_awakening
 thumbnail: /img/dev/covers/CoverA01_logo.png
-featuredimage: /img/dev/covers/CoverWF01_w.png
+featuredimage: /img/dev/covers/CoverA01_w.png
 thumbnail_scr001: /img/dev/games/A_scr_002.png
 thumbnail_scr002: /img/dev/games/A_scr_003.jpg
 thumbnail_scr003: /img/dev/games/A_scr_004.png
