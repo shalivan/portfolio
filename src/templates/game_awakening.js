@@ -86,7 +86,7 @@ The Awakening, is never published concept game that reasemble theater concer gig
 </center>
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr002)}
+                image={getImage(post.frontmatter.thumbnail)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
@@ -100,160 +100,99 @@ You play the game as Paul Prospero, an occult-minded detective who receives a di
 
 <figure className="post-content-image-game">
           <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr001)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr002)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
+
+<figure className="post-content-image-game">
+          <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_scr003)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
 </figure>
 
-<h2>Written About Us</h2>
-
-
-
-          <h5 id="blockquote">
-            <strong>9/10 – GameSpot</strong>
-          </h5>
-          <blockquote>
-          “A story told with a level of cleverness and elegance rarely seen in games.”
-          </blockquote>
-
-          <h5 id="blockquote">
-            <strong>9/10 – EuroGamer</strong>
-          </h5>
-          <blockquote>
-          “Leaves you with several amazing memories; moments that you will want to talk to your friends about for hours.”
-          </blockquote>
-
-          <h5 id="blockquote">
-            <strong>9/10 – US Gamer</strong>
-          </h5>
-          <blockquote>
-          “One of the best games of the year.”
-          </blockquote>
-
-
-
-
-
-
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr004)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
 
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_scr005)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>Concept art by Bernard Kowalczuk</figcaption>
+            <figcaption></figcaption>
 </figure>
-
-{/* <hr />
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr001)}
+                image={getImage(post.frontmatter.thumbnail_scr006)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
-            <figcaption>InEngine Footage by Adam Bryła </figcaption>
+            <figcaption></figcaption>
 </figure>
-*/}
 
-
-
-
-<h2>Awards </h2>
-
-
-<h4>Winner </h4>
-<h6>
-
-
-<ul>
-            <li><strong>Game Innovation</strong>at The British Academy Video Games Award</li>
-            <li><strong>Indie 2014</strong> at VMAG</li>
-            <li><strong>Best Visual Design</strong> at EDGE</li>
-            <li><strong>Best Visual Art</strong> at Digital Dragons</li>
-
-
-</ul>
-
-<h4>Nomenee</h4>
-<ul>
-    <li>PC <strong>GOTY</strong> at Gamespot</li>
-    <li><strong>Debut Game</strong> at The British Academy Video Games Award</li>
-    <li><strong>New Intellectual Property</strong> at The British Academy Video Games Award</li>
-    <li><strong>Best Visual Design</strong> at Golden Joystick Award</li>   
-    <li><strong>Outstanding Achievement in Game Direction</strong> at D.I.C.E.</li>
-    <li><strong>Outstanding Achievement in Art Direction</strong> at D.I.C.E.</li>
-    <li><strong>Adventure Game of the Year</strong> @ D.I.C.E.</li>
-    <li><strong>Best Independend</strong> @ The Game Awards</li>
-    <li><strong>Excellence in Visual Achievement</strong> @ SXSW Gaming Awards</li>
-    <li><strong>Innovation Award</strong> at Game Developers Choice Award</li>
-    <li><strong>Best Debiut</strong> at Game Developers Choice Award</li>
-    <li><strong>Best Narrative</strong> at Game Developers Choice Award</li>
-    <li><strong>Best PC Game</strong> at ING</li>
-    <li><strong>Best Graphics-Technology</strong> at ING</li>
-    <li><strong>Best Story</strong> at ING</li>
-    <li><strong>Best Adventure</strong> at ING</li>
-    <li><strong>Best game design</strong> at Digital Dragons</li>
-    <li><strong>Best polish game</strong> at Digital Dragons</li>
- 
-</ul>
-
-<h4>Honorable Mention</h4>
-<ul>
-    <li><strong>Best Visual Art</strong> at Game Developers Choice Award</li>
-    <li><strong>Excelent in Graphic</strong> at IGF</li>
-    <li>Seumas McNallyGrand Prize at IGF</li>
-</ul>
-
-<br />
-<br />
-
-<a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
-The Vanishing of Ethan Carter wins for Game Innovation wins Best Game
-              </a>
-
-
-</h6>
- {/*<iframe width="720"  height="405"  src="https://www.youtube.com/embed/hFgVQuBDeHU" title="The Vanishing of Ethan Carter wins for Game Innovation wins Best Game | BAFTA Games Awards 2015" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*/}
-
-
-
-<h2>Articles </h2>
-
-<h6>          
-        <ul>
-          <ul>
-            <li><a href="https://culture.pl/en/article/polish-game-the-vanishing-of-ethan-carter-awarded-by-bafta" target="_blank" rel="noopener noreferrer"> <strong>Polish Game The Vanishing of Ethan Carter Awarded by BAFTA.</strong>  </a></li>
-          </ul>
-        </ul>
-        <br /><br />
-Some articles authored by me during the development:
-
-        <ul>
-          <ul>
-             <li><a href="https://www.theastronauts.com/2013/05/making-of-ethan-carter-at-the-mountains-of-madness/" target="_blank" rel="noopener noreferrer"> <strong>At the Mountains of Madness.</strong> Making of notes. </a></li>
-             <li><a href="https://www.theastronauts.com/2014/02/approached-3d-foliage-vanishing-ethan-carter/" target="_blank" rel="noopener noreferrer"> <strong>How We Approached 3D Foliage in The Vanishing of Ethan Carter.</strong></a></li>
-            <li><a href="https://www.theastronauts.com/2013/02/the-creative-process-indie-vs-aaa/" target="_blank" rel="noopener noreferrer"> <strong>The Creative Process: INDIE VS AAA</strong> </a></li>
-            </ul>
-        </ul>
-
-</h6>
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr007)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
 
 
 
 
 
-         {/*  <div
-          className="post-content-body"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
 
-*/}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
  {/*   POST BODY !!!!!!!!!!*/}
 
