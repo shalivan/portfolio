@@ -73,12 +73,14 @@ const GameWFPage = (props) => {
 <h6>Witchfire was presented at <strong>The Game Award Show 2017</strong> revealing our <strong>new IP</strong> which is second <strong>Astronauts</strong> title. We wanted to maintain a mystical atmosphere combined with dynamic and fun gameplay. Early Access was delivered in 2023 with a 12-person team, and available now on Steam & the Epic Games Store. 
 </h6>
   <center>
-              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
-              Epic Games Store
-              </a>  / 
-              <a href="https://store.steampowered.com/app/3156770/Witchfire/" target="_blank" rel="noopener noreferrer" className="button primary">
+             <a href="https://store.steampowered.com/app/3156770/Witchfire/" target="_blank" rel="noopener noreferrer" className="button primary">
               Steam
               </a> 
+               
+              <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
+              Epic Games Store
+              </a> 
+
   </center>
   <figure className="post-content-image-game">
           <GatsbyImage
@@ -163,6 +165,21 @@ Even though the game is in early access, we were nominated for some awards:
                 alt={post.frontmatter.title} />
             <figcaption>Raw Engine Footage by Adam Bryła</figcaption>
 </figure>
+
+
+
+<h2>Written About Us</h2>
+
+
+
+          <h5 id="blockquote">
+            <strong>IGN - Jarrett Green</strong>
+          </h5>
+          <blockquote>
+          “I am firmly caught in the spell of this black magic banger.”
+          </blockquote>
+
+
 
 
 <h2>Media </h2>

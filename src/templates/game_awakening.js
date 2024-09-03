@@ -71,13 +71,13 @@ const GameAPage = (props) => {
 
 <div className="post-content">
 <h6>
-The Vanishing of Ethan Carter was created inhouse by <strong>8 people</strong> team and is <strong>first IP by The Astronauts</strong>. Originaly we made it in Unreal 3, was later ported to Unreal 4 at PC, Xbox, Playstation and Nintendo Switch. With oneiric atmosphere and visuals that takes you to magical valley of Red Creek which was inspired by traditional Poland  scenery. Game was recived verry  warmly with <strong>83 metascore</strong> and end up with over <strong>a million of copies sold</strong>. Also recive few prestige awards nominations and was honored with the <strong>BAFTA award</strong> in Game Innovation category. Some of my deeper development thoughts can be found on those few Astro blogposts: 
-</h6>
+The Awakening, is never published concept game that reasemble theater concer gig and dream asthetic and philosophy </h6>
 <center>
 
 <a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
               Steam 
-              </a> /               <a href="https://store.epicgames.com/pl/p/the-vanishing-of-ethan-carter" target="_blank" rel="noopener noreferrer" className="button primary">
+              </a> 
+              <a href="https://store.epicgames.com/pl/p/the-vanishing-of-ethan-carter" target="_blank" rel="noopener noreferrer" className="button primary">
               Epic Game store 
               </a> 
 
@@ -259,12 +259,6 @@ Some articles authored by me during the development:
 
 
 
-
-
-
-
-
-
           <footer className="post-content-footer">
           </footer>
 
@@ -341,17 +335,24 @@ export const GameAPageQuery = graphql`
               gatsbyImageData
             }
           }
+
+
           
-          thumbnail_keyart_sketch {
+          thumbnail_scr006 {
             childImageSharp {
               gatsbyImageData
             }
           }
-        thumbnail_poster {
-          childImageSharp {
-            gatsbyImageData
+
+
+          
+          thumbnail_scr007 {
+            childImageSharp {
+              gatsbyImageData
+            }
           }
-        }
+
+          
 
 
 
