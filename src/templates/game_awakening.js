@@ -71,32 +71,15 @@ const GameAPage = (props) => {
 
 <div className="post-content">
 <h6>
-The Awakening, is never published concept game that reasemble theater concer gig and dream asthetic and philosophy </h6>
+The Awakening is an unpublished concept game that combines the aesthetics of theater and dreams, where unconscious choices shape the world around us and lead through a world of light and sound.
+</h6>
 <center>
 
-<a href="https://store.steampowered.com/app/258520/The_Vanishing_of_Ethan_Carter" target="_blank" rel="noopener noreferrer" className="button primary">
-              Steam 
-              </a> 
-              <a href="https://store.epicgames.com/pl/p/the-vanishing-of-ethan-carter" target="_blank" rel="noopener noreferrer" className="button primary">
-              Epic Game store 
-              </a> 
 
-              
 
 </center>
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption></figcaption>
-</figure>
 
-<h2>Lore</h2>
 
-<h6>
-You play the game as Paul Prospero, an occult-minded detective who receives a disturbing letter from Ethan Carter. Realizing the boy is in grave danger, Paul arrives at Ethan’s home of Red Creek Valley, where things turn out to be even worse than he imagined. Ethan has vanished in the wake of a brutal murder, which Paul quickly discerns might not be the only local murder worth looking into.
-</h6>
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -106,13 +89,11 @@ You play the game as Paul Prospero, an occult-minded detective who receives a di
             <figcaption></figcaption>
 </figure>
 
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr002)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption></figcaption>
-</figure>
+
+
+<h2>Lore</h2>
+
+
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -121,6 +102,22 @@ You play the game as Paul Prospero, an occult-minded detective who receives a di
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
 </figure>
+
+
+
+-------------
+
+
+<figure className="post-content-image-game">
+          <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail_scr002)}
+                className="kg-image"
+                alt={post.frontmatter.title} />
+            <figcaption></figcaption>
+</figure>
+
+
+
 
 <figure className="post-content-image-game">
           <GatsbyImage
