@@ -6,4 +6,7 @@ title: MOTH
 description: "Moth"
 ---
 
-Drop.design
+
+An independent collective of professional game developers, dedicated to creating contemporary
+experiences settled on the edge of technology, entertainment and art.
+We value independence and innovation.
