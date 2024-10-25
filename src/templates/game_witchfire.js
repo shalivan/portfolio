@@ -204,11 +204,12 @@ Even though the game is in early access, we were nominated for some awards:
 
 
 
+ {/* 
 
+TWEEETY NA WYPADEK JAK BY BYŁO API 
+https://x.com/TheAstroCrew/status/1823105934702288918
 
-  https://x.com/TheAstroCrew/status/1823105934702288918
-
-
+*/}
   
 
 
@@ -232,7 +233,7 @@ Even though the game is in early access, we were nominated for some awards:
 
 
           <footer className="author-meta">
-          <a href="#">up</a>  &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;<a href="/portfolio/">home</a>  &nbsp;&nbsp;&nbsp;   | &nbsp;&nbsp;&nbsp;  <a href="/portfolio/games/TheVanishingOfEthanCarter/"> previous game </a>
+          <a href="#">up &#10602; &#x21e7; </a>  &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;<a href="/portfolio/">home &#x21e7; &#x290A; </a>  &nbsp;&nbsp;&nbsp;   | &nbsp;&nbsp;&nbsp;  <a href="/portfolio/games/TheVanishingOfEthanCarter/"> previous game </a>
           </footer>
 
           
