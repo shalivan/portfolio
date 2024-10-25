@@ -76,7 +76,7 @@ const GameWFPage = (props) => {
              <a href="https://store.steampowered.com/app/3156770/Witchfire/" target="_blank" rel="noopener noreferrer" className="button primary">
               Steam
               </a> 
-               
+                 /  &#8203&#8203&#8203&#8203
               <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
               Epic Games Store
               </a> 
