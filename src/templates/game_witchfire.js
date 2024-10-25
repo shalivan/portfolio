@@ -187,8 +187,13 @@ Even though the game is in early access, we were nominated for some awards:
 
   <ul>
           <ul>
-            <li><a href="https://www.youtube.com/embed/-zqjNkdXT94" target="_blank" rel="noopener noreferrer"> <strong></strong> Trailer  that revealed the game at The Game Awards gala.</a>       
+            <li><a href="https://www.youtube.com/-zqjNkdXT94" target="_blank" rel="noopener noreferrer"> <strong></strong> Trailer  that revealed the game at The Game Awards 2019 gala.</a>       
             </li>
+            <li><a href="https://youtu.be/QsRX_hGy33A" target="_blank" rel="noopener noreferrer"> <strong></strong> Witchfire - The Wailing Tower Update Teaser.</a>       
+            </li>
+            <li><a href="https://youtu.be/UM8JVyKtzuI" target="_blank" rel="noopener noreferrer"> <strong></strong> Witchfire - NVIDIA CES 2023.</a>       
+            </li>
+            
           </ul>
           <ul>
           </ul>
@@ -196,6 +201,20 @@ Even though the game is in early access, we were nominated for some awards:
 
   
   </h6>
+
+
+
+
+
+  https://x.com/TheAstroCrew/status/1823105934702288918
+
+
+  
+
+
+
+
+
          {/* <iframe width="720"  className="player" height="405" src="https://www.youtube.com/embed/-zqjNkdXT94" title="Witchfire Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  */}
          {/*  <div
