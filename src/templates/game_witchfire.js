@@ -209,23 +209,17 @@ Even though the game is in early access, we were nominated for some awards:
       
  {/*   POST BODY !!!!!!!!!!*/}
 
- <a href="#"><h3>up</h3></a>. <a href="/"><h3>home</h3></a>. no paragraf ////// 
-
-
- <p>
-  <a href="#"><h3>up</h3></a>. <a href="/"><h3>home</h3></a>. paragraf 
-
- </p>
 
           <footer className="post-content-footer">
-          <a href="#"><h3>up</h3></a>. <a href="/"><h3>home</h3></a>. footer ////// 
+          <a href="#">up</a> / <a href="/">home</a> 
           </footer>
 
 
 
         </article>
 
-
+        <a href="#">up</a> / <a href="/">home</a> 
+        
       </Layout>
     );
 };
