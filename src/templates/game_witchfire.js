@@ -209,15 +209,16 @@ Even though the game is in early access, we were nominated for some awards:
       
  {/*   POST BODY !!!!!!!!!!*/}
 
+ <a href="#"><h3>up</h3></a>. <a href="/"><h3>home</h3></a>. no paragraf ////// 
 
 
-<a href="https://www.youtube.com/embed/-zqjNkdXT94" target="_blank" rel="noopener noreferrer"> <strong></strong> Trailer  that revealed the game at The Game Awards gala.</a>       
+ <p>
+  <a href="#"><h3>up</h3></a>. <a href="/"><h3>home</h3></a>. paragraf 
 
-
-
-
+ </p>
 
           <footer className="post-content-footer">
+          <a href="#"><h3>up</h3></a>. <a href="/"><h3>home</h3></a>. footer ////// 
           </footer>
 
 

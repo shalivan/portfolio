@@ -187,7 +187,7 @@ You can contact me on Linkedin : https://www.linkedin.com/in/adambryla/ and X:
 
 
   <p>
-  <a href="#"><h3>up</h3></a>. <a href="#"><h3>home</h3></a>.
+  <a href="#"><h3>up</h3></a>. <a href="/"><h3>home</h3></a>.
  </p>
 
 
