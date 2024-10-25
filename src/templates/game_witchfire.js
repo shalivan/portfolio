@@ -210,16 +210,17 @@ Even though the game is in early access, we were nominated for some awards:
  {/*   POST BODY !!!!!!!!!!*/}
 
 
-          <footer className="post-content-footer">
-          <a href="#">up</a> / <a href="/">home</a> 
+
+
+          <footer className="author-meta">
+          <a href="#">up</a>   |    <a href="/portfolio/">home</a>     |   next 
           </footer>
 
 
 
         </article>
 
-        <a href="#">up</a> / <a href="/">home</a> 
-        
+
       </Layout>
     );
 };
