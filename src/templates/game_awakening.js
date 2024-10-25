@@ -71,9 +71,7 @@ const GameAPage = (props) => {
 
 <div className="post-content">
 <h6>
-The Awakening is an unpublished concept experience that combines the aesthetics of live concert, theater and dreams.  first-person   surrealistic journey where as a traveler you navigate across audiovisual
-landscapes. where unconscious choices shape the environment and music around and lead us through a world of light and sound.
-
+"The Awakening" is an unpublished conceptual experience that blends the aesthetics of live concerts, theater, and dreams. In this first-person surreal journey, you navigate as a traveler through immersive audiovisual landscapes, where subconscious choices shape the environment and music around you, guiding you through a world of light and sound.
 </h6>
 <center>
 
