@@ -76,7 +76,7 @@ const GameWFPage = (props) => {
              <a href="https://store.steampowered.com/app/3156770/Witchfire/" target="_blank" rel="noopener noreferrer" className="button primary">
               Steam
               </a> 
-                 /  &#8203&#8203&#8203&#8203
+                 /  / <wbr></wbr>/    /&#8203;&#8203;&#8203;&#8203; / /&nbsp;&nbsp;&nbsp;  //
               <a href="https://store.epicgames.com/en-US/p/witchfire-db273e" target="_blank" rel="noopener noreferrer" className="button primary">
               Epic Games Store
               </a> 
@@ -213,7 +213,7 @@ Even though the game is in early access, we were nominated for some awards:
 
 
           <footer className="author-meta">
-          <a href="#">up</a>   |    <a href="/portfolio/">home</a>     |   next 
+          <a href="#">up</a>  <wbr></wbr>   |   &#8203;&#8203;&#8203;&#8203; <a href="/portfolio/">home</a>  &nbsp;&nbsp;&nbsp;   |   next 
           </footer>
 
 
