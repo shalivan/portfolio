@@ -97,7 +97,7 @@ const GameAPage = (props) => {
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr003)}
+                image={getImage(post.frontmatter.thumbnail_scr002)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
@@ -110,7 +110,7 @@ const GameAPage = (props) => {
 
 <figure className="post-content-image-game">
           <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr002)}
+                image={getImage(post.frontmatter.thumbnail_scr003)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
