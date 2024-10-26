@@ -233,7 +233,9 @@ https://x.com/TheAstroCrew/status/1823105934702288918
 
 
           <footer className="author-meta">
-          <a href="#">up &#10602; &#x21e7; </a>  &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;<a href="/portfolio/">home &#x21e7; &#x290A; </a>  &nbsp;&nbsp;&nbsp;   | &nbsp;&nbsp;&nbsp;  <a href="/portfolio/games/TheVanishingOfEthanCarter/"> previous game </a>
+          <a href="#">&#x27A4; &#x2794; &#x21a2; &#x279C; &#x27A4; back  &#x21a3; next &#x21de; up &#10602;  &#x21e7; </a>  &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;<a href="/portfolio/">home &#x21e7; &#x290A; </a>  &nbsp;&nbsp;&nbsp;   | &nbsp;&nbsp;&nbsp;  <a href="/portfolio/games/TheVanishingOfEthanCarter/"> previous game </a>
+          
+          
           </footer>
 
           
