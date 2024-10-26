@@ -93,6 +93,9 @@ const GameAPage = (props) => {
 
 <h2>Lore</h2>
 
+You wake up in an empty, windy desert. The only thing you can see is a flickering glint far in the distance. You could choose to ignore it, suspecting it’s a mirage, but no matter which way you go, you'll find yourself drawn to yet another shimmering spot. Is it real, or just another illusion?
+
+As you draw closer, the shape starts to come into focus. It’s a train station. With each step, familiar sounds begin to grow louder, echoing in the empty air. Yet, when you finally reach the station and step inside, you realize—it’s completely deserted.
 
 
 <figure className="post-content-image-game">
