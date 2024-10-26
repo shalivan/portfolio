@@ -15,5 +15,5 @@ title: The Awakening
 number: 5
 pagetype:
   - main
-description: "2020r. Game concept that stayed in limbo"
+description: "2019r. concept game prototype"
 ---

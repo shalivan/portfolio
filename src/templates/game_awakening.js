@@ -105,8 +105,6 @@ const GameAPage = (props) => {
 
 
 
--------------
-
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -116,6 +114,7 @@ const GameAPage = (props) => {
             <figcaption></figcaption>
 </figure>
 
+<h4>Return</h4>
 
 
 
@@ -126,6 +125,11 @@ const GameAPage = (props) => {
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
 </figure>
+
+
+
+<h2>Assets</h2>
+
 
 <figure className="post-content-image-game">
           <GatsbyImage
@@ -138,14 +142,6 @@ const GameAPage = (props) => {
 <figure className="post-content-image-game">
           <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail_scr006)}
-                className="kg-image"
-                alt={post.frontmatter.title} />
-            <figcaption></figcaption>
-</figure>
-
-<figure className="post-content-image-game">
-          <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail_scr007)}
                 className="kg-image"
                 alt={post.frontmatter.title} />
             <figcaption></figcaption>
